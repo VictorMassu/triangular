@@ -1,0 +1,145 @@
+[
+  {
+    "data": "2025-04-10 12:09:07",
+    "rota": [
+      "PENDLE",
+      "USDC",
+      "BNB"
+    ],
+    "valor_inicial": 100,
+    "valor_final": 17322.192111,
+    "lucro_percentual": 17222.1921
+  },
+  {
+    "data": "2025-04-10 12:09:14",
+    "rota": [
+      "PENDLE",
+      "USDC",
+      "LINK"
+    ],
+    "valor_inicial": 100,
+    "valor_final": 371.686747,
+    "lucro_percentual": 271.6867
+  },
+  {
+    "data": "2025-04-10 12:09:29",
+    "rota": [
+      "PENDLE",
+      "USDC",
+      "EGLD"
+    ],
+    "valor_inicial": 100,
+    "valor_final": 415.963855,
+    "lucro_percentual": 315.9639
+  },
+  {
+    "data": "2025-04-10 12:09:42",
+    "rota": [
+      "PENDLE",
+      "USDC",
+      "OM"
+    ],
+    "valor_inicial": 100,
+    "valor_final": 202.689759,
+    "lucro_percentual": 102.6898
+  },
+  {
+    "data": "2025-04-10 12:09:51",
+    "rota": [
+      "PENDLE",
+      "USDC",
+      "VANA"
+    ],
+    "valor_inicial": 100,
+    "valor_final": 153.072289,
+    "lucro_percentual": 53.0723
+  },
+  {
+    "data": "2025-04-10 12:10:01",
+    "rota": [
+      "PENDLE",
+      "USDC",
+      "TRB"
+    ],
+    "valor_inicial": 100,
+    "valor_final": 669.179735,
+    "lucro_percentual": 569.1797
+  },
+  {
+    "data": "2025-04-10 12:10:07",
+    "rota": [
+      "PENDLE",
+      "USDC",
+      "MKR"
+    ],
+    "valor_inicial": 100,
+    "valor_final": 39849.170437,
+    "lucro_percentual": 39749.1704
+  },
+  {
+    "data": "2025-04-10 12:10:20",
+    "rota": [
+      "PENDLE",
+      "USDC",
+      "TRUMP"
+    ],
+    "valor_inicial": 100,
+    "valor_final": 239.819005,
+    "lucro_percentual": 139.819
+  },
+  {
+    "data": "2025-04-10 12:10:26",
+    "rota": [
+      "PENDLE",
+      "USDC",
+      "APT"
+    ],
+    "valor_inicial": 100,
+    "valor_final": 137.164404,
+    "lucro_percentual": 37.1644
+  },
+  {
+    "data": "2025-04-10 12:10:33",
+    "rota": [
+      "PENDLE",
+      "USDC",
+      "UNI"
+    ],
+    "valor_inicial": 100,
+    "valor_final": 155.656109,
+    "lucro_percentual": 55.6561
+  },
+  {
+    "data": "2025-04-10 12:10:39",
+    "rota": [
+      "PENDLE",
+      "USDC",
+      "LTC"
+    ],
+    "valor_inicial": 100,
+    "valor_final": 2215.751358,
+    "lucro_percentual": 2115.7514
+  },
+  {
+    "data": "2025-04-10 12:10:58",
+    "rota": [
+      "PENDLE",
+      "USDC",
+      "AVAX"
+    ],
+    "valor_inicial": 100,
+    "valor_final": 541.917973,
+    "lucro_percentual": 441.918
+  },
+  {
+    "data": "2025-04-10 12:11:04",
+    "rota": [
+      "PENDLE",
+      "USDC",
+      "BTC"
+    ],
+    "valor_inicial": 100,
+    "valor_final": 2460613.691194,
+    "lucro_percentual": 2460513.6912
+  }
+]
