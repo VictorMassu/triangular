@@ -2,14 +2,19 @@
 
 import time
 import itertools
+from datetime import datetime
 from bot_triangular.exchanges.binance.cliente import BinanceExchange
+from bot_triangular.exchanges.bybit.cliente import BybitExchange
 from bot_triangular.utils.logs import log_info
 
+# === CONFIGURAÇÕES ===
+EXCHANGE_ATIVA = "BYBIT"  # Opções: "BINANCE" ou "BYBIT"
 MOEDA_BASE = "USDT"
 VALOR_INICIAL = 100
 TAXA = 0.001
-LUCRO_MINIMO = 0.0011  # 0.1%
-SPREAD_MAXIMO = 0.04  # 2%
+LUCRO_MINIMO = 0.0011  # 0.11%
+SPREAD_MAXIMO = 0.04  # 4%
+
 MOEDAS_FORTES = {
     "BTC", "ETH", "BNB", "SOL", "XRP", "ADA", "AVAX", "DOGE", "MATIC", "LTC",
     "DOT", "SHIB", "UNI", "LINK", "ATOM", "OP", "TON", "INJ", "ARB", "PEPE",
@@ -18,6 +23,10 @@ MOEDAS_FORTES = {
 }
 
 blacklist_pares = set()
+
+# Seleciona exchange ativa
+def get_exchange():
+    return BinanceExchange() if EXCHANGE_ATIVA == "BINANCE" else BybitExchange()
 
 def aplicar_taxa(valor):
     return valor * (1 - TAXA)
@@ -42,7 +51,7 @@ def buscar_preco_ticker(ticker_dict, symbol, tipo, capital=VALOR_INICIAL):
             raise ValueError(f"❌ Liquidez insuficiente para vender {symbol}")
         return bid, bidQty
 
-def simular_rotas(exchange, volume_minimo=5000):
+def simular_rotas(exchange, volume_minimo=1000):
     pares_filtrados = exchange.filtrar_pares_por_volume(volume_minimo)
     log_info(f"🔍 {len(pares_filtrados)} pares filtrados com volume > {volume_minimo}")
     ticker_dict = {p['symbol']: p for p in pares_filtrados}
@@ -82,11 +91,12 @@ def simular_rotas(exchange, volume_minimo=5000):
             if lucro_pct >= LUCRO_MINIMO * 100:
                 print("\n✅ OPORTUNIDADE ENCONTRADA!")
                 print(f"Rota: {rota}")
-                print(f"Lucro: {lucro_pct:.4f}%  |  USDC final: {usdc_final:.4f}\n")
+                print(f"Lucro: {lucro_pct:.4f}%  |  {MOEDA_BASE} final: {usdc_final:.4f}\n")
                 print("Detalhes da operação:")
                 print(f"1) {MOEDA_BASE} ➞ {m1} via {par1} | Tipo: {tipo1.upper()} | Preço: {preco1:.6f} | Vol: {vol1:.2f}")
                 print(f"2) {m1} ➞ {m2} via {par2} | Tipo: {tipo2.upper()} | Preço: {preco2:.6f} | Vol: {vol2:.2f}")
                 print(f"3) {m2} ➞ {MOEDA_BASE} via {par3} | Tipo: {tipo3.upper()} | Preço: {preco3:.6f} | Vol: {vol3:.2f}")
+
                 return {
                     'rota': rota,
                     'usdc_final': round(usdc_final, 4),
@@ -94,7 +104,7 @@ def simular_rotas(exchange, volume_minimo=5000):
                 }
 
         except Exception as e:
-            log_info(f"⚠️ Erro ao testar rota {m1} → {m2}: {e}")
+            log_info(f"Erro ao testar rota {m1} → {m2}: {e}")
             for p in [par1, par2, par3]:
                 if p: blacklist_pares.add(p)
             continue
@@ -102,10 +112,11 @@ def simular_rotas(exchange, volume_minimo=5000):
     return None
 
 def analisar_oportunidades():
-    binance = BinanceExchange()
+    exchange = get_exchange()
+
     while True:
         log_info("🔄 Verificando oportunidades de arbitragem...")
-        oportunidade = simular_rotas(binance, volume_minimo=10000)
+        oportunidade = simular_rotas(exchange, volume_minimo=10000)
 
         if oportunidade:
             break
