@@ -1,135 +1,114 @@
-import json
-import os
+# bot_triangular/analisador_de_rotas.py
+
+import time
+import itertools
+from bot_triangular.exchanges.binance.cliente import BinanceExchange
 from bot_triangular.utils.logs import log_info
-from itertools import permutations
 
-MOEDA_BASE = "USDC"
-VALOR_INICIAL = 100  # valor inicial por operação
-LUCRO_MINIMO = 0.1 / 100  # lucro mínimo desejado (0.1%)
+MOEDA_BASE = "USDT"
+VALOR_INICIAL = 100
+TAXA = 0.001
+LUCRO_MINIMO = 0.0011  # 0.1%
+SPREAD_MAXIMO = 0.04  # 2%
+MOEDAS_FORTES = {
+    "BTC", "ETH", "BNB", "SOL", "XRP", "ADA", "AVAX", "DOGE", "MATIC", "LTC",
+    "DOT", "SHIB", "UNI", "LINK", "ATOM", "OP", "TON", "INJ", "ARB", "PEPE",
+    "APT", "SUI", "NEAR", "ETC", "RUNE", "STX", "TRX", "CAKE", "TWT", "TIA",
+    "GMX", "IMX", "GALA", "MASK", "CHZ", "SNX", "MKR", "RPL"
+}
 
-# Caminho do arquivo de banco de dados
-PARES_DB_PATH = 'pares_validos.json'
+blacklist_pares = set()
 
-def carregar_pares_db():
-    """
-    Carrega os pares válidos e não válidos do arquivo JSON.
-    """
-    if os.path.exists(PARES_DB_PATH):
-        with open(PARES_DB_PATH, 'r') as file:
-            db = json.load(file)
-            # Garantindo que pares_validos e pares_invalidos sejam sets
-            return {'validos': set(db.get('validos', [])), 'invalidos': set(db.get('invalidos', []))}
-    return {'validos': set(), 'invalidos': set()}
+def aplicar_taxa(valor):
+    return valor * (1 - TAXA)
 
-def salvar_pares_db(pares_validos, pares_invalidos):
-    """
-    Salva os pares válidos e não válidos no arquivo JSON.
-    """
-    with open(PARES_DB_PATH, 'w') as file:
-        json.dump({'validos': list(pares_validos), 'invalidos': list(pares_invalidos)}, file, indent=4)
-    log_info(f"🔎 Banco de dados de pares atualizado: {len(pares_validos)} pares válidos, {len(pares_invalidos)} pares inválidos.")
+def buscar_preco_ticker(ticker_dict, symbol, tipo, capital=VALOR_INICIAL):
+    dados = ticker_dict[symbol]
+    ask = float(dados.get("ask", 0))
+    askQty = float(dados.get("askQty", 0))
+    bid = float(dados.get("bid", 0))
+    bidQty = float(dados.get("bidQty", 0))
 
-def validar_par_cache(par, pares_validos, pares_invalidos):
-    """
-    Verifica se o par já foi validado previamente.
-    """
-    if par in pares_validos:
-        return True
-    if par in pares_invalidos:
-        return False
-    return None  # Significa que o par precisa ser validado
+    spread = abs(ask - bid) / ((ask + bid) / 2)
+    if spread > SPREAD_MAXIMO:
+        raise ValueError(f"❌ Spread alto em {symbol}: {spread*100:.2f}%")
 
-def gerar_rotas_triangulares(pares_disponiveis):
-    moedas = set()
-    for par in pares_disponiveis:
-        moedas.add(par['baseAsset'])
-        moedas.add(par['quoteAsset'])
+    if tipo == "buy":
+        if askQty * ask < capital:
+            raise ValueError(f"❌ Liquidez insuficiente para comprar {symbol}")
+        return ask, askQty
+    else:
+        if bidQty < (capital / bid):
+            raise ValueError(f"❌ Liquidez insuficiente para vender {symbol}")
+        return bid, bidQty
 
-    rotas = []
-    # Gerando permutações de 3 moedas, onde USDC pode ser qualquer uma das 3
-    for combinacao in permutations(moedas, 3):
-        if MOEDA_BASE in combinacao:
-            rota = list(combinacao)  # A rota pode ter qualquer moeda como final
-            rotas.append(rota)
+def simular_rotas(exchange, volume_minimo=5000):
+    pares_filtrados = exchange.filtrar_pares_por_volume(volume_minimo)
+    log_info(f"🔍 {len(pares_filtrados)} pares filtrados com volume > {volume_minimo}")
+    ticker_dict = {p['symbol']: p for p in pares_filtrados}
+    todos_pares = set(ticker_dict.keys())
+    moedas = {m for p in todos_pares for m in MOEDAS_FORTES if m in p}
 
-    return rotas
+    for m1, m2 in itertools.permutations(moedas, 2):
+        par1 = par2 = par3 = None
+        try:
+            rota = f"{MOEDA_BASE} → {m1} → {m2} → {MOEDA_BASE}"
+            log_info(f"Testando rota: {rota}")
 
-def validar_rotas_existentes(exchange, rotas, pares_validos, pares_invalidos):
-    """
-    Verifica se os pares das rotas são válidos com base no banco de dados.
-    """
-    nomes_pares = {par['symbol'] for par in exchange.get_pares()}
-    rotas_validas = []
+            par1 = f"{m1}{MOEDA_BASE}" if f"{m1}{MOEDA_BASE}" in todos_pares else f"{MOEDA_BASE}{m1}"
+            if par1 not in todos_pares or par1 in blacklist_pares:
+                continue
+            tipo1 = 'buy' if par1.startswith(MOEDA_BASE) else 'sell'
+            preco1, vol1 = buscar_preco_ticker(ticker_dict, par1, tipo1)
+            m1_recebido = aplicar_taxa(VALOR_INICIAL / preco1 if tipo1 == 'buy' else VALOR_INICIAL * preco1)
 
-    for rota in rotas:
-        par1 = rota[0] + rota[1]
-        par2 = rota[1] + rota[2]
+            par2 = f"{m1}{m2}" if f"{m1}{m2}" in todos_pares else f"{m2}{m1}"
+            if par2 not in todos_pares or par2 in blacklist_pares:
+                continue
+            tipo2 = 'sell' if par2.startswith(m1) else 'buy'
+            preco2, vol2 = buscar_preco_ticker(ticker_dict, par2, tipo2, capital=m1_recebido)
+            m2_recebido = aplicar_taxa(m1_recebido * preco2 if tipo2 == 'sell' else m1_recebido / preco2)
 
-        # Invertidos para verificar os pares na ordem inversa
-        invertido1 = rota[1] + rota[0]
-        invertido2 = rota[2] + rota[1]
+            par3 = f"{m2}{MOEDA_BASE}" if f"{m2}{MOEDA_BASE}" in todos_pares else f"{MOEDA_BASE}{m2}"
+            if par3 not in todos_pares or par3 in blacklist_pares:
+                continue
+            tipo3 = 'sell' if par3.startswith(m2) else 'buy'
+            preco3, vol3 = buscar_preco_ticker(ticker_dict, par3, tipo3, capital=m2_recebido)
+            usdc_final = aplicar_taxa(m2_recebido * preco3 if tipo3 == 'sell' else m2_recebido / preco3)
 
-        # Verifica se o par existe no banco de dados ou se já foi validado
-        if validar_par_cache(par1, pares_validos, pares_invalidos) and \
-           validar_par_cache(par2, pares_validos, pares_invalidos):
-            rotas_validas.append(rota)
+            lucro = usdc_final - VALOR_INICIAL
+            lucro_pct = (lucro / VALOR_INICIAL) * 100
+
+            if lucro_pct >= LUCRO_MINIMO * 100:
+                print("\n✅ OPORTUNIDADE ENCONTRADA!")
+                print(f"Rota: {rota}")
+                print(f"Lucro: {lucro_pct:.4f}%  |  USDC final: {usdc_final:.4f}\n")
+                print("Detalhes da operação:")
+                print(f"1) {MOEDA_BASE} ➞ {m1} via {par1} | Tipo: {tipo1.upper()} | Preço: {preco1:.6f} | Vol: {vol1:.2f}")
+                print(f"2) {m1} ➞ {m2} via {par2} | Tipo: {tipo2.upper()} | Preço: {preco2:.6f} | Vol: {vol2:.2f}")
+                print(f"3) {m2} ➞ {MOEDA_BASE} via {par3} | Tipo: {tipo3.upper()} | Preço: {preco3:.6f} | Vol: {vol3:.2f}")
+                return {
+                    'rota': rota,
+                    'usdc_final': round(usdc_final, 4),
+                    'lucro_%': round(lucro_pct, 4)
+                }
+
+        except Exception as e:
+            log_info(f"⚠️ Erro ao testar rota {m1} → {m2}: {e}")
+            for p in [par1, par2, par3]:
+                if p: blacklist_pares.add(p)
+            continue
+
+    return None
+
+def analisar_oportunidades():
+    binance = BinanceExchange()
+    while True:
+        log_info("🔄 Verificando oportunidades de arbitragem...")
+        oportunidade = simular_rotas(binance, volume_minimo=10000)
+
+        if oportunidade:
+            break
         else:
-            # Marca como inválido caso o par não seja encontrado
-            if par1 not in pares_validos and par1 not in pares_invalidos:
-                pares_invalidos.add(par1)
-            if par2 not in pares_validos and par2 not in pares_invalidos:
-                pares_invalidos.add(par2)
-
-    log_info(f"🔎 Total de rotas triangulares válidas: {len(rotas_validas)}")
-    return rotas_validas
-
-def simular_oportunidade(exchange, rota):
-    valor_atual = VALOR_INICIAL
-    log_info(f"🔄 Iniciando simulação da oportunidade: {rota}")
-
-    for i in range(len(rota) - 1):
-        par = rota[i] + rota[i + 1]
-        saldo = valor_atual
-
-        # Obter o preço de compra e venda
-        preco_compra, preco_venda = exchange.get_precos(par)
-        if preco_compra is None or preco_venda is None:
-            log_info(f"❌ Não foi possível obter preços para {par}. Pulando esta rota.")
-            return 0
-
-        # Realizar a troca de moeda
-        quantidade = saldo / preco_compra
-        valor_atual = quantidade * preco_venda
-
-        log_info(f"💱 {rota[i]} → {rota[i + 1]} via {par} @ {preco_compra}/{preco_venda} → Novo saldo: {valor_atual} USDC")
-
-    return valor_atual
-
-def analisar_oportunidades(exchange):
-    saldo = exchange.consultar_saldo(MOEDA_BASE)
-    if saldo < VALOR_INICIAL:
-        log_info(f"⚠️ Saldo insuficiente em {MOEDA_BASE}: {saldo}")
-        return
-
-    log_info("🔎 Carregando banco de dados de pares...")
-    pares_validos, pares_invalidos = carregar_pares_db()
-
-    log_info("🔎 Gerando combinações de rotas triangulares...")
-    pares_disponiveis = exchange.get_pares()
-    rotas = gerar_rotas_triangulares(pares_disponiveis)
-    rotas_validas = validar_rotas_existentes(exchange, rotas, pares_validos, pares_invalidos)
-
-    log_info(f"🔁 {len(rotas_validas)} rotas triangulares válidas encontradas.")
-    for rota in rotas_validas:
-        valor_final = simular_oportunidade(exchange, rota)
-        lucro_percentual = (valor_final - VALOR_INICIAL) / VALOR_INICIAL * 100
-
-        # Verificar se o lucro está acima do mínimo
-        if lucro_percentual >= (LUCRO_MINIMO * 100):
-            log_info(f"✅ Lucro de {lucro_percentual:.4f}% acima do mínimo ({LUCRO_MINIMO * 100}%) — EXECUTANDO 💥")
-            # Aqui você pode adicionar a lógica para executar a operação real (compra e venda)
-        else:
-            log_info(f"⚠️ Lucro de {lucro_percentual:.4f}% abaixo do mínimo ({LUCRO_MINIMO * 100}%) — ignorado.")
-    
-    # Salva os pares válidos e inválidos no banco de dados
-    salvar_pares_db(pares_validos, pares_invalidos)
+            print("⏳ Nenhuma oportunidade lucrativa. Repetindo em 5 segundos...\n")
+            time.sleep(5)

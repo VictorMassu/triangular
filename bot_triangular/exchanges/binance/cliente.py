@@ -9,10 +9,14 @@ from bot_triangular.exchanges.base_exchange import BaseExchange
 from bot_triangular.utils.logs import log_info, log_erro
 from bot_triangular.config import API_KEY_BINANCE, SECRET_BINANCE, BASE_URL_BINANCE
 
+URL_BINANCE = "https://api.binance.com/api"
+
 class BinanceExchange(BaseExchange):
     def __init__(self):
         self.session = requests.Session()
         self.session.headers.update({"X-MBX-APIKEY": API_KEY_BINANCE})
+        self.base_url = BASE_URL_BINANCE  # ✅ Adiciona essa linha
+
 
     def _get_server_time(self):
         url = f"{BASE_URL_BINANCE}/v3/time"
@@ -149,3 +153,57 @@ class BinanceExchange(BaseExchange):
             log_info(f"✅ Conversão executada com sucesso!")
         else:
             log_erro(f"❌ Erro ao tentar converter {moeda} para USDT.")
+
+
+    def get_book_tickers_completo(self):
+        """
+        Retorna todos os book tickers disponíveis na Binance (bid/ask de todos os pares).
+        """
+        url = f"{URL_BINANCE}/v3/ticker/bookTicker"
+        try:
+            response = self.session.get(url)
+            response.raise_for_status()
+            return response.json()
+        except Exception as e:
+            log_erro(f"Erro ao obter todos os book tickers: {e}")
+            return []
+
+    def get_volumes_24h(self):
+        """
+        Retorna o volume de todos os pares nas últimas 24h.
+        """
+        url = f"{URL_BINANCE}/v3/ticker/24hr"
+        try:
+            response = self.session.get(url)
+            response.raise_for_status()
+            return response.json()
+        except Exception as e:
+            log_erro(f"Erro ao obter volumes de 24h: {e}")
+            return []
+
+    def filtrar_pares_por_volume(self, volume_minimo=100000):
+        """
+        Retorna pares com bid/ask e volume acima do mínimo especificado (default: 100k USD).
+        """
+        books = self.get_book_tickers_completo()
+        volumes = self.get_volumes_24h()
+        volumes_dict = {v["symbol"]: float(v["quoteVolume"]) for v in volumes if "quoteVolume" in v}
+
+        pares_filtrados = []
+        for item in books:
+            symbol = item["symbol"]
+            bid = float(item["bidPrice"])
+            ask = float(item["askPrice"])
+            volume = volumes_dict.get(symbol, 0.0)
+
+            if volume >= volume_minimo:
+                pares_filtrados.append({
+                    "symbol": symbol,
+                    "bid": bid,
+                    "ask": ask,
+                    "volume": volume
+                })
+
+        log_info(f"🔍 {len(pares_filtrados)} pares filtrados com volume > {volume_minimo}")
+        return pares_filtrados
+
