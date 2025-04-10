@@ -1,4 +1,0 @@
-# triangular/simulador.py
-def simular_rotas(exchange, oportunidade):
-    # Simula um ciclo triangular completo
-    print("Simulando:", oportunidade)

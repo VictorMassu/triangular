@@ -2,10 +2,10 @@
 
 # main.py
 # Ponto de entrada do sistema
+from bot_triangular.estrategia import rodar_estrategia
+from bot_triangular.exchanges import binance as exchange
 
 def main():
-    from exchanges import binance as exchange  # Pode trocar por outra depois
-    from triangular.estrategia import rodar_estrategia
 
     rodar_estrategia(exchange)
 
