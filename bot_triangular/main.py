@@ -2,12 +2,14 @@
 
 # main.py
 # Ponto de entrada do sistema
-from bot_triangular.estrategia import rodar_estrategia
-from bot_triangular.exchanges import binance as exchange
+from bot_triangular.analisador_de_rotas import analisar_oportunidades
+from bot_triangular.exchanges.binance.cliente import BinanceExchange
+
+exchange = BinanceExchange()
 
 def main():
-
-    rodar_estrategia(exchange)
+    exchange = BinanceExchange()
+    analisar_oportunidades(exchange)
 
 if __name__ == "__main__":
     main()

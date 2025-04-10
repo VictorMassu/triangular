@@ -5,10 +5,10 @@ import hmac
 import hashlib
 import requests
 from urllib.parse import urlencode
-from exchanges.base_exchange import BaseExchange
-from utils.logs import log_info, log_erro
-from config import API_KEY_BINANCE, SECRET_BINANCE, AMBIENTE
-from config import BASE_URL_BINANCE
+from bot_triangular.exchanges.base_exchange import BaseExchange
+from bot_triangular.utils.logs import log_info, log_erro
+from bot_triangular.config import API_KEY_BINANCE, SECRET_BINANCE, AMBIENTE
+from bot_triangular.config import BASE_URL_BINANCE
 
 class BinanceExchange(BaseExchange):
     def __init__(self):
