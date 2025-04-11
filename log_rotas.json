@@ -1,3327 +1,1332 @@
 [
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 SLF \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.384680",
+        "rota": "USDT \u2192 XRP \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:07.689348",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "SLFUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.2181,
-                "quantidade_recebida": 449.605708,
-                "volume_24h": 40082.1
-            },
-            {
-                "par": "SLFUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.218,
-                "quantidade_recebida": 97.033904,
-                "volume_24h": 600184.0
-            }
-        ],
-        "valor_final": 97.033904,
-        "lucro_percentual": -2.966096,
-        "lucro_real": -2.966096,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.033904 | Lucro: -2.966096%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.49
+        "valor_final": 396.373721,
+        "lucro_real": 296.373721,
+        "lucro_percentual": 296.373721,
+        "tempo_execucao_ms": 0.46
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 REZ \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.408216",
+        "rota": "USDT \u2192 XRP \u2192 MXN \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:07.721264",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "REZUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.01545,
-                "quantidade_recebida": 6346.861165,
-                "volume_24h": 315374.53
-            },
-            {
-                "par": "REZUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.01545,
-                "quantidade_recebida": 97.078415,
-                "volume_24h": 3300734.37
-            }
-        ],
-        "valor_final": 97.078415,
-        "lucro_percentual": -2.921585,
-        "lucro_real": -2.921585,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.078415 | Lucro: -2.921585%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 3.89
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 UNI \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.417548",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "UNIUSDC",
-                "tipo_ordem": "buy",
-                "preco": 5.185,
-                "quantidade_recebida": 18.912055,
-                "volume_24h": 1047644.31
-            },
-            {
-                "par": "UNIUSDT",
-                "tipo_ordem": "sell",
-                "preco": 5.186,
-                "quantidade_recebida": 97.097138,
-                "volume_24h": 14969563.9
-            }
-        ],
-        "valor_final": 97.097138,
-        "lucro_percentual": -2.902862,
-        "lucro_real": -2.902862,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.097138 | Lucro: -2.902862%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 1.78
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 APT \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.422171",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "APTUSDC",
-                "tipo_ordem": "buy",
-                "preco": 4.737,
-                "quantidade_recebida": 20.700655,
-                "volume_24h": 2252689.05
-            },
-            {
-                "par": "APTUSDT",
-                "tipo_ordem": "sell",
-                "preco": 4.738,
-                "quantidade_recebida": 97.098909,
-                "volume_24h": 17686943.49
-            }
-        ],
-        "valor_final": 97.098909,
-        "lucro_percentual": -2.901091,
-        "lucro_real": -2.901091,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.098909 | Lucro: -2.901091%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 2.5
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 RPL \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.433145",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "RPLUSDC",
-                "tipo_ordem": "buy",
-                "preco": 3.74,
-                "quantidade_recebida": 26.218985,
-                "volume_24h": 51728.86
-            },
-            {
-                "par": "RPLUSDT",
-                "tipo_ordem": "sell",
-                "preco": 3.73,
-                "quantidade_recebida": 96.818847,
-                "volume_24h": 893268.75
-            }
-        ],
-        "valor_final": 96.818847,
-        "lucro_percentual": -3.181153,
-        "lucro_real": -3.181153,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.818847 | Lucro: -3.181153%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 2.05
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 TAO \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.439077",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "TAOUSDC",
-                "tipo_ordem": "buy",
-                "preco": 239.5,
-                "quantidade_recebida": 0.409432,
-                "volume_24h": 16218870.32
-            },
-            {
-                "par": "TAOUSDT",
-                "tipo_ordem": "sell",
-                "preco": 239.6,
-                "quantidade_recebida": 97.118949,
-                "volume_24h": 41920254.71
-            }
-        ],
-        "valor_final": 97.118949,
-        "lucro_percentual": -2.881051,
-        "lucro_real": -2.881051,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.118949 | Lucro: -2.881051%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.72
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 GMX \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.446613",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "GMXUSDC",
-                "tipo_ordem": "buy",
-                "preco": 14.06,
-                "quantidade_recebida": 6.974325,
-                "volume_24h": 132225.78
-            },
-            {
-                "par": "GMXUSDT",
-                "tipo_ordem": "sell",
-                "preco": 14.06,
-                "quantidade_recebida": 97.078415,
-                "volume_24h": 2642325.03
-            }
-        ],
-        "valor_final": 97.078415,
-        "lucro_percentual": -2.921585,
-        "lucro_real": -2.921585,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.078415 | Lucro: -2.921585%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 2.07
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 ONT \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.454579",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "ONTUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.1306,
-                "quantidade_recebida": 750.834648,
-                "volume_24h": 168247.34
-            },
-            {
-                "par": "ONTUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.1305,
-                "quantidade_recebida": 97.004082,
-                "volume_24h": 1029260.24
-            }
-        ],
-        "valor_final": 97.004082,
-        "lucro_percentual": -2.995918,
-        "lucro_real": -2.995918,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.004082 | Lucro: -2.995918%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.75
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 ARB \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.467546",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "ARBUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.2923,
-                "quantidade_recebida": 335.473845,
-                "volume_24h": 1679001.79
-            },
-            {
-                "par": "ARBUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.2924,
-                "quantidade_recebida": 97.111627,
-                "volume_24h": 19852237.06
-            }
-        ],
-        "valor_final": 97.111627,
-        "lucro_percentual": -2.888373,
-        "lucro_real": -2.888373,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.111627 | Lucro: -2.888373%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 2.42
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 HEI \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.478515",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "HEIUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.3415,
-                "quantidade_recebida": 287.142035,
-                "volume_24h": 146867.08
-            },
-            {
-                "par": "HEIUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.3413,
-                "quantidade_recebida": 97.021561,
-                "volume_24h": 3650542.29
-            }
-        ],
-        "valor_final": 97.021561,
-        "lucro_percentual": -2.978439,
-        "lucro_real": -2.978439,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.021561 | Lucro: -2.978439%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.67
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 PHA \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.491481",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "PHAUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.0938,
-                "quantidade_recebida": 1045.405171,
-                "volume_24h": 63347.87
-            },
-            {
-                "par": "PHAUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.0937,
-                "quantidade_recebida": 96.97492,
-                "volume_24h": 1315933.46
-            }
-        ],
-        "valor_final": 96.97492,
-        "lucro_percentual": -3.02508,
-        "lucro_real": -3.02508,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.97492 | Lucro: -3.02508%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.64
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 YGG \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.502452",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "YGGUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.162,
-                "quantidade_recebida": 605.3025,
-                "volume_24h": 46247.77
-            },
-            {
-                "par": "YGGUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.1619,
-                "quantidade_recebida": 97.01849,
-                "volume_24h": 2069209.14
-            }
-        ],
-        "valor_final": 97.01849,
-        "lucro_percentual": -2.98151,
-        "lucro_real": -2.98151,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.01849 | Lucro: -2.98151%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 5.68
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 QNT \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.533380",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "QNTUSDC",
-                "tipo_ordem": "buy",
-                "preco": 64.4,
-                "quantidade_recebida": 1.522655,
-                "volume_24h": 132686.85
-            },
-            {
-                "par": "QNTUSDT",
-                "tipo_ordem": "sell",
-                "preco": 64.2,
-                "quantidade_recebida": 96.776929,
-                "volume_24h": 1633717.07
-            }
-        ],
-        "valor_final": 96.776929,
-        "lucro_percentual": -3.223071,
-        "lucro_real": -3.223071,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.776929 | Lucro: -3.223071%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 4.82
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 RAY \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.569274",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "RAYUSDC",
-                "tipo_ordem": "buy",
-                "preco": 1.746,
-                "quantidade_recebida": 56.162088,
-                "volume_24h": 2431932.77
-            },
-            {
-                "par": "RAYUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.746,
-                "quantidade_recebida": 97.078415,
-                "volume_24h": 8900609.8
-            }
-        ],
-        "valor_final": 97.078415,
-        "lucro_percentual": -2.921585,
-        "lucro_real": -2.921585,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.078415 | Lucro: -2.921585%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 6.48
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 BTC \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.577252",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "BTCUSDC",
-                "tipo_ordem": "buy",
-                "preco": 82134.0,
-                "quantidade_recebida": 0.001194,
-                "volume_24h": 622937692.91
-            },
-            {
-                "par": "BTCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 82179.25,
-                "quantidade_recebida": 97.131898,
-                "volume_24h": 2778166767.51
-            }
-        ],
-        "valor_final": 97.131898,
-        "lucro_percentual": -2.868102,
-        "lucro_real": -2.868102,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.131898 | Lucro: -2.868102%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 1.54
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 ETH \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.591214",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "ETHUSDC",
-                "tipo_ordem": "buy",
-                "preco": 1562.96,
-                "quantidade_recebida": 0.062739,
-                "volume_24h": 1416157713.18
-            },
-            {
-                "par": "ETHUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1563.69,
-                "quantidade_recebida": 97.123757,
-                "volume_24h": 1345643130.6
-            }
-        ],
-        "valor_final": 97.123757,
-        "lucro_percentual": -2.876243,
-        "lucro_real": -2.876243,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.123757 | Lucro: -2.876243%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.9
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 BIO \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.602186",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "BIOUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.0569,
-                "quantidade_recebida": 1723.356854,
-                "volume_24h": 86937.4
-            },
-            {
-                "par": "BIOUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.0568,
-                "quantidade_recebida": 96.907803,
-                "volume_24h": 2295374.54
-            }
-        ],
-        "valor_final": 96.907803,
-        "lucro_percentual": -3.092197,
-        "lucro_real": -3.092197,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.907803 | Lucro: -3.092197%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.8
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 JUP \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.616150",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "JUPUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.3711,
-                "quantidade_recebida": 264.238763,
-                "volume_24h": 1082013.08
-            },
-            {
-                "par": "JUPUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.3712,
-                "quantidade_recebida": 97.104575,
-                "volume_24h": 8746980.84
-            }
-        ],
-        "valor_final": 97.104575,
-        "lucro_percentual": -2.895425,
-        "lucro_real": -2.895425,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.104575 | Lucro: -2.895425%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 1.59
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 LTC \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.639203",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "LTCUSDC",
-                "tipo_ordem": "buy",
-                "preco": 76.41,
-                "quantidade_recebida": 1.283327,
-                "volume_24h": 5132163.85
-            },
-            {
-                "par": "LTCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 76.44,
-                "quantidade_recebida": 97.11653,
-                "volume_24h": 36940727.21
-            }
-        ],
-        "valor_final": 97.11653,
-        "lucro_percentual": -2.88347,
-        "lucro_real": -2.88347,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.11653 | Lucro: -2.88347%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.63
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 BCH \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.651171",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "BCHUSDC",
-                "tipo_ordem": "buy",
-                "preco": 302.5,
-                "quantidade_recebida": 0.324162,
-                "volume_24h": 1445740.12
-            },
-            {
-                "par": "BCHUSDT",
-                "tipo_ordem": "sell",
-                "preco": 302.6,
-                "quantidade_recebida": 97.110507,
-                "volume_24h": 8573381.43
-            }
-        ],
-        "valor_final": 97.110507,
-        "lucro_percentual": -2.889493,
-        "lucro_real": -2.889493,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.110507 | Lucro: -2.889493%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 1.53
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 SYN \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.664137",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "SYNUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.148,
-                "quantidade_recebida": 662.560845,
-                "volume_24h": 85574.45
-            },
-            {
-                "par": "SYNUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.1479,
-                "quantidade_recebida": 97.012821,
-                "volume_24h": 530647.41
-            }
-        ],
-        "valor_final": 97.012821,
-        "lucro_percentual": -2.987179,
-        "lucro_real": -2.987179,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.012821 | Lucro: -2.987179%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 1.01
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 ZRO \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.673111",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "ZROUSDC",
-                "tipo_ordem": "buy",
-                "preco": 2.564,
-                "quantidade_recebida": 38.244542,
-                "volume_24h": 1175031.78
-            },
-            {
-                "par": "ZROUSDT",
-                "tipo_ordem": "sell",
-                "preco": 2.564,
-                "quantidade_recebida": 97.078415,
-                "volume_24h": 11320028.93
-            }
-        ],
-        "valor_final": 97.078415,
-        "lucro_percentual": -2.921585,
-        "lucro_real": -2.921585,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.078415 | Lucro: -2.921585%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.5
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 TRB \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.682089",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "TRBUSDC",
-                "tipo_ordem": "buy",
-                "preco": 22.78,
-                "quantidade_recebida": 4.30461,
-                "volume_24h": 276874.79
-            },
-            {
-                "par": "TRBUSDT",
-                "tipo_ordem": "sell",
-                "preco": 22.79,
-                "quantidade_recebida": 97.121031,
-                "volume_24h": 4336659.2
-            }
-        ],
-        "valor_final": 97.121031,
-        "lucro_percentual": -2.878969,
-        "lucro_real": -2.878969,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.121031 | Lucro: -2.878969%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.73
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 UTK \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.691065",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "UTKUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.02912,
-                "quantidade_recebida": 3367.410886,
-                "volume_24h": 16217.21
-            },
-            {
-                "par": "UTKUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.02902,
-                "quantidade_recebida": 96.745041,
-                "volume_24h": 383344.29
-            }
-        ],
-        "valor_final": 96.745041,
-        "lucro_percentual": -3.254959,
-        "lucro_real": -3.254959,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.745041 | Lucro: -3.254959%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.55
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 ENS \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.702034",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "ENSUSDC",
-                "tipo_ordem": "buy",
-                "preco": 14.06,
-                "quantidade_recebida": 6.974325,
-                "volume_24h": 135381.59
-            },
-            {
-                "par": "ENSUSDT",
-                "tipo_ordem": "sell",
-                "preco": 14.06,
-                "quantidade_recebida": 97.078415,
-                "volume_24h": 5959626.79
-            }
-        ],
-        "valor_final": 97.078415,
-        "lucro_percentual": -2.921585,
-        "lucro_real": -2.921585,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.078415 | Lucro: -2.921585%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.5
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 LDO \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.711010",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "LDOUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.723,
-                "quantidade_recebida": 135.627946,
-                "volume_24h": 1176853.23
-            },
-            {
-                "par": "LDOUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.722,
-                "quantidade_recebida": 96.944143,
-                "volume_24h": 8033613.07
-            }
-        ],
-        "valor_final": 96.944143,
-        "lucro_percentual": -3.055857,
-        "lucro_real": -3.055857,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.944143 | Lucro: -3.055857%",
-        "spread_maximo_encontrado": 0.0,
+        "valor_final": 395.713327,
+        "lucro_real": 295.713327,
+        "lucro_percentual": 295.713327,
         "tempo_execucao_ms": 0.52
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 ACX \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.720983",
+        "rota": "USDT \u2192 XRP \u2192 TRX \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:07.742207",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "ACXUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.195,
-                "quantidade_recebida": 502.866692,
-                "volume_24h": 67808.17
-            },
-            {
-                "par": "ACXUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.195,
-                "quantidade_recebida": 97.078415,
-                "volume_24h": 1848702.83
-            }
-        ],
-        "valor_final": 97.078415,
-        "lucro_percentual": -2.921585,
-        "lucro_real": -2.921585,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.078415 | Lucro: -2.921585%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.66
+        "valor_final": 396.020336,
+        "lucro_real": 296.020336,
+        "lucro_percentual": 296.020336,
+        "tempo_execucao_ms": 0.65
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 RSR \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.733949",
+        "rota": "USDT \u2192 XRP \u2192 TUSD \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:07.786092",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "RSRUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.007687,
-                "quantidade_recebida": 12756.472616,
-                "volume_24h": 2767048.83
-            },
-            {
-                "par": "RSRUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.007687,
-                "quantidade_recebida": 97.078415,
-                "volume_24h": 9907304.4
-            }
-        ],
-        "valor_final": 97.078415,
-        "lucro_percentual": -2.921585,
-        "lucro_real": -2.921585,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.078415 | Lucro: -2.921585%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.49
+        "valor_final": 395.972477,
+        "lucro_real": 295.972477,
+        "lucro_percentual": 295.972477,
+        "tempo_execucao_ms": 0.58
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 VET \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.751901",
+        "rota": "USDT \u2192 STX \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:08.924092",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "VETUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.02188,
-                "quantidade_recebida": 4481.672989,
-                "volume_24h": 211723.54
-            },
-            {
-                "par": "VETUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.02186,
-                "quantidade_recebida": 96.989678,
-                "volume_24h": 8314804.76
-            }
-        ],
-        "valor_final": 96.989678,
-        "lucro_percentual": -3.010322,
-        "lucro_real": -3.010322,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.989678 | Lucro: -3.010322%",
-        "spread_maximo_encontrado": 0.0,
+        "valor_final": 37.196663,
+        "lucro_real": -62.803337,
+        "lucro_percentual": -62.803337,
+        "tempo_execucao_ms": 0.45
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 STX \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:09.197362",
+        "valor_inicial": 100,
+        "valor_final": 37.152049,
+        "lucro_real": -62.847951,
+        "lucro_percentual": -62.847951,
+        "tempo_execucao_ms": 5.81
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 TST \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:19.506086",
+        "valor_inicial": 100,
+        "valor_final": 0.534479,
+        "lucro_real": -99.465521,
+        "lucro_percentual": -99.465521,
+        "tempo_execucao_ms": 0.61
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 TST \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:19.697667",
+        "valor_inicial": 100,
+        "valor_final": 0.532399,
+        "lucro_real": -99.467601,
+        "lucro_percentual": -99.467601,
+        "tempo_execucao_ms": 0.87
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 ZAR \u2192 ETH \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:20.574260",
+        "valor_inicial": 100,
+        "valor_final": 0.257254,
+        "lucro_real": -99.742746,
+        "lucro_percentual": -99.742746,
         "tempo_execucao_ms": 0.51
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 MKR \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.769853",
+        "rota": "USDT \u2192 ZAR \u2192 BTC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:20.585231",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "MKRUSDC",
-                "tipo_ordem": "buy",
-                "preco": 1330.0,
-                "quantidade_recebida": 0.073729,
-                "volume_24h": 1063626.58
-            },
-            {
-                "par": "MKRUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1330.0,
-                "quantidade_recebida": 97.078415,
-                "volume_24h": 14975080.38
-            }
-        ],
-        "valor_final": 97.078415,
-        "lucro_percentual": -2.921585,
-        "lucro_real": -2.921585,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.078415 | Lucro: -2.921585%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.5
+        "valor_final": 0.25724,
+        "lucro_real": -99.74276,
+        "lucro_percentual": -99.74276,
+        "tempo_execucao_ms": 0.59
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 TUT \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.781822",
+        "rota": "USDT \u2192 RAY \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:20.745805",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "TUTUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.02425,
-                "quantidade_recebida": 4043.670309,
-                "volume_24h": 645746.31
-            },
-            {
-                "par": "TUTUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.02423,
-                "quantidade_recebida": 96.99835,
-                "volume_24h": 13004782.74
-            }
-        ],
-        "valor_final": 96.99835,
-        "lucro_percentual": -3.00165,
-        "lucro_real": -3.00165,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.99835 | Lucro: -3.00165%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.74
+        "valor_final": 298.152664,
+        "lucro_real": 198.152664,
+        "lucro_percentual": 198.152664,
+        "tempo_execucao_ms": 2.54
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 RED \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.788803",
+        "rota": "USDT \u2192 RAY \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:20.952902",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "REDUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.4385,
-                "quantidade_recebida": 223.623729,
-                "volume_24h": 576148.85
-            },
-            {
-                "par": "REDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.4383,
-                "quantidade_recebida": 97.034137,
-                "volume_24h": 5211912.36
-            }
-        ],
-        "valor_final": 97.034137,
-        "lucro_percentual": -2.965863,
-        "lucro_real": -2.965863,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.034137 | Lucro: -2.965863%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.95
+        "valor_final": 297.285137,
+        "lucro_real": 197.285137,
+        "lucro_percentual": 197.285137,
+        "tempo_execucao_ms": 0.62
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 TST \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.801768",
+        "rota": "USDT \u2192 LTC \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:21.342495",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "TSTUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.0747,
-                "quantidade_recebida": 1312.704217,
-                "volume_24h": 546212.02
-            },
-            {
-                "par": "TSTUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.0747,
-                "quantidade_recebida": 97.078415,
-                "volume_24h": 9759872.29
-            }
-        ],
-        "valor_final": 97.078415,
-        "lucro_percentual": -2.921585,
-        "lucro_real": -2.921585,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.078415 | Lucro: -2.921585%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.76
+        "valor_final": 571697.426173,
+        "lucro_real": 571597.426173,
+        "lucro_percentual": 571597.426173,
+        "tempo_execucao_ms": 0.51
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 WIF \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.817725",
+        "rota": "USDT \u2192 LTC \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:21.650642",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "WIFUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.382,
-                "quantidade_recebida": 256.698966,
-                "volume_24h": 1864817.13
-            },
-            {
-                "par": "WIFUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.382,
-                "quantidade_recebida": 97.078415,
-                "volume_24h": 32783529.08
-            }
-        ],
-        "valor_final": 97.078415,
-        "lucro_percentual": -2.921585,
-        "lucro_real": -2.921585,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.078415 | Lucro: -2.921585%",
-        "spread_maximo_encontrado": 0.0,
+        "valor_final": 571607.15623,
+        "lucro_real": 571507.15623,
+        "lucro_percentual": 571507.15623,
+        "tempo_execucao_ms": 0.57
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 EURI \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:21.722452",
+        "valor_inicial": 100,
+        "valor_final": 125.919744,
+        "lucro_real": 25.919744,
+        "lucro_percentual": 25.919744,
+        "tempo_execucao_ms": 0.48
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 EURI \u2192 ETH \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:21.838141",
+        "valor_inicial": 100,
+        "valor_final": 125.931481,
+        "lucro_real": 25.931481,
+        "lucro_percentual": 25.931481,
+        "tempo_execucao_ms": 0.47
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 EURI \u2192 BTC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:21.852103",
+        "valor_inicial": 100,
+        "valor_final": 125.929085,
+        "lucro_real": 25.929085,
+        "lucro_percentual": 25.929085,
+        "tempo_execucao_ms": 0.52
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 TIA \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:22.440096",
+        "valor_inicial": 100,
+        "valor_final": 611.116388,
+        "lucro_real": 511.116388,
+        "lucro_percentual": 511.116388,
+        "tempo_execucao_ms": 0.77
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 TIA \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:22.633575",
+        "valor_inicial": 100,
+        "valor_final": 610.870164,
+        "lucro_real": 510.870164,
+        "lucro_percentual": 510.870164,
+        "tempo_execucao_ms": 0.51
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FIL \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:27.137095",
+        "valor_inicial": 100,
+        "valor_final": 569.705261,
+        "lucro_real": 469.705261,
+        "lucro_percentual": 469.705261,
+        "tempo_execucao_ms": 2.96
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FIL \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:27.572277",
+        "valor_inicial": 100,
+        "valor_final": 569.491834,
+        "lucro_real": 469.491834,
+        "lucro_percentual": 469.491834,
+        "tempo_execucao_ms": 0.63
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 CHZ \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:27.914026",
+        "valor_inicial": 100,
+        "valor_final": 0.150662,
+        "lucro_real": -99.849338,
+        "lucro_percentual": -99.849338,
+        "tempo_execucao_ms": 1.0
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 ADA \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:29.041802",
+        "valor_inicial": 100,
+        "valor_final": 38.738644,
+        "lucro_real": -61.261356,
+        "lucro_percentual": -61.261356,
+        "tempo_execucao_ms": 0.49
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 SEI \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:30.615124",
+        "valor_inicial": 100,
+        "valor_final": 2.300817,
+        "lucro_real": -97.699183,
+        "lucro_percentual": -97.699183,
+        "tempo_execucao_ms": 1.65
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 SEI \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:30.805615",
+        "valor_inicial": 100,
+        "valor_final": 2.301044,
+        "lucro_real": -97.698956,
+        "lucro_percentual": -97.698956,
+        "tempo_execucao_ms": 0.51
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 BNB \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:31.085663",
+        "valor_inicial": 100,
+        "valor_final": 32965327.744155,
+        "lucro_real": 32965227.744155,
+        "lucro_percentual": 32965227.744155,
+        "tempo_execucao_ms": 3.4
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 PLN \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:32.083441",
+        "valor_inicial": 100,
+        "valor_final": 6.776274,
+        "lucro_real": -93.223726,
+        "lucro_percentual": -93.223726,
         "tempo_execucao_ms": 0.64
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 BNB \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.839668",
+        "rota": "USDT \u2192 PLN \u2192 ETH \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:32.225609",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "BNBUSDC",
-                "tipo_ordem": "buy",
-                "preco": 581.57,
-                "quantidade_recebida": 0.168611,
-                "volume_24h": 97321285.97
-            },
-            {
-                "par": "BNBUSDT",
-                "tipo_ordem": "sell",
-                "preco": 581.85,
-                "quantidade_recebida": 97.125154,
-                "volume_24h": 195060125.64
-            }
-        ],
-        "valor_final": 97.125154,
-        "lucro_percentual": -2.874846,
-        "lucro_real": -2.874846,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.125154 | Lucro: -2.874846%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 1.45
+        "valor_final": 6.775659,
+        "lucro_real": -93.224341,
+        "lucro_percentual": -93.224341,
+        "tempo_execucao_ms": 4.47
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 ICP \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.853628",
+        "rota": "USDT \u2192 PLN \u2192 BTC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:32.236578",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "ICPUSDC",
-                "tipo_ordem": "buy",
-                "preco": 4.934,
-                "quantidade_recebida": 19.87414,
-                "volume_24h": 927132.64
-            },
-            {
-                "par": "ICPUSDT",
-                "tipo_ordem": "sell",
-                "preco": 4.934,
-                "quantidade_recebida": 97.078415,
-                "volume_24h": 7064201.52
-            }
-        ],
-        "valor_final": 97.078415,
-        "lucro_percentual": -2.921585,
-        "lucro_real": -2.921585,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 97.078415 | Lucro: -2.921585%",
-        "spread_maximo_encontrado": 0.0,
+        "valor_final": 6.776349,
+        "lucro_real": -93.223651,
+        "lucro_percentual": -93.223651,
+        "tempo_execucao_ms": 0.62
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 UNI \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:32.625541",
+        "valor_inicial": 100,
+        "valor_final": 2622.47669,
+        "lucro_real": 2522.47669,
+        "lucro_percentual": 2522.47669,
+        "tempo_execucao_ms": 0.95
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 UNI \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:32.920407",
+        "valor_inicial": 100,
+        "valor_final": 2621.851817,
+        "lucro_real": 2521.851817,
+        "lucro_percentual": 2521.851817,
+        "tempo_execucao_ms": 0.72
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 TON \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:34.819596",
+        "valor_inicial": 100,
+        "valor_final": 830.28256,
+        "lucro_real": 730.28256,
+        "lucro_percentual": 730.28256,
+        "tempo_execucao_ms": 0.75
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 TON \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:35.209456",
+        "valor_inicial": 100,
+        "valor_final": 829.853946,
+        "lucro_real": 729.853946,
+        "lucro_percentual": 729.853946,
+        "tempo_execucao_ms": 0.72
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 COW \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:36.255462",
+        "valor_inicial": 100,
+        "valor_final": 5.104235,
+        "lucro_real": -94.895765,
+        "lucro_percentual": -94.895765,
+        "tempo_execucao_ms": 0.79
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 BIO \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:36.873552",
+        "valor_inicial": 100,
+        "valor_final": 0.313198,
+        "lucro_real": -99.686802,
+        "lucro_percentual": -99.686802,
+        "tempo_execucao_ms": 1.11
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 BIO \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:37.237181",
+        "valor_inicial": 100,
+        "valor_final": 0.312823,
+        "lucro_real": -99.687177,
+        "lucro_percentual": -99.687177,
+        "tempo_execucao_ms": 2.75
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 QNT \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:42.259986",
+        "valor_inicial": 100,
+        "valor_final": 405123.758133,
+        "lucro_real": 405023.758133,
+        "lucro_percentual": 405023.758133,
+        "tempo_execucao_ms": 0.56
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 ETC \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:47.628157",
+        "valor_inicial": 100,
+        "valor_final": 21860.097574,
+        "lucro_real": 21760.097574,
+        "lucro_percentual": 21760.097574,
+        "tempo_execucao_ms": 0.54
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 XLM \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:48.107037",
+        "valor_inicial": 100,
+        "valor_final": 5.464307,
+        "lucro_real": -94.535693,
+        "lucro_percentual": -94.535693,
+        "tempo_execucao_ms": 0.8
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 XLM \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:48.306209",
+        "valor_inicial": 100,
+        "valor_final": 5.460054,
+        "lucro_real": -94.539946,
+        "lucro_percentual": -94.539946,
         "tempo_execucao_ms": 0.5
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 USDC \u2192 STX \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:01.871581",
+        "rota": "USDT \u2192 JUP \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:50.619990",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.0005,
-                "quantidade_recebida": 99.0495,
-                "volume_24h": 1821679482.5
-            },
-            {
-                "par": "STXUSDC",
-                "tipo_ordem": "buy",
-                "preco": 0.618,
-                "quantidade_recebida": 158.671529,
-                "volume_24h": 697696.34
-            },
-            {
-                "par": "STXUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.617,
-                "quantidade_recebida": 96.92133,
-                "volume_24h": 4804340.3
-            }
-        ],
-        "valor_final": 96.92133,
-        "lucro_percentual": -3.07867,
-        "lucro_real": -3.07867,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.92133 | Lucro: -3.07867%",
-        "spread_maximo_encontrado": 0.0,
+        "valor_final": 13.434098,
+        "lucro_real": -86.565902,
+        "lucro_percentual": -86.565902,
+        "tempo_execucao_ms": 0.55
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 JUP \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:50.807488",
+        "valor_inicial": 100,
+        "valor_final": 13.421593,
+        "lucro_real": -86.578407,
+        "lucro_percentual": -86.578407,
+        "tempo_execucao_ms": 0.51
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 BMT \u2192 USDC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:50.885690",
+        "valor_inicial": 100,
+        "valor_final": 0.666358,
+        "lucro_real": -99.333642,
+        "lucro_percentual": -99.333642,
+        "tempo_execucao_ms": 0.64
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 BMT \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:51.270776",
+        "valor_inicial": 100,
+        "valor_final": 0.662343,
+        "lucro_real": -99.337657,
+        "lucro_percentual": -99.337657,
+        "tempo_execucao_ms": 0.62
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 STX \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.303467",
+        "valor_inicial": 100,
+        "valor_final": 96.921837,
+        "lucro_real": -3.078163,
+        "lucro_percentual": -3.078163,
+        "tempo_execucao_ms": 0.59
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 TST \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.323413",
+        "valor_inicial": 100,
+        "valor_final": 96.817451,
+        "lucro_real": -3.182549,
+        "lucro_percentual": -3.182549,
+        "tempo_execucao_ms": 0.5
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 RAY \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.339373",
+        "valor_inicial": 100,
+        "valor_final": 97.078415,
+        "lucro_real": -2.921585,
+        "lucro_percentual": -2.921585,
+        "tempo_execucao_ms": 0.87
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 LTC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.346353",
+        "valor_inicial": 100,
+        "valor_final": 97.116371,
+        "lucro_real": -2.883629,
+        "lucro_percentual": -2.883629,
+        "tempo_execucao_ms": 0.68
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 EURI \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.352337",
+        "valor_inicial": 100,
+        "valor_final": 97.112513,
+        "lucro_real": -2.887487,
+        "lucro_percentual": -2.887487,
+        "tempo_execucao_ms": 1.41
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 TIA \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.356326",
+        "valor_inicial": 100,
+        "valor_final": 97.117107,
+        "lucro_real": -2.882893,
+        "lucro_percentual": -2.882893,
+        "tempo_execucao_ms": 0.81
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 FIL \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.370288",
+        "valor_inicial": 100,
+        "valor_final": 97.078415,
+        "lucro_real": -2.921585,
+        "lucro_percentual": -2.921585,
+        "tempo_execucao_ms": 0.51
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 CHZ \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.376273",
+        "valor_inicial": 100,
+        "valor_final": 97.103054,
+        "lucro_real": -2.896946,
+        "lucro_percentual": -2.896946,
+        "tempo_execucao_ms": 0.66
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 SEI \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.388241",
+        "valor_inicial": 100,
+        "valor_final": 97.078415,
+        "lucro_real": -2.921585,
+        "lucro_percentual": -2.921585,
+        "tempo_execucao_ms": 0.66
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 PLN \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.401206",
+        "valor_inicial": 100,
+        "valor_final": 97.10407,
+        "lucro_real": -2.89593,
+        "lucro_percentual": -2.89593,
+        "tempo_execucao_ms": 0.75
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 UNI \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.412178",
+        "valor_inicial": 100,
+        "valor_final": 97.115774,
+        "lucro_real": -2.884226,
+        "lucro_percentual": -2.884226,
+        "tempo_execucao_ms": 1.31
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 TON \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.426139",
+        "valor_inicial": 100,
+        "valor_final": 97.078415,
+        "lucro_real": -2.921585,
+        "lucro_percentual": -2.921585,
+        "tempo_execucao_ms": 0.8
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 COW \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.434118",
+        "valor_inicial": 100,
+        "valor_final": 96.951626,
+        "lucro_real": -3.048374,
+        "lucro_percentual": -3.048374,
+        "tempo_execucao_ms": 0.69
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 BIO \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.441099",
+        "valor_inicial": 100,
+        "valor_final": 96.907803,
+        "lucro_real": -3.092197,
+        "lucro_percentual": -3.092197,
+        "tempo_execucao_ms": 0.78
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 QNT \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.459051",
+        "valor_inicial": 100,
+        "valor_final": 96.77879,
+        "lucro_real": -3.22121,
+        "lucro_percentual": -3.22121,
+        "tempo_execucao_ms": 1.26
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 XLM \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.478000",
+        "valor_inicial": 100,
+        "valor_final": 97.078415,
+        "lucro_real": -2.921585,
+        "lucro_percentual": -2.921585,
+        "tempo_execucao_ms": 0.47
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 JUP \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.489968",
+        "valor_inicial": 100,
+        "valor_final": 97.104511,
+        "lucro_real": -2.895489,
+        "lucro_percentual": -2.895489,
+        "tempo_execucao_ms": 0.6
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 BMT \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.497950",
+        "valor_inicial": 100,
+        "valor_final": 96.961453,
+        "lucro_real": -3.038547,
+        "lucro_percentual": -3.038547,
+        "tempo_execucao_ms": 3.8
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 USDC \u2192 CVC \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:52.507920",
+        "valor_inicial": 100,
+        "valor_final": 96.976227,
+        "lucro_real": -3.023773,
+        "lucro_percentual": -3.023773,
+        "tempo_execucao_ms": 0.53
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 ZRO \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 10:59:56.367641",
+        "valor_inicial": 100,
+        "valor_final": 645.167362,
+        "lucro_real": 545.167362,
+        "lucro_percentual": 545.167362,
+        "tempo_execucao_ms": 0.5
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 ACX \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:03.093788",
+        "valor_inicial": 100,
+        "valor_final": 3.671705,
+        "lucro_real": -96.328295,
+        "lucro_percentual": -96.328295,
+        "tempo_execucao_ms": 0.63
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 JTO \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:10.417462",
+        "valor_inicial": 100,
+        "valor_final": 285.68606,
+        "lucro_real": 185.68606,
+        "lucro_percentual": 185.68606,
+        "tempo_execucao_ms": 8.76
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 MXN \u2192 SOL \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:10.638870",
+        "valor_inicial": 100,
+        "valor_final": 0.23021,
+        "lucro_real": -99.76979,
+        "lucro_percentual": -99.76979,
+        "tempo_execucao_ms": 0.77
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 MXN \u2192 ETH \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:10.728630",
+        "valor_inicial": 100,
+        "valor_final": 0.230267,
+        "lucro_real": -99.769733,
+        "lucro_percentual": -99.769733,
+        "tempo_execucao_ms": 0.62
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 MXN \u2192 BTC \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:10.742592",
+        "valor_inicial": 100,
+        "valor_final": 0.230245,
+        "lucro_real": -99.769755,
+        "lucro_percentual": -99.769755,
+        "tempo_execucao_ms": 0.64
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 SOL \u2192 MXN \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:12.369433",
+        "valor_inicial": 100,
+        "valor_final": 1350984.29301,
+        "lucro_real": 1350884.29301,
+        "lucro_percentual": 1350884.29301,
+        "tempo_execucao_ms": 0.9
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 APT \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:14.575674",
+        "valor_inicial": 100,
+        "valor_final": 2191.851717,
+        "lucro_real": 2091.851717,
+        "lucro_percentual": 2091.851717,
         "tempo_execucao_ms": 0.61
     },
     {
         "exchange": "Binance",
         "rota": "USDT \u2192 SCR \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:04.886729",
+        "timestamp": "2025-04-11 11:00:23.107140",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "SCRUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.248,
-                "quantidade_recebida": 24.552,
-                "volume_24h": 2478440.5
-            },
-            {
-                "par": "SCRFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.248,
-                "quantidade_recebida": 6.028007,
-                "volume_24h": 129887.07
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 5.96355,
-                "volume_24h": 478282574.55
-            }
-        ],
         "valor_final": 5.96355,
-        "lucro_percentual": -94.03645,
         "lucro_real": -94.03645,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 5.96355 | Lucro: -94.03645%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 1.13
+        "lucro_percentual": -94.03645,
+        "tempo_execucao_ms": 0.56
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 UNI \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:11.935536",
+        "rota": "USDT \u2192 EOS \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:27.317928",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "UNIUSDT",
-                "tipo_ordem": "sell",
-                "preco": 5.186,
-                "quantidade_recebida": 513.414,
-                "volume_24h": 14969563.9
-            },
-            {
-                "par": "UNIFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 5.186,
-                "quantidade_recebida": 2635.939354,
-                "volume_24h": 84529.74
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 2607.753254,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 2607.753254,
-        "lucro_percentual": 2507.753254,
-        "lucro_real": 2507.753254,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 2607.753254 | Lucro: 2507.753254%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.64
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 APT \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:12.307112",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "APTUSDT",
-                "tipo_ordem": "sell",
-                "preco": 4.738,
-                "quantidade_recebida": 469.062,
-                "volume_24h": 17686943.49
-            },
-            {
-                "par": "APTFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 4.741,
-                "quantidade_recebida": 2201.584713,
-                "volume_24h": 576796.74
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 2178.043167,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 2178.043167,
-        "lucro_percentual": 2078.043167,
-        "lucro_real": 2078.043167,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 2178.043167 | Lucro: 2078.043167%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.62
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 TAO \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:15.375480",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "TAOUSDT",
-                "tipo_ordem": "sell",
-                "preco": 239.6,
-                "quantidade_recebida": 23720.4,
-                "volume_24h": 41920254.71
-            },
-            {
-                "par": "TAOFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 239.6,
-                "quantidade_recebida": 5626573.7616,
-                "volume_24h": 832716.86
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 5566408.808367,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 5566408.808367,
-        "lucro_percentual": 5566308.808367,
-        "lucro_real": 5566308.808367,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 5566408.808367 | Lucro: 5566308.808367%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.65
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 ARB \u2192 TUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:19.803866",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "ARBUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.2924,
-                "quantidade_recebida": 28.9476,
-                "volume_24h": 19852237.06
-            },
-            {
-                "par": "ARBTUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.2914,
-                "quantidade_recebida": 8.350977,
-                "volume_24h": 3127.78
-            },
-            {
-                "par": "TUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9985,
-                "quantidade_recebida": 8.255066,
-                "volume_24h": 238533.0
-            }
-        ],
-        "valor_final": 8.255066,
-        "lucro_percentual": -91.744934,
-        "lucro_real": -91.744934,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 8.255066 | Lucro: -91.744934%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.76
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 ARB \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:19.875675",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "ARBUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.2924,
-                "quantidade_recebida": 28.9476,
-                "volume_24h": 19852237.06
-            },
-            {
-                "par": "ARBFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.2925,
-                "quantidade_recebida": 8.382501,
-                "volume_24h": 453591.54
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 8.292867,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 8.292867,
-        "lucro_percentual": -91.707133,
-        "lucro_real": -91.707133,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 8.292867 | Lucro: -91.707133%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.87
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 RAY \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:31.018713",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "RAYUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.746,
-                "quantidade_recebida": 172.854,
-                "volume_24h": 8900609.8
-            },
-            {
-                "par": "RAYFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 1.745,
-                "quantidade_recebida": 298.613928,
-                "volume_24h": 231719.19
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 295.420849,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 295.420849,
-        "lucro_percentual": 195.420849,
-        "lucro_real": 195.420849,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 295.420849 | Lucro: 195.420849%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.51
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 BIO \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:34.342668",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "BIOUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.0568,
-                "quantidade_recebida": 5.6232,
-                "volume_24h": 2295374.54
-            },
-            {
-                "par": "BIOFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.0567,
-                "quantidade_recebida": 0.315647,
-                "volume_24h": 6539.18
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 0.312272,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 0.312272,
-        "lucro_percentual": -99.687728,
-        "lucro_real": -99.687728,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 0.312272 | Lucro: -99.687728%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.51
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 JUP \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:35.584856",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "JUPUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.3712,
-                "quantidade_recebida": 36.7488,
-                "volume_24h": 8746980.84
-            },
-            {
-                "par": "JUPFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.3711,
-                "quantidade_recebida": 13.501105,
-                "volume_24h": 171347.99
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 13.356738,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 13.356738,
-        "lucro_percentual": -86.643262,
-        "lucro_real": -86.643262,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 13.356738 | Lucro: -86.643262%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.59
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 LTC \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:39.095421",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "LTCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 76.44,
-                "quantidade_recebida": 7567.56,
-                "volume_24h": 36940727.21
-            },
-            {
-                "par": "LTCFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 76.46,
-                "quantidade_recebida": 572829.481224,
-                "volume_24h": 1206792.06
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 566704.215581,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 566704.215581,
-        "lucro_percentual": 566604.215581,
-        "lucro_real": 566604.215581,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 566704.215581 | Lucro: 566604.215581%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.5
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 BCH \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:39.624500",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "BCHUSDT",
-                "tipo_ordem": "sell",
-                "preco": 302.6,
-                "quantidade_recebida": 29957.4,
-                "volume_24h": 8573381.43
-            },
-            {
-                "par": "BCHFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 302.8,
-                "quantidade_recebida": 8980389.7128,
-                "volume_24h": 808732.22
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 8884362.405601,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 8884362.405601,
-        "lucro_percentual": 8884262.405601,
-        "lucro_real": 8884262.405601,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 8884362.405601 | Lucro: 8884262.405601%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.51
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 ZRO \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:42.310637",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "ZROUSDT",
-                "tipo_ordem": "sell",
-                "preco": 2.564,
-                "quantidade_recebida": 253.836,
-                "volume_24h": 11320028.93
-            },
-            {
-                "par": "ZROFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 2.561,
-                "quantidade_recebida": 643.573256,
-                "volume_24h": 48367.16
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 636.691527,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 636.691527,
-        "lucro_percentual": 536.691527,
-        "lucro_real": 536.691527,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 636.691527 | Lucro: 536.691527%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.62
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 ENS \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:46.462188",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "ENSUSDT",
-                "tipo_ordem": "sell",
-                "preco": 14.06,
-                "quantidade_recebida": 1391.94,
-                "volume_24h": 5959626.79
-            },
-            {
-                "par": "ENSFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 14.07,
-                "quantidade_recebida": 19388.749842,
-                "volume_24h": 20595.04
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 19181.42594,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 19181.42594,
-        "lucro_percentual": 19081.42594,
-        "lucro_real": 19081.42594,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 19181.42594 | Lucro: 19081.42594%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.99
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 LDO \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:34:48.801354",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "LDOUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.722,
-                "quantidade_recebida": 71.478,
-                "volume_24h": 8033613.07
-            },
-            {
-                "par": "LDOFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.723,
-                "quantidade_recebida": 51.161808,
-                "volume_24h": 297455.59
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 50.614735,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 50.614735,
-        "lucro_percentual": -49.385265,
-        "lucro_real": -49.385265,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 50.614735 | Lucro: -49.385265%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.65
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 RED \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:05.529854",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "REDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.4383,
-                "quantidade_recebida": 43.3917,
-                "volume_24h": 5211912.36
-            },
-            {
-                "par": "REDFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.4381,
-                "quantidade_recebida": 18.819805,
-                "volume_24h": 84407.77
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 18.618565,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 18.618565,
-        "lucro_percentual": -81.381435,
-        "lucro_real": -81.381435,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 18.618565 | Lucro: -81.381435%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.5
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 TST \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:06.187854",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "TSTUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.0747,
-                "quantidade_recebida": 7.3953,
-                "volume_24h": 9759872.29
-            },
-            {
-                "par": "TSTFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.0743,
-                "quantidade_recebida": 0.543976,
-                "volume_24h": 8948.53
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 0.538159,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 0.538159,
-        "lucro_percentual": -99.461841,
-        "lucro_real": -99.461841,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 0.538159 | Lucro: -99.461841%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.55
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 XAI \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:06.660150",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "XAIUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.0434,
-                "quantidade_recebida": 4.2966,
-                "volume_24h": 2018658.54
-            },
-            {
-                "par": "XAIFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.0433,
-                "quantidade_recebida": 0.184182,
-                "volume_24h": 3441.33
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 0.182213,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 0.182213,
-        "lucro_percentual": -99.817787,
-        "lucro_real": -99.817787,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 0.182213 | Lucro: -99.817787%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 8.21
+        "valor_final": 38.557548,
+        "lucro_real": -61.442452,
+        "lucro_percentual": -61.442452,
+        "tempo_execucao_ms": 0.75
     },
     {
         "exchange": "Binance",
         "rota": "USDT \u2192 WIF \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:07.554354",
+        "timestamp": "2025-04-11 11:00:31.794569",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "WIFUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.382,
-                "quantidade_recebida": 37.818,
-                "volume_24h": 32783529.08
-            },
-            {
-                "par": "WIFFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.382,
-                "quantidade_recebida": 14.302011,
-                "volume_24h": 439740.71
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 14.14908,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 14.14908,
-        "lucro_percentual": -85.85092,
-        "lucro_real": -85.85092,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 14.14908 | Lucro: -85.85092%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.7
+        "valor_final": 14.597044,
+        "lucro_real": -85.402956,
+        "lucro_percentual": -85.402956,
+        "tempo_execucao_ms": 0.62
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 ETC \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:08.256037",
+        "rota": "USDT \u2192 TUSD \u2192 ARB \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:32.076477",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "ETCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 15.01,
-                "quantidade_recebida": 1485.99,
-                "volume_24h": 6472416.66
-            },
-            {
-                "par": "ETCFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 15.02,
-                "quantidade_recebida": 22096.374102,
-                "volume_24h": 595438.07
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 21860.097574,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 21860.097574,
-        "lucro_percentual": 21760.097574,
-        "lucro_real": 21760.097574,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 21860.097574 | Lucro: 21760.097574%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.51
+        "valor_final": 96.644077,
+        "lucro_real": -3.355923,
+        "lucro_percentual": -3.355923,
+        "tempo_execucao_ms": 0.57
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 TUSD \u2192 ETH \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:32.094429",
+        "valor_inicial": 100,
+        "valor_final": 96.701387,
+        "lucro_real": -3.298613,
+        "lucro_percentual": -3.298613,
+        "tempo_execucao_ms": 0.53
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 TUSD \u2192 BTC \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:32.106397",
+        "valor_inicial": 100,
+        "valor_final": 96.713583,
+        "lucro_real": -3.286417,
+        "lucro_percentual": -3.286417,
+        "tempo_execucao_ms": 0.6
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 GUN \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:33.256924",
+        "valor_inicial": 100,
+        "valor_final": 0.184025,
+        "lucro_real": -99.815975,
+        "lucro_percentual": -99.815975,
+        "tempo_execucao_ms": 0.87
     },
     {
         "exchange": "Binance",
         "rota": "USDT \u2192 ICP \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:11.252031",
+        "timestamp": "2025-04-11 11:00:39.543602",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "ICPUSDT",
-                "tipo_ordem": "sell",
-                "preco": 4.934,
-                "quantidade_recebida": 488.466,
-                "volume_24h": 7064201.52
-            },
-            {
-                "par": "ICPFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 4.935,
-                "quantidade_recebida": 2386.473913,
-                "volume_24h": 111317.95
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 2360.955347,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 2360.955347,
-        "lucro_percentual": 2260.955347,
-        "lucro_real": 2260.955347,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 2360.955347 | Lucro: 2260.955347%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 1.3
+        "valor_final": 2377.73103,
+        "lucro_real": 2277.73103,
+        "lucro_percentual": 2277.73103,
+        "tempo_execucao_ms": 0.61
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 STX \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:12.528060",
+        "rota": "USDT \u2192 ARB \u2192 TUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:43.794768",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "STXUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.617,
-                "quantidade_recebida": 61.083,
-                "volume_24h": 4804340.3
-            },
-            {
-                "par": "STXFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.617,
-                "quantidade_recebida": 37.311329,
-                "volume_24h": 208496.24
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 36.912359,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 36.912359,
-        "lucro_percentual": -63.087641,
-        "lucro_real": -63.087641,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 36.912359 | Lucro: -63.087641%",
-        "spread_maximo_encontrado": 0.0,
+        "valor_final": 8.325103,
+        "lucro_real": -91.674897,
+        "lucro_percentual": -91.674897,
+        "tempo_execucao_ms": 0.61
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 ARB \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:44.012626",
+        "valor_inicial": 100,
+        "valor_final": 8.352522,
+        "lucro_real": -91.647478,
+        "lucro_percentual": -91.647478,
+        "tempo_execucao_ms": 0.9
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FET \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:46.600277",
+        "valor_inicial": 100,
+        "valor_final": 18.857263,
+        "lucro_real": -81.142737,
+        "lucro_percentual": -81.142737,
+        "tempo_execucao_ms": 3.03
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 ENA \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:52.931557",
+        "valor_inicial": 100,
+        "valor_final": 9.885515,
+        "lucro_real": -90.114485,
+        "lucro_percentual": -90.114485,
+        "tempo_execucao_ms": 1.13
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 ALT \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:00:53.586793",
+        "valor_inicial": 100,
+        "valor_final": 0.065849,
+        "lucro_real": -99.934151,
+        "lucro_percentual": -99.934151,
+        "tempo_execucao_ms": 0.64
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 ACT \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:01.278933",
+        "valor_inicial": 100,
+        "valor_final": 0.302988,
+        "lucro_real": -99.697012,
+        "lucro_percentual": -99.697012,
+        "tempo_execucao_ms": 0.47
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 NFP \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:03.129671",
+        "valor_inicial": 100,
+        "valor_final": 0.322255,
+        "lucro_real": -99.677745,
+        "lucro_percentual": -99.677745,
+        "tempo_execucao_ms": 0.43
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 DOT \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:04.026102",
+        "valor_inicial": 100,
+        "valor_final": 1201.397609,
+        "lucro_real": 1101.397609,
+        "lucro_percentual": 1101.397609,
+        "tempo_execucao_ms": 0.63
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 ENS \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:05.451661",
+        "valor_inicial": 100,
+        "valor_final": 19222.363288,
+        "lucro_real": 19122.363288,
+        "lucro_percentual": 19122.363288,
+        "tempo_execucao_ms": 0.68
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 SUI \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:08.105124",
+        "valor_inicial": 100,
+        "valor_final": 467.67615,
+        "lucro_real": 367.67615,
+        "lucro_percentual": 367.67615,
+        "tempo_execucao_ms": 0.96
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 GPS \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:09.246175",
+        "valor_inicial": 100,
+        "valor_final": 0.041147,
+        "lucro_real": -99.958853,
+        "lucro_percentual": -99.958853,
+        "tempo_execucao_ms": 0.51
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 RED \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:12.414104",
+        "valor_inicial": 100,
+        "valor_final": 18.145731,
+        "lucro_real": -81.854269,
+        "lucro_percentual": -81.854269,
+        "tempo_execucao_ms": 0.62
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 XAI \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:16.822514",
+        "valor_inicial": 100,
+        "valor_final": 0.184744,
+        "lucro_real": -99.815256,
+        "lucro_percentual": -99.815256,
+        "tempo_execucao_ms": 0.51
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 POL \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:18.865049",
+        "valor_inicial": 100,
+        "valor_final": 3.272048,
+        "lucro_real": -96.727952,
+        "lucro_percentual": -96.727952,
+        "tempo_execucao_ms": 1.45
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 INJ \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:20.671017",
+        "valor_inicial": 100,
+        "valor_final": 6440.457055,
+        "lucro_real": 6340.457055,
+        "lucro_percentual": 6340.457055,
+        "tempo_execucao_ms": 0.65
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 GRT \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:24.030138",
+        "valor_inicial": 100,
+        "valor_final": 0.604374,
+        "lucro_real": -99.395626,
+        "lucro_percentual": -99.395626,
         "tempo_execucao_ms": 0.65
     },
     {
         "exchange": "Binance",
         "rota": "USDT \u2192 WLD \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:13.735490",
+        "timestamp": "2025-04-11 11:01:30.910472",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "WLDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.711,
-                "quantidade_recebida": 70.389,
-                "volume_24h": 21552885.19
-            },
-            {
-                "par": "WLDFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.712,
-                "quantidade_recebida": 49.615798,
-                "volume_24h": 239094.23
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 49.085257,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 49.085257,
-        "lucro_percentual": -50.914743,
-        "lucro_real": -50.914743,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 49.085257 | Lucro: -50.914743%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.78
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 NIL \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:15.627355",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "NILUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.388,
-                "quantidade_recebida": 38.412,
-                "volume_24h": 9140909.95
-            },
-            {
-                "par": "NILFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.387,
-                "quantidade_recebida": 14.71679,
-                "volume_24h": 18503.73
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 14.559423,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 14.559423,
-        "lucro_percentual": -85.440577,
-        "lucro_real": -85.440577,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 14.559423 | Lucro: -85.440577%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.51
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 DOT \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:16.285191",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "DOTUSDT",
-                "tipo_ordem": "sell",
-                "preco": 3.513,
-                "quantidade_recebida": 347.787,
-                "volume_24h": 27053247.17
-            },
-            {
-                "par": "DOTFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 3.514,
-                "quantidade_recebida": 1209.902283,
-                "volume_24h": 1315265.83
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 1196.964798,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 1196.964798,
-        "lucro_percentual": 1096.964798,
-        "lucro_real": 1096.964798,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 1196.964798 | Lucro: 1096.964798%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 1.43
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 ENA \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:18.408044",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "ENAUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.3181,
-                "quantidade_recebida": 31.4919,
-                "volume_24h": 58830288.72
-            },
-            {
-                "par": "ENAFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.3182,
-                "quantidade_recebida": 9.920515,
-                "volume_24h": 794160.46
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 9.814435,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 9.814435,
-        "lucro_percentual": -90.185565,
-        "lucro_real": -90.185565,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 9.814435 | Lucro: -90.185565%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.73
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 SUI \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:21.994946",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "SUIUSDT",
-                "tipo_ordem": "sell",
-                "preco": 2.1974,
-                "quantidade_recebida": 217.5426,
-                "volume_24h": 155380745.65
-            },
-            {
-                "par": "SUIFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 2.1987,
-                "quantidade_recebida": 473.527805,
-                "volume_24h": 1959679.38
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 468.464373,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 468.464373,
-        "lucro_percentual": 368.464373,
-        "lucro_real": 368.464373,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 468.464373 | Lucro: 368.464373%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.45
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 GPS \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:27.678010",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "GPSUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.0205,
-                "quantidade_recebida": 2.0295,
-                "volume_24h": 1135494.18
-            },
-            {
-                "par": "GPSFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.0205,
-                "quantidade_recebida": 0.041189,
-                "volume_24h": 4441.82
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 0.040748,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 0.040748,
-        "lucro_percentual": -99.959252,
-        "lucro_real": -99.959252,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 0.040748 | Lucro: -99.959252%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.5
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 ACT \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:35.540370",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "ACTUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.0558,
-                "quantidade_recebida": 5.5242,
-                "volume_24h": 10003017.47
-            },
-            {
-                "par": "ACTFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.0558,
-                "quantidade_recebida": 0.305168,
-                "volume_24h": 36204.64
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 0.301905,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 0.301905,
-        "lucro_percentual": -99.698095,
-        "lucro_real": -99.698095,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 0.301905 | Lucro: -99.698095%",
-        "spread_maximo_encontrado": 0.0,
+        "valor_final": 49.986227,
+        "lucro_real": -50.013773,
+        "lucro_percentual": -50.013773,
         "tempo_execucao_ms": 0.49
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 TIA \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:38.465665",
+        "rota": "USDT \u2192 TAO \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:31.676921",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "TIAUSDT",
-                "tipo_ordem": "sell",
-                "preco": 2.5,
-                "quantidade_recebida": 247.5,
-                "volume_24h": 13154920.75
-            },
-            {
-                "par": "TIAFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 2.501,
-                "quantidade_recebida": 612.807525,
-                "volume_24h": 621276.21
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 606.254774,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 606.254774,
-        "lucro_percentual": 506.254774,
-        "lucro_real": 506.254774,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 606.254774 | Lucro: 506.254774%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.6
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 INJ \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:38.854626",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "INJUSDT",
-                "tipo_ordem": "sell",
-                "preco": 8.15,
-                "quantidade_recebida": 806.85,
-                "volume_24h": 7783155.44
-            },
-            {
-                "par": "INJFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 8.16,
-                "quantidade_recebida": 6518.05704,
-                "volume_24h": 56187.25
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 6448.359456,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 6448.359456,
-        "lucro_percentual": 6348.359456,
-        "lucro_real": 6348.359456,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 6448.359456 | Lucro: 6348.359456%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.48
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 ALT \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:39.813944",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "ALTUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.02606,
-                "quantidade_recebida": 2.57994,
-                "volume_24h": 1192732.82
-            },
-            {
-                "par": "ALTFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 0.02607,
-                "quantidade_recebida": 0.066586,
-                "volume_24h": 16232.66
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 0.065874,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 0.065874,
-        "lucro_percentual": -99.934126,
-        "lucro_real": -99.934126,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 0.065874 | Lucro: -99.934126%",
-        "spread_maximo_encontrado": 0.0,
+        "valor_final": 5559441.120551,
+        "lucro_real": 5559341.120551,
+        "lucro_percentual": 5559341.120551,
         "tempo_execucao_ms": 0.51
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 FIL \u2192 FDUSD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:45.942131",
+        "rota": "USDT \u2192 LDO \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:33.951649",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FILUSDT",
-                "tipo_ordem": "sell",
-                "preco": 2.421,
-                "quantidade_recebida": 239.679,
-                "volume_24h": 11382935.54
-            },
-            {
-                "par": "FILFDUSD",
-                "tipo_ordem": "sell",
-                "preco": 2.422,
-                "quantidade_recebida": 574.697513,
-                "volume_24h": 800029.35
-            },
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 568.552272,
-                "volume_24h": 478282574.55
-            }
-        ],
-        "valor_final": 568.552272,
-        "lucro_percentual": 468.552272,
-        "lucro_real": 468.552272,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 568.552272 | Lucro: 468.552272%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 1.36
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 SCR \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.448824",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "SCRFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 0.249,
-                "quantidade_recebida": 393.338928,
-                "volume_24h": 129887.07
-            },
-            {
-                "par": "SCRUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.248,
-                "quantidade_recebida": 96.572574,
-                "volume_24h": 2478440.5
-            }
-        ],
-        "valor_final": 96.572574,
-        "lucro_percentual": -3.427426,
-        "lucro_real": -3.427426,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.572574 | Lucro: -3.427426%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.47
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 UNI \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.474754",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "UNIFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 5.191,
-                "quantidade_recebida": 18.867539,
-                "volume_24h": 84529.74
-            },
-            {
-                "par": "UNIUSDT",
-                "tipo_ordem": "sell",
-                "preco": 5.186,
-                "quantidade_recebida": 96.868585,
-                "volume_24h": 14969563.9
-            }
-        ],
-        "valor_final": 96.868585,
-        "lucro_percentual": -3.131415,
-        "lucro_real": -3.131415,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.868585 | Lucro: -3.131415%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.51
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 APT \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.488718",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "APTFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 4.742,
-                "quantidade_recebida": 20.654026,
-                "volume_24h": 576796.74
-            },
-            {
-                "par": "APTUSDT",
-                "tipo_ordem": "sell",
-                "preco": 4.738,
-                "quantidade_recebida": 96.880189,
-                "volume_24h": 17686943.49
-            }
-        ],
-        "valor_final": 96.880189,
-        "lucro_percentual": -3.119811,
-        "lucro_real": -3.119811,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.880189 | Lucro: -3.119811%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 1.48
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 TAO \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.511656",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "TAOFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 239.8,
-                "quantidade_recebida": 0.408429,
-                "volume_24h": 832716.86
-            },
-            {
-                "par": "TAOUSDT",
-                "tipo_ordem": "sell",
-                "preco": 239.6,
-                "quantidade_recebida": 96.88111,
-                "volume_24h": 41920254.71
-            }
-        ],
-        "valor_final": 96.88111,
-        "lucro_percentual": -3.11889,
-        "lucro_real": -3.11889,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.88111 | Lucro: -3.11889%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.51
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 ARB \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.531603",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "ARBFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 0.2926,
-                "quantidade_recebida": 334.727932,
-                "volume_24h": 453591.54
-            },
-            {
-                "par": "ARBUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.2924,
-                "quantidade_recebida": 96.895703,
-                "volume_24h": 19852237.06
-            }
-        ],
-        "valor_final": 96.895703,
-        "lucro_percentual": -3.104297,
-        "lucro_real": -3.104297,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.895703 | Lucro: -3.104297%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.7
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 RAY \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.590447",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "RAYFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 1.749,
-                "quantidade_recebida": 55.998509,
-                "volume_24h": 231719.19
-            },
-            {
-                "par": "RAYUSDT",
-                "tipo_ordem": "sell",
-                "preco": 1.746,
-                "quantidade_recebida": 96.795663,
-                "volume_24h": 8900609.8
-            }
-        ],
-        "valor_final": 96.795663,
-        "lucro_percentual": -3.204337,
-        "lucro_real": -3.204337,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.795663 | Lucro: -3.204337%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 1.38
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 BIO \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.625352",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "BIOFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 0.0572,
-                "quantidade_recebida": 1712.262115,
-                "volume_24h": 6539.18
-            },
-            {
-                "par": "BIOUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.0568,
-                "quantidade_recebida": 96.283923,
-                "volume_24h": 2295374.54
-            }
-        ],
-        "valor_final": 96.283923,
-        "lucro_percentual": -3.716077,
-        "lucro_real": -3.716077,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.283923 | Lucro: -3.716077%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.51
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 JUP \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.641309",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "JUPFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 0.3716,
-                "quantidade_recebida": 263.56672,
-                "volume_24h": 171347.99
-            },
-            {
-                "par": "JUPUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.3712,
-                "quantidade_recebida": 96.857607,
-                "volume_24h": 8746980.84
-            }
-        ],
-        "valor_final": 96.857607,
-        "lucro_percentual": -3.142393,
-        "lucro_real": -3.142393,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.857607 | Lucro: -3.142393%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.63
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 LTC \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.672228",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "LTCFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 76.48,
-                "quantidade_recebida": 1.280614,
-                "volume_24h": 1206792.06
-            },
-            {
-                "par": "LTCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 76.44,
-                "quantidade_recebida": 96.911267,
-                "volume_24h": 36940727.21
-            }
-        ],
-        "valor_final": 96.911267,
-        "lucro_percentual": -3.088733,
-        "lucro_real": -3.088733,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.911267 | Lucro: -3.088733%",
-        "spread_maximo_encontrado": 0.0,
+        "valor_final": 50.544728,
+        "lucro_real": -49.455272,
+        "lucro_percentual": -49.455272,
         "tempo_execucao_ms": 0.65
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 BCH \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.694168",
+        "rota": "USDT \u2192 APE \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:34.229881",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "BCHFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 302.9,
-                "quantidade_recebida": 0.323346,
-                "volume_24h": 808732.22
-            },
-            {
-                "par": "BCHUSDT",
-                "tipo_ordem": "sell",
-                "preco": 302.6,
-                "quantidade_recebida": 96.865945,
-                "volume_24h": 8573381.43
-            }
-        ],
-        "valor_final": 96.865945,
-        "lucro_percentual": -3.134055,
-        "lucro_real": -3.134055,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.865945 | Lucro: -3.134055%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.74
+        "valor_final": 16.998371,
+        "lucro_real": -83.001629,
+        "lucro_percentual": -83.001629,
+        "tempo_execucao_ms": 0.65
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 ZRO \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.712120",
+        "rota": "USDT \u2192 NIL \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:37.260082",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "ZROFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 2.568,
-                "quantidade_recebida": 38.139172,
-                "volume_24h": 48367.16
-            },
-            {
-                "par": "ZROUSDT",
-                "tipo_ordem": "sell",
-                "preco": 2.564,
-                "quantidade_recebida": 96.810948,
-                "volume_24h": 11320028.93
-            }
-        ],
-        "valor_final": 96.810948,
-        "lucro_percentual": -3.189052,
-        "lucro_real": -3.189052,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.810948 | Lucro: -3.189052%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.51
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 ENS \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.732067",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "ENSFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 14.09,
-                "quantidade_recebida": 6.951128,
-                "volume_24h": 20595.04
-            },
-            {
-                "par": "ENSUSDT",
-                "tipo_ordem": "sell",
-                "preco": 14.06,
-                "quantidade_recebida": 96.755531,
-                "volume_24h": 5959626.79
-            }
-        ],
-        "valor_final": 96.755531,
-        "lucro_percentual": -3.244469,
-        "lucro_real": -3.244469,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.755531 | Lucro: -3.244469%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.63
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 LDO \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.749021",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "LDOFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 0.724,
-                "quantidade_recebida": 135.278167,
-                "volume_24h": 297455.59
-            },
-            {
-                "par": "LDOUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.722,
-                "quantidade_recebida": 96.694128,
-                "volume_24h": 8033613.07
-            }
-        ],
-        "valor_final": 96.694128,
-        "lucro_percentual": -3.305872,
-        "lucro_real": -3.305872,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.694128 | Lucro: -3.305872%",
-        "spread_maximo_encontrado": 0.0,
+        "valor_final": 15.243587,
+        "lucro_real": -84.756413,
+        "lucro_percentual": -84.756413,
         "tempo_execucao_ms": 0.52
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 RED \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.799885",
+        "rota": "USDT \u2192 BCH \u2192 FDUSD \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:39.196625",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "REDFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 0.4393,
-                "quantidade_recebida": 222.948766,
-                "volume_24h": 84407.77
-            },
-            {
-                "par": "REDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.4383,
-                "quantidade_recebida": 96.74126,
-                "volume_24h": 5211912.36
-            }
-        ],
-        "valor_final": 96.74126,
-        "lucro_percentual": -3.25874,
-        "lucro_real": -3.25874,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.74126 | Lucro: -3.25874%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.62
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 TST \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.828809",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "TSTFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 0.075,
-                "quantidade_recebida": 1305.88524,
-                "volume_24h": 8948.53
-            },
-            {
-                "par": "TSTUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.0747,
-                "quantidade_recebida": 96.574131,
-                "volume_24h": 9759872.29
-            }
-        ],
-        "valor_final": 96.574131,
-        "lucro_percentual": -3.425869,
-        "lucro_real": -3.425869,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.574131 | Lucro: -3.425869%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.68
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 XAI \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.849754",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "XAIFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 0.0439,
-                "quantidade_recebida": 2231.01123,
-                "volume_24h": 3441.33
-            },
-            {
-                "par": "XAIUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.0434,
-                "quantidade_recebida": 95.857629,
-                "volume_24h": 2018658.54
-            }
-        ],
-        "valor_final": 95.857629,
-        "lucro_percentual": -4.142371,
-        "lucro_real": -4.142371,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 95.857629 | Lucro: -4.142371%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 1.24
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 WIF \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.869699",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "WIFFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 0.383,
-                "quantidade_recebida": 255.721653,
-                "volume_24h": 439740.71
-            },
-            {
-                "par": "WIFUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.382,
-                "quantidade_recebida": 96.708815,
-                "volume_24h": 32783529.08
-            }
-        ],
-        "valor_final": 96.708815,
-        "lucro_percentual": -3.291185,
-        "lucro_real": -3.291185,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.708815 | Lucro: -3.291185%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 3.17
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 ETC \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.894203",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "ETCFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 15.03,
-                "quantidade_recebida": 6.516393,
-                "volume_24h": 595438.07
-            },
-            {
-                "par": "ETCUSDT",
-                "tipo_ordem": "sell",
-                "preco": 15.01,
-                "quantidade_recebida": 96.832954,
-                "volume_24h": 6472416.66
-            }
-        ],
-        "valor_final": 96.832954,
-        "lucro_percentual": -3.167046,
-        "lucro_real": -3.167046,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.832954 | Lucro: -3.167046%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.69
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 ICP \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.929110",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "ICPFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 4.939,
-                "quantidade_recebida": 19.830207,
-                "volume_24h": 111317.95
-            },
-            {
-                "par": "ICPUSDT",
-                "tipo_ordem": "sell",
-                "preco": 4.934,
-                "quantidade_recebida": 96.86382,
-                "volume_24h": 7064201.52
-            }
-        ],
-        "valor_final": 96.86382,
-        "lucro_percentual": -3.13618,
-        "lucro_real": -3.13618,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.86382 | Lucro: -3.13618%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 1.04
+        "valor_final": 8875558.257901,
+        "lucro_real": 8875458.257901,
+        "lucro_percentual": 8875458.257901,
+        "tempo_execucao_ms": 0.52
     },
     {
         "exchange": "Binance",
         "rota": "USDT \u2192 FDUSD \u2192 STX \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.950055",
+        "timestamp": "2025-04-11 11:01:39.912819",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "STXFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 0.618,
-                "quantidade_recebida": 158.481218,
-                "volume_24h": 208496.24
-            },
-            {
-                "par": "STXUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.617,
-                "quantidade_recebida": 96.805083,
-                "volume_24h": 4804340.3
-            }
-        ],
-        "valor_final": 96.805083,
-        "lucro_percentual": -3.194917,
-        "lucro_real": -3.194917,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.805083 | Lucro: -3.194917%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.9
+        "valor_final": 96.805589,
+        "lucro_real": -3.194411,
+        "lucro_percentual": -3.194411,
+        "tempo_execucao_ms": 0.52
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 WLD \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.971995",
+        "rota": "USDT \u2192 FDUSD \u2192 TST \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:39.934762",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "WLDFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 0.713,
-                "quantidade_recebida": 137.365208,
-                "volume_24h": 239094.23
-            },
-            {
-                "par": "WLDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.711,
-                "quantidade_recebida": 96.689996,
-                "volume_24h": 21552885.19
-            }
-        ],
-        "valor_final": 96.689996,
-        "lucro_percentual": -3.310004,
-        "lucro_real": -3.310004,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.689996 | Lucro: -3.310004%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.51
+        "valor_final": 96.701329,
+        "lucro_real": -3.298671,
+        "lucro_percentual": -3.298671,
+        "tempo_execucao_ms": 1.67
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 NIL \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:47.989946",
+        "rota": "USDT \u2192 FDUSD \u2192 RAY \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:39.948721",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "NILFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 0.39,
-                "quantidade_recebida": 251.131777,
-                "volume_24h": 18503.73
-            },
-            {
-                "par": "NILUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.388,
-                "quantidade_recebida": 96.464738,
-                "volume_24h": 9140909.95
-            }
-        ],
-        "valor_final": 96.464738,
-        "lucro_percentual": -3.535262,
-        "lucro_real": -3.535262,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.464738 | Lucro: -3.535262%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.5
+        "valor_final": 96.796326,
+        "lucro_real": -3.203674,
+        "lucro_percentual": -3.203674,
+        "tempo_execucao_ms": 0.61
     },
     {
         "exchange": "Binance",
-        "rota": "USDT \u2192 FDUSD \u2192 DOT \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:48.010892",
+        "rota": "USDT \u2192 FDUSD \u2192 LTC \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:39.956702",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "DOTFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 3.516,
-                "quantidade_recebida": 27.855914,
-                "volume_24h": 1315265.83
-            },
-            {
-                "par": "DOTUSDT",
-                "tipo_ordem": "sell",
-                "preco": 3.513,
-                "quantidade_recebida": 96.879247,
-                "volume_24h": 27053247.17
-            }
-        ],
-        "valor_final": 96.879247,
-        "lucro_percentual": -3.120753,
-        "lucro_real": -3.120753,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.879247 | Lucro: -3.120753%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.94
+        "valor_final": 96.886247,
+        "lucro_real": -3.113753,
+        "lucro_percentual": -3.113753,
+        "tempo_execucao_ms": 0.82
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 TIA \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:39.964681",
+        "valor_inicial": 100,
+        "valor_final": 96.88478,
+        "lucro_real": -3.11522,
+        "lucro_percentual": -3.11522,
+        "tempo_execucao_ms": 0.68
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 FIL \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:39.980637",
+        "valor_inicial": 100,
+        "valor_final": 96.88201,
+        "lucro_real": -3.11799,
+        "lucro_percentual": -3.11799,
+        "tempo_execucao_ms": 0.53
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 SEI \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:39.997592",
+        "valor_inicial": 100,
+        "valor_final": 96.836218,
+        "lucro_real": -3.163782,
+        "lucro_percentual": -3.163782,
+        "tempo_execucao_ms": 0.8
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 UNI \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.011554",
+        "valor_inicial": 100,
+        "valor_final": 96.850207,
+        "lucro_real": -3.149793,
+        "lucro_percentual": -3.149793,
+        "tempo_execucao_ms": 0.65
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 TON \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.030505",
+        "valor_inicial": 100,
+        "valor_final": 96.796515,
+        "lucro_real": -3.203485,
+        "lucro_percentual": -3.203485,
+        "tempo_execucao_ms": 0.52
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 BIO \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.040477",
+        "valor_inicial": 100,
+        "valor_final": 96.452547,
+        "lucro_real": -3.547453,
+        "lucro_percentual": -3.547453,
+        "tempo_execucao_ms": 0.56
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 ETC \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.060423",
+        "valor_inicial": 100,
+        "valor_final": 96.832954,
+        "lucro_real": -3.167046,
+        "lucro_percentual": -3.167046,
+        "tempo_execucao_ms": 0.66
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 XLM \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.071394",
+        "valor_inicial": 100,
+        "valor_final": 96.758106,
+        "lucro_real": -3.241894,
+        "lucro_percentual": -3.241894,
+        "tempo_execucao_ms": 0.78
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 JUP \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.085357",
+        "valor_inicial": 100,
+        "valor_final": 96.883868,
+        "lucro_real": -3.116132,
+        "lucro_percentual": -3.116132,
+        "tempo_execucao_ms": 0.74
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 BMT \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.093336",
+        "valor_inicial": 100,
+        "valor_final": 96.265246,
+        "lucro_real": -3.734754,
+        "lucro_percentual": -3.734754,
+        "tempo_execucao_ms": 1.3
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 ZRO \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.109293",
+        "valor_inicial": 100,
+        "valor_final": 96.811941,
+        "lucro_real": -3.188059,
+        "lucro_percentual": -3.188059,
+        "tempo_execucao_ms": 0.49
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 ACX \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.143203",
+        "valor_inicial": 100,
+        "valor_final": 96.127792,
+        "lucro_real": -3.872208,
+        "lucro_percentual": -3.872208,
+        "tempo_execucao_ms": 0.6
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 JTO \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.161155",
+        "valor_inicial": 100,
+        "valor_final": 96.849167,
+        "lucro_real": -3.150833,
+        "lucro_percentual": -3.150833,
+        "tempo_execucao_ms": 0.49
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 APT \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.174119",
+        "valor_inicial": 100,
+        "valor_final": 96.90083,
+        "lucro_real": -3.09917,
+        "lucro_percentual": -3.09917,
+        "tempo_execucao_ms": 0.48
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 SCR \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.190077",
+        "valor_inicial": 100,
+        "valor_final": 96.572574,
+        "lucro_real": -3.427426,
+        "lucro_percentual": -3.427426,
+        "tempo_execucao_ms": 0.48
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 EOS \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.223144",
+        "valor_inicial": 100,
+        "valor_final": 96.808461,
+        "lucro_real": -3.191539,
+        "lucro_percentual": -3.191539,
+        "tempo_execucao_ms": 0.74
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 WIF \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.254062",
+        "valor_inicial": 100,
+        "valor_final": 96.712719,
+        "lucro_real": -3.287281,
+        "lucro_percentual": -3.287281,
+        "tempo_execucao_ms": 5.07
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 GUN \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.265032",
+        "valor_inicial": 100,
+        "valor_final": 96.80652,
+        "lucro_real": -3.19348,
+        "lucro_percentual": -3.19348,
+        "tempo_execucao_ms": 0.89
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 ICP \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.287972",
+        "valor_inicial": 100,
+        "valor_final": 96.903285,
+        "lucro_real": -3.096715,
+        "lucro_percentual": -3.096715,
+        "tempo_execucao_ms": 5.85
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 ARB \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.310911",
+        "valor_inicial": 100,
+        "valor_final": 96.862937,
+        "lucro_real": -3.137063,
+        "lucro_percentual": -3.137063,
+        "tempo_execucao_ms": 0.64
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 FET \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.327863",
+        "valor_inicial": 100,
+        "valor_final": 96.742608,
+        "lucro_real": -3.257392,
+        "lucro_percentual": -3.257392,
+        "tempo_execucao_ms": 0.66
     },
     {
         "exchange": "Binance",
         "rota": "USDT \u2192 FDUSD \u2192 ENA \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:48.031835",
+        "timestamp": "2025-04-11 11:01:40.360776",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "ENAFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 0.3185,
-                "quantidade_recebida": 307.508298,
-                "volume_24h": 794160.46
-            },
-            {
-                "par": "ENAUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.3181,
-                "quantidade_recebida": 96.840206,
-                "volume_24h": 58830288.72
-            }
-        ],
-        "valor_final": 96.840206,
-        "lucro_percentual": -3.159794,
-        "lucro_real": -3.159794,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.840206 | Lucro: -3.159794%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 0.5
+        "valor_final": 96.870963,
+        "lucro_real": -3.129037,
+        "lucro_percentual": -3.129037,
+        "tempo_execucao_ms": 0.73
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 ALT \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.380723",
+        "valor_inicial": 100,
+        "valor_final": 96.628139,
+        "lucro_real": -3.371861,
+        "lucro_percentual": -3.371861,
+        "tempo_execucao_ms": 0.99
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 ACT \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.427599",
+        "valor_inicial": 100,
+        "valor_final": 96.788833,
+        "lucro_real": -3.211167,
+        "lucro_percentual": -3.211167,
+        "tempo_execucao_ms": 1.0
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 NFP \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.442557",
+        "valor_inicial": 100,
+        "valor_final": 96.62647,
+        "lucro_real": -3.37353,
+        "lucro_percentual": -3.37353,
+        "tempo_execucao_ms": 0.84
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 DOT \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.453527",
+        "valor_inicial": 100,
+        "valor_final": 96.879388,
+        "lucro_real": -3.120612,
+        "lucro_percentual": -3.120612,
+        "tempo_execucao_ms": 0.64
+    },
+    {
+        "exchange": "Binance",
+        "rota": "USDT \u2192 FDUSD \u2192 ENS \u2192 USDT",
+        "timestamp": "2025-04-11 11:01:40.479459",
+        "valor_inicial": 100,
+        "valor_final": 96.755823,
+        "lucro_real": -3.244177,
+        "lucro_percentual": -3.244177,
+        "tempo_execucao_ms": 1.13
     },
     {
         "exchange": "Binance",
         "rota": "USDT \u2192 FDUSD \u2192 SUI \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:48.067740",
+        "timestamp": "2025-04-11 11:01:40.498408",
         "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "FDUSDUSDT",
-                "tipo_ordem": "sell",
-                "preco": 0.9993,
-                "quantidade_recebida": 98.9307,
-                "volume_24h": 478282574.55
-            },
-            {
-                "par": "SUIFDUSD",
-                "tipo_ordem": "buy",
-                "preco": 2.1993,
-                "quantidade_recebida": 44.532985,
-                "volume_24h": 1959679.38
-            },
-            {
-                "par": "SUIUSDT",
-                "tipo_ordem": "sell",
-                "preco": 2.1974,
-                "quantidade_recebida": 96.878213,
-                "volume_24h": 155380745.65
-            }
-        ],
-        "valor_final": 96.878213,
-        "lucro_percentual": -3.121787,
-        "lucro_real": -3.121787,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 96.878213 | Lucro: -3.121787%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 1.2
-    },
-    {
-        "exchange": "Binance",
-        "rota": "USDT \u2192 MXN \u2192 SOL \u2192 USDT",
-        "timestamp": "2025-04-11 10:35:49.284096",
-        "valor_inicial": 100,
-        "moedas": [
-            {
-                "par": "USDTMXN",
-                "tipo_ordem": "buy",
-                "preco": 20.56,
-                "quantidade_recebida": 4.815175,
-                "volume_24h": 18410836.59
-            },
-            {
-                "par": "SOLMXN",
-                "tipo_ordem": "buy",
-                "preco": 2428.0,
-                "quantidade_recebida": 0.001963,
-                "volume_24h": 58182.84
-            },
-            {
-                "par": "SOLUSDT",
-                "tipo_ordem": "sell",
-                "preco": 117.74,
-                "quantidade_recebida": 0.228854,
-                "volume_24h": 543155481.44
-            }
-        ],
-        "valor_final": 0.228854,
-        "lucro_percentual": -99.771146,
-        "lucro_real": -99.771146,
-        "ganho_formatado": "Valor Inicial: 100 | Valor Final: 0.228854 | Lucro: -99.771146%",
-        "spread_maximo_encontrado": 0.0,
-        "tempo_execucao_ms": 17.28
+        "valor_final": 96.886965,
+        "lucro_real": -3.113035,
+        "lucro_percentual": -3.113035,
+        "tempo_execucao_ms": 1.29
     }
 ]
