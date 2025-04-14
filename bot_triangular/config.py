@@ -5,14 +5,15 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configurações gerais
-MOEDA_BASE = "USDT"
-VALOR_INICIAL = 100
-TAXA = 0.01
-LUCRO_MINIMO = 0.0002
-SPREAD_MAXIMO = 0.05
+MOEDA_BASE = "USDC"
+VALOR_INICIAL = 500 #Unidade monetária (float)
+TAXA = 0.01 #Percentual decimal (0.01 = 1%)
+LUCRO_MINIMO = 0.001 #Percentual decimal (0.002 = 0.2%)
+SPREAD_MAXIMO = 0.05 #Percentual decimal (0.05 = 5%)
 LUCRO_IRREALISTA = 500  # alerta para lucro muito alto
 MOEDAS_BLACKLIST = {"BRL", "ARS", "UAH", "TRY", "VAI", "EUR"}
-VALOR_MINIMO_MOEDA = 0.01  # Ignorar moedas muito baratas
+VALOR_MINIMO_MOEDA = 0.01  #Unidade monetária (ex: 0.01)
+VOLUME_MINIMO_PARA_ANALISE = 1000  # volume em USDC ou equivalente
 
 blacklist_pares = set()
 
@@ -33,9 +34,9 @@ else:
     SECRET_BINANCE = os.getenv("BINANCE_SECRET_PROD")
     BASE_URL_BINANCE = "https://api.binance.com/api"
 
-# Diretório de logs
-PASTA_LOGS = os.path.join(os.path.dirname(__file__), "data")
-os.makedirs(PASTA_LOGS, exist_ok=True)
 
-LOG_ROTAS = os.path.join(PASTA_LOGS, "log_rotas.json")
-LOG_OPORTUNIDADES = os.path.join(PASTA_LOGS, "oportunidades.json")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+LOGS_DATA_DIR = os.path.join(BASE_DIR, '..', 'logs', 'logs_data')
+
+LOG_ROTAS = os.path.normpath(os.path.join(LOGS_DATA_DIR, 'log_rotas.json'))
+LOG_OPORTUNIDADES = os.path.normpath(os.path.join(LOGS_DATA_DIR, 'oportunidades.json'))

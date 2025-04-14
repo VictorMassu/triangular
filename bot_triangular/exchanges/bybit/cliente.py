@@ -5,7 +5,7 @@ import hashlib
 import requests
 from urllib.parse import urlencode
 from bot_triangular.exchanges.base_exchange import BaseExchange
-from bot_triangular.utils.logs import log_info, log_erro
+from logs.logs_agent.logger_console import log_info, log_erro
 from bot_triangular.config import API_KEY_BYBIT, SECRET_BYBIT, BASE_URL_BYBIT
 
 

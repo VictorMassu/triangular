@@ -1,0 +1,2998 @@
+[
+    {
+        "timestamp": "2025-04-14 17:50:03.805574",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FLOKI",
+            "m2": "TRY",
+            "erro": "[PREÇO] Preço muito baixo para FLOKIUSDC (ask: 5.728e-05)",
+            "par1": "FLOKIUSDC",
+            "par2": "FLOKITRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:03.807569",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FLOKI",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para FLOKIUSDC (ask: 5.728e-05)",
+            "par1": "FLOKIUSDC",
+            "par2": "FLOKIUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:03.809563",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FLOKI",
+            "m2": "FDUSD",
+            "erro": "[PREÇO] Preço muito baixo para FLOKIUSDC (ask: 5.728e-05)",
+            "par1": "FLOKIUSDC",
+            "par2": "FLOKIFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:03.903702",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "LINK",
+            "m2": "ETH",
+            "erro": "[PREÇO] Preço muito baixo para LINKETH (bid: 0.007855)",
+            "par1": "LINKUSDC",
+            "par2": "LINKETH",
+            "par3": "ETHUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:04.333350",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BIO",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender BIOBNB",
+            "par1": "BIOUSDC",
+            "par2": "BIOBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:04.658481",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "FLOKI",
+            "erro": "[PREÇO] Preço muito baixo para FLOKITRY (ask: 0.002179)",
+            "par1": "USDCTRY",
+            "par2": "FLOKITRY",
+            "par3": "FLOKIUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:05.182083",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "TURBO",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender TURBOUSDC",
+            "par1": "USDCTRY",
+            "par2": "TURBOTRY",
+            "par3": "TURBOUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:05.996467",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "BEAMX",
+            "erro": "[PREÇO] Preço muito baixo para BEAMXUSDC (bid: 0.00592)",
+            "par1": "USDCTRY",
+            "par2": "BEAMXTRY",
+            "par3": "BEAMXUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:06.300587",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "BOME",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender BOMEUSDC",
+            "par1": "USDCTRY",
+            "par2": "BOMETRY",
+            "par3": "BOMEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:06.542943",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "HMSTR",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender HMSTRUSDC",
+            "par1": "USDCTRY",
+            "par2": "HMSTRTRY",
+            "par3": "HMSTRUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:06.842143",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "TROY",
+            "erro": "[PREÇO] Preço muito baixo para TROYTRY (ask: 0.0051)",
+            "par1": "USDCTRY",
+            "par2": "TROYTRY",
+            "par3": "TROYUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:07.521961",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "NEIRO",
+            "erro": "[PREÇO] Preço muito baixo para NEIROTRY (ask: 0.00674)",
+            "par1": "USDCTRY",
+            "par2": "NEIROTRY",
+            "par3": "NEIROUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:07.583795",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "BONK",
+            "erro": "[SPREAD] Spread alto em BONKTRY: 2.0000",
+            "par1": "USDCTRY",
+            "par2": "BONKTRY",
+            "par3": "BONKUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:07.758329",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "1000CAT",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender 1000CATUSDC",
+            "par1": "USDCTRY",
+            "par2": "1000CATTRY",
+            "par3": "1000CATUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:07.851160",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "SHIB",
+            "erro": "[PREÇO] Preço muito baixo para SHIBTRY (ask: 0.0004628)",
+            "par1": "USDCTRY",
+            "par2": "SHIBTRY",
+            "par3": "SHIBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:08.193107",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "PEPE",
+            "erro": "[SPREAD] Spread alto em PEPETRY: 1.0672",
+            "par1": "USDCTRY",
+            "par2": "PEPETRY",
+            "par3": "PEPEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:08.430604",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "CKB",
+            "erro": "[PREÇO] Preço muito baixo para CKBUSDC (bid: 0.004297)",
+            "par1": "USDCTRY",
+            "par2": "CKBTRY",
+            "par3": "CKBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:08.432598",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "NOT",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender NOTUSDC",
+            "par1": "USDCTRY",
+            "par2": "NOTTRY",
+            "par3": "NOTUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:08.743767",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "1MBABYDOGE",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender 1MBABYDOGEUSDC",
+            "par1": "USDCTRY",
+            "par2": "1MBABYDOGETRY",
+            "par3": "1MBABYDOGEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:09.169026",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "TLM",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender TLMUSDC",
+            "par1": "USDCTRY",
+            "par2": "TLMTRY",
+            "par3": "TLMUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:09.171021",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "1000SATS",
+            "erro": "[PREÇO] Preço muito baixo para 1000SATSTRY (ask: 0.001459)",
+            "par1": "USDCTRY",
+            "par2": "1000SATSTRY",
+            "par3": "1000SATSUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:09.351170",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "DOGS",
+            "erro": "[PREÇO] Preço muito baixo para DOGSTRY (ask: 0.00414)",
+            "par1": "USDCTRY",
+            "par2": "DOGSTRY",
+            "par3": "DOGSUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:09.914348",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "MEME",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender MEMEUSDC",
+            "par1": "USDCTRY",
+            "par2": "MEMETRY",
+            "par3": "MEMEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:10.451670",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "RSR",
+            "erro": "[PREÇO] Preço muito baixo para RSRUSDC (bid: 0.007317)",
+            "par1": "USDCTRY",
+            "par2": "RSRTRY",
+            "par3": "RSRUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:11.774156",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRY",
+            "m2": "PENGU",
+            "erro": "[PREÇO] Preço muito baixo para PENGUUSDC (bid: 0.004864)",
+            "par1": "USDCTRY",
+            "par2": "PENGUTRY",
+            "par3": "PENGUUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:12.042201",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "SHELL",
+            "m2": "FDUSD",
+            "erro": "[SPREAD] Spread alto em SHELLFDUSD: 0.0806",
+            "par1": "SHELLUSDC",
+            "par2": "SHELLFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:12.044197",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "SHELL",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender SHELLBNB",
+            "par1": "SHELLUSDC",
+            "par2": "SHELLBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:12.190804",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TURBO",
+            "m2": "TRY",
+            "erro": "[PREÇO] Preço muito baixo para TURBOUSDC (ask: 0.0019)",
+            "par1": "TURBOUSDC",
+            "par2": "TURBOTRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:12.193796",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TURBO",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para TURBOUSDC (ask: 0.0019)",
+            "par1": "TURBOUSDC",
+            "par2": "TURBOUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:12.352419",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ALT",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender ALTBNB",
+            "par1": "ALTUSDC",
+            "par2": "ALTBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:12.746174",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "SUI",
+            "m2": "BNB",
+            "erro": "[PREÇO] Preço muito baixo para SUIBNB (bid: 0.00381)",
+            "par1": "SUIUSDC",
+            "par2": "SUIBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:13.234585",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "1000CHEEMS",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para 1000CHEEMSUSDC (ask: 0.001435)",
+            "par1": "1000CHEEMSUSDC",
+            "par2": "1000CHEEMSUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:13.691451",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "DOT",
+            "m2": "ETH",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender DOTETH",
+            "par1": "DOTUSDC",
+            "par2": "DOTETH",
+            "par3": "ETHUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:13.741279",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "DOT",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender DOTBNB",
+            "par1": "DOTUSDC",
+            "par2": "DOTBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:14.799273",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BEAMX",
+            "m2": "TRY",
+            "erro": "[PREÇO] Preço muito baixo para BEAMXUSDC (ask: 0.00593)",
+            "par1": "BEAMXUSDC",
+            "par2": "BEAMXTRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:14.802306",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BEAMX",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para BEAMXUSDC (ask: 0.00593)",
+            "par1": "BEAMXUSDC",
+            "par2": "BEAMXUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:14.966536",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "STX",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender STXBNB",
+            "par1": "STXUSDC",
+            "par2": "STXBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:15.165021",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "SEI",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender SEIBNB",
+            "par1": "SEIUSDC",
+            "par2": "SEIBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:15.346549",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BB",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender BBBNB",
+            "par1": "BBUSDC",
+            "par2": "BBBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:16.019519",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ACX",
+            "m2": "FDUSD",
+            "erro": "[SPREAD] Spread alto em ACXFDUSD: 0.0966",
+            "par1": "ACXUSDC",
+            "par2": "ACXFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:16.024506",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BOME",
+            "m2": "TRY",
+            "erro": "[PREÇO] Preço muito baixo para BOMEUSDC (ask: 0.001122)",
+            "par1": "BOMEUSDC",
+            "par2": "BOMETRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:16.029493",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BOME",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para BOMEUSDC (ask: 0.001122)",
+            "par1": "BOMEUSDC",
+            "par2": "BOMEUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:16.033482",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BOME",
+            "m2": "FDUSD",
+            "erro": "[PREÇO] Preço muito baixo para BOMEUSDC (ask: 0.001122)",
+            "par1": "BOMEUSDC",
+            "par2": "BOMEFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:16.037471",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BOME",
+            "m2": "EUR",
+            "erro": "[PREÇO] Preço muito baixo para BOMEUSDC (ask: 0.001122)",
+            "par1": "BOMEUSDC",
+            "par2": "BOMEEUR",
+            "par3": "EURUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:16.923444",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "XRP",
+            "m2": "ETH",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "par1": "XRPUSDC",
+            "par2": "XRPETH",
+            "par3": "ETHUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:17.071052",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "XRP",
+            "m2": "BNB",
+            "erro": "[PREÇO] Preço muito baixo para XRPBNB (bid: 0.0036619)",
+            "par1": "XRPUSDC",
+            "par2": "XRPBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:17.418122",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "POL",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender POLBNB",
+            "par1": "POLUSDC",
+            "par2": "POLBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:17.736271",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "HMSTR",
+            "m2": "TRY",
+            "erro": "[PREÇO] Preço muito baixo para HMSTRUSDC (ask: 0.002475)",
+            "par1": "HMSTRUSDC",
+            "par2": "HMSTRTRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:17.739263",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "HMSTR",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para HMSTRUSDC (ask: 0.002475)",
+            "par1": "HMSTRUSDC",
+            "par2": "HMSTRUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:17.742257",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "HMSTR",
+            "m2": "FDUSD",
+            "erro": "[PREÇO] Preço muito baixo para HMSTRUSDC (ask: 0.002475)",
+            "par1": "HMSTRUSDC",
+            "par2": "HMSTRFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:18.096335",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "PARTI",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender PARTIBNB",
+            "par1": "PARTIUSDC",
+            "par2": "PARTIBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:18.868673",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BTC",
+            "m2": "SOL",
+            "erro": "[PREÇO] Preço muito baixo para SOLBTC (ask: 0.0015351)",
+            "par1": "BTCUSDC",
+            "par2": "SOLBTC",
+            "par3": "SOLUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:19.320034",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "SAGA",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender SAGABNB",
+            "par1": "SAGAUSDC",
+            "par2": "SAGABNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:19.738916",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "FLOKI",
+            "erro": "[PREÇO] Preço muito baixo para FLOKIUSDT (ask: 5.73e-05)",
+            "par1": "USDCUSDT",
+            "par2": "FLOKIUSDT",
+            "par3": "FLOKIUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:20.282118",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "TURBO",
+            "erro": "[PREÇO] Preço muito baixo para TURBOUSDT (ask: 0.001898)",
+            "par1": "USDCUSDT",
+            "par2": "TURBOUSDT",
+            "par3": "TURBOUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:20.518086",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "1000CHEEMS",
+            "erro": "[PREÇO] Preço muito baixo para 1000CHEEMSUSDT (ask: 0.001435)",
+            "par1": "USDCUSDT",
+            "par2": "1000CHEEMSUSDT",
+            "par3": "1000CHEEMSUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:21.305124",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "BEAMX",
+            "erro": "[PREÇO] Preço muito baixo para BEAMXUSDT (ask: 0.00593)",
+            "par1": "USDCUSDT",
+            "par2": "BEAMXUSDT",
+            "par3": "BEAMXUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:22.071171",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "BOME",
+            "erro": "[PREÇO] Preço muito baixo para BOMEUSDT (ask: 0.001122)",
+            "par1": "USDCUSDT",
+            "par2": "BOMEUSDT",
+            "par3": "BOMEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:22.410859",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "HMSTR",
+            "erro": "[PREÇO] Preço muito baixo para HMSTRUSDT (ask: 0.002476)",
+            "par1": "USDCUSDT",
+            "par2": "HMSTRUSDT",
+            "par3": "HMSTRUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:23.236409",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "TROY",
+            "erro": "[PREÇO] Preço muito baixo para TROYUSDT (ask: 0.000134)",
+            "par1": "USDCUSDT",
+            "par2": "TROYUSDT",
+            "par3": "TROYUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:24.024525",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "NEIRO",
+            "erro": "[PREÇO] Preço muito baixo para NEIROUSDT (ask: 0.00017697)",
+            "par1": "USDCUSDT",
+            "par2": "NEIROUSDT",
+            "par3": "NEIROUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:24.092358",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "BONK",
+            "erro": "[SPREAD] Spread alto em BONKUSDT: 2.0000",
+            "par1": "USDCUSDT",
+            "par2": "BONKUSDT",
+            "par3": "BONKUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:24.439996",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "1000CAT",
+            "erro": "[PREÇO] Preço muito baixo para 1000CATUSDT (ask: 0.00541)",
+            "par1": "USDCUSDT",
+            "par2": "1000CATUSDT",
+            "par3": "1000CATUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:24.876374",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "SHIB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar SHIBUSDT",
+            "par1": "USDCUSDT",
+            "par2": "SHIBUSDT",
+            "par3": "SHIBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:26.002046",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "PEPE",
+            "erro": "[SPREAD] Spread alto em PEPEUSDT: 2.0000",
+            "par1": "USDCUSDT",
+            "par2": "PEPEUSDT",
+            "par3": "PEPEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:26.300177",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "CKB",
+            "erro": "[PREÇO] Preço muito baixo para CKBUSDT (ask: 0.004293)",
+            "par1": "USDCUSDT",
+            "par2": "CKBUSDT",
+            "par3": "CKBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:26.303169",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "NOT",
+            "erro": "[PREÇO] Preço muito baixo para NOTUSDT (ask: 0.001706)",
+            "par1": "USDCUSDT",
+            "par2": "NOTUSDT",
+            "par3": "NOTUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:27.438240",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "1MBABYDOGE",
+            "erro": "[PREÇO] Preço muito baixo para 1MBABYDOGEUSDT (ask: 0.0011603)",
+            "par1": "USDCUSDT",
+            "par2": "1MBABYDOGEUSDT",
+            "par3": "1MBABYDOGEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:27.853297",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "TLM",
+            "erro": "[PREÇO] Preço muito baixo para TLMUSDT (ask: 0.00461)",
+            "par1": "USDCUSDT",
+            "par2": "TLMUSDT",
+            "par3": "TLMUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:27.859282",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "1000SATS",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar 1000SATSUSDT",
+            "par1": "USDCUSDT",
+            "par2": "1000SATSUSDT",
+            "par3": "1000SATSUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:28.789702",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "DOGS",
+            "erro": "[PREÇO] Preço muito baixo para DOGSUSDT (ask: 0.0001085)",
+            "par1": "USDCUSDT",
+            "par2": "DOGSUSDT",
+            "par3": "DOGSUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:29.933945",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "MEME",
+            "erro": "[PREÇO] Preço muito baixo para MEMEUSDT (ask: 0.001537)",
+            "par1": "USDCUSDT",
+            "par2": "MEMEUSDT",
+            "par3": "MEMEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:31.270047",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "RSR",
+            "erro": "[PREÇO] Preço muito baixo para RSRUSDT (ask: 0.007321)",
+            "par1": "USDCUSDT",
+            "par2": "RSRUSDT",
+            "par3": "RSRUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:34.408018",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "BANANAS31",
+            "erro": "[PREÇO] Preço muito baixo para BANANAS31USDT (ask: 0.005312)",
+            "par1": "USDCUSDT",
+            "par2": "BANANAS31USDT",
+            "par3": "BANANAS31USDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:35.514246",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "USDT",
+            "m2": "PENGU",
+            "erro": "[PREÇO] Preço muito baixo para PENGUUSDT (ask: 0.004866)",
+            "par1": "USDCUSDT",
+            "par2": "PENGUUSDT",
+            "par3": "PENGUUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:36.956008",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "S",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender SBNB",
+            "par1": "SUSDC",
+            "par2": "SBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:37.767452",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "HBAR",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender HBARBNB",
+            "par1": "HBARUSDC",
+            "par2": "HBARBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:38.691851",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TROY",
+            "m2": "TRY",
+            "erro": "[PREÇO] Preço muito baixo para TROYUSDC (ask: 0.000134)",
+            "par1": "TROYUSDC",
+            "par2": "TROYTRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:38.702579",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TROY",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para TROYUSDC (ask: 0.000134)",
+            "par1": "TROYUSDC",
+            "par2": "TROYUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:43.599747",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "NEIRO",
+            "m2": "TRY",
+            "erro": "[PREÇO] Preço muito baixo para NEIROUSDC (ask: 0.00017705)",
+            "par1": "NEIROUSDC",
+            "par2": "NEIROTRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:43.608723",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "NEIRO",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para NEIROUSDC (ask: 0.00017705)",
+            "par1": "NEIROUSDC",
+            "par2": "NEIROUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:43.617700",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "NEIRO",
+            "m2": "FDUSD",
+            "erro": "[PREÇO] Preço muito baixo para NEIROUSDC (ask: 0.00017705)",
+            "par1": "NEIROUSDC",
+            "par2": "NEIROFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:44.626782",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BONK",
+            "m2": "TRY",
+            "erro": "[SPREAD] Spread alto em BONKUSDC: 2.0000",
+            "par1": "BONKUSDC",
+            "par2": "BONKTRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:44.637752",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BONK",
+            "m2": "USDT",
+            "erro": "[SPREAD] Spread alto em BONKUSDC: 2.0000",
+            "par1": "BONKUSDC",
+            "par2": "BONKUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:44.645731",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BONK",
+            "m2": "FDUSD",
+            "erro": "[SPREAD] Spread alto em BONKUSDC: 2.0000",
+            "par1": "BONKUSDC",
+            "par2": "BONKFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:45.289060",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "CHZ",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender CHZBNB",
+            "par1": "CHZUSDC",
+            "par2": "CHZBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:47.560399",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "1000CAT",
+            "m2": "TRY",
+            "erro": "[PREÇO] Preço muito baixo para 1000CATUSDC (ask: 0.00543)",
+            "par1": "1000CATUSDC",
+            "par2": "1000CATTRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:47.568376",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "1000CAT",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para 1000CATUSDC (ask: 0.00543)",
+            "par1": "1000CATUSDC",
+            "par2": "1000CATUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:47.588323",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "1000CAT",
+            "m2": "FDUSD",
+            "erro": "[PREÇO] Preço muito baixo para 1000CATUSDC (ask: 0.00543)",
+            "par1": "1000CATUSDC",
+            "par2": "1000CATFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:47.595305",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "1000CAT",
+            "m2": "BNB",
+            "erro": "[PREÇO] Preço muito baixo para 1000CATUSDC (ask: 0.00543)",
+            "par1": "1000CATUSDC",
+            "par2": "1000CATBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:47.604280",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ETH",
+            "m2": "LINK",
+            "erro": "[PREÇO] Preço muito baixo para LINKETH (ask: 0.007857)",
+            "par1": "ETHUSDC",
+            "par2": "LINKETH",
+            "par3": "LINKUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:47.999911",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ETH",
+            "m2": "DOT",
+            "erro": "[PREÇO] Preço muito baixo para DOTETH (ask: 0.002273)",
+            "par1": "ETHUSDC",
+            "par2": "DOTETH",
+            "par3": "DOTUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:48.004898",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ETH",
+            "m2": "XRP",
+            "erro": "[PREÇO] Preço muito baixo para XRPETH (ask: 0.0013112)",
+            "par1": "ETHUSDC",
+            "par2": "XRPETH",
+            "par3": "XRPUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:48.643549",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ETH",
+            "m2": "TRX",
+            "erro": "[PREÇO] Preço muito baixo para TRXETH (ask: 0.00015522)",
+            "par1": "ETHUSDC",
+            "par2": "TRXETH",
+            "par3": "TRXUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:48.653696",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ETH",
+            "m2": "NEAR",
+            "erro": "[PREÇO] Preço muito baixo para NEARETH (ask: 0.001305)",
+            "par1": "ETHUSDC",
+            "par2": "NEARETH",
+            "par3": "NEARUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:48.661878",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ETH",
+            "m2": "XLM",
+            "erro": "[PREÇO] Preço muito baixo para XLMETH (ask: 0.00014676)",
+            "par1": "ETHUSDC",
+            "par2": "XLMETH",
+            "par3": "XLMUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:48.672850",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ETH",
+            "m2": "APT",
+            "erro": "[PREÇO] Preço muito baixo para APTETH (ask: 0.002954)",
+            "par1": "ETHUSDC",
+            "par2": "APTETH",
+            "par3": "APTUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:48.682823",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ETH",
+            "m2": "ADA",
+            "erro": "[PREÇO] Preço muito baixo para ADAETH (ask: 0.0003901)",
+            "par1": "ETHUSDC",
+            "par2": "ADAETH",
+            "par3": "ADAUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:49.177064",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ETH",
+            "m2": "EOS",
+            "erro": "[PREÇO] Preço muito baixo para EOSETH (ask: 0.0003742)",
+            "par1": "ETHUSDC",
+            "par2": "EOSETH",
+            "par3": "EOSUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:49.276390",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ETH",
+            "m2": "UNI",
+            "erro": "[PREÇO] Preço muito baixo para UNIETH (ask: 0.003312)",
+            "par1": "ETHUSDC",
+            "par2": "UNIETH",
+            "par3": "UNIUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:49.453916",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ETH",
+            "m2": "INJ",
+            "erro": "[PREÇO] Preço muito baixo para INJETH (ask: 0.004974)",
+            "par1": "ETHUSDC",
+            "par2": "INJETH",
+            "par3": "INJUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:49.461894",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ETH",
+            "m2": "ARB",
+            "erro": "[PREÇO] Preço muito baixo para ARBETH (ask: 0.0001813)",
+            "par1": "ETHUSDC",
+            "par2": "ARBETH",
+            "par3": "ARBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:50.019729",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "SHIB",
+            "m2": "TRY",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar SHIBUSDC",
+            "par1": "SHIBUSDC",
+            "par2": "SHIBTRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:50.025712",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "SHIB",
+            "m2": "USDT",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar SHIBUSDC",
+            "par1": "SHIBUSDC",
+            "par2": "SHIBUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:50.033691",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "SHIB",
+            "m2": "FDUSD",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar SHIBUSDC",
+            "par1": "SHIBUSDC",
+            "par2": "SHIBFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:50.042668",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "SHIB",
+            "m2": "EUR",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar SHIBUSDC",
+            "par1": "SHIBUSDC",
+            "par2": "SHIBEUR",
+            "par3": "EURUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:50.054636",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "SHIB",
+            "m2": "DOGE",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar SHIBUSDC",
+            "par1": "SHIBUSDC",
+            "par2": "SHIBDOGE",
+            "par3": "DOGEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:51.242108",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BMT",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender BMTBNB",
+            "par1": "BMTUSDC",
+            "par2": "BMTBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:51.695970",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BERA",
+            "m2": "BNB",
+            "erro": "[PREÇO] Preço muito baixo para BERABNB (bid: 0.006773)",
+            "par1": "BERAUSDC",
+            "par2": "BERABNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:52.043124",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRX",
+            "m2": "ETH",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender TRXETH",
+            "par1": "TRXUSDC",
+            "par2": "TRXETH",
+            "par3": "ETHUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:52.139867",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TRX",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender TRXBNB",
+            "par1": "TRXUSDC",
+            "par2": "TRXBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:53.492316",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "PEPE",
+            "m2": "TRY",
+            "erro": "[SPREAD] Spread alto em PEPEUSDC: 2.0000",
+            "par1": "PEPEUSDC",
+            "par2": "PEPETRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:53.498300",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "PEPE",
+            "m2": "USDT",
+            "erro": "[SPREAD] Spread alto em PEPEUSDC: 2.0000",
+            "par1": "PEPEUSDC",
+            "par2": "PEPEUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:54.441787",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "NEAR",
+            "m2": "ETH",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender NEARETH",
+            "par1": "NEARUSDC",
+            "par2": "NEARETH",
+            "par3": "ETHUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:54.539526",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "NEAR",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender NEARBNB",
+            "par1": "NEARUSDC",
+            "par2": "NEARBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:55.178879",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "CKB",
+            "m2": "TRY",
+            "erro": "[PREÇO] Preço muito baixo para CKBUSDC (ask: 0.004298)",
+            "par1": "CKBUSDC",
+            "par2": "CKBTRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:55.185861",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "CKB",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para CKBUSDC (ask: 0.004298)",
+            "par1": "CKBUSDC",
+            "par2": "CKBUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:55.194840",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "NOT",
+            "m2": "TRY",
+            "erro": "[PREÇO] Preço muito baixo para NOTUSDC (ask: 0.001706)",
+            "par1": "NOTUSDC",
+            "par2": "NOTTRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:55.204810",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "NOT",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para NOTUSDC (ask: 0.001706)",
+            "par1": "NOTUSDC",
+            "par2": "NOTUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:55.213947",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "NOT",
+            "m2": "FDUSD",
+            "erro": "[PREÇO] Preço muito baixo para NOTUSDC (ask: 0.001706)",
+            "par1": "NOTUSDC",
+            "par2": "NOTFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:56.308992",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "XLM",
+            "m2": "ETH",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XLMETH",
+            "par1": "XLMUSDC",
+            "par2": "XLMETH",
+            "par3": "ETHUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:56.744655",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "CAKE",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender CAKEBNB",
+            "par1": "CAKEUSDC",
+            "par2": "CAKEBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:57.032986",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "APT",
+            "m2": "ETH",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender APTETH",
+            "par1": "APTUSDC",
+            "par2": "APTETH",
+            "par3": "ETHUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:58.076265",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "1MBABYDOGE",
+            "m2": "TRY",
+            "erro": "[PREÇO] Preço muito baixo para 1MBABYDOGEUSDC (ask: 0.0011588)",
+            "par1": "1MBABYDOGEUSDC",
+            "par2": "1MBABYDOGETRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:58.082249",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "1MBABYDOGE",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para 1MBABYDOGEUSDC (ask: 0.0011588)",
+            "par1": "1MBABYDOGEUSDC",
+            "par2": "1MBABYDOGEUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:58.086237",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "1MBABYDOGE",
+            "m2": "FDUSD",
+            "erro": "[PREÇO] Preço muito baixo para 1MBABYDOGEUSDC (ask: 0.0011588)",
+            "par1": "1MBABYDOGEUSDC",
+            "par2": "1MBABYDOGEFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:58.802009",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ENA",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender ENABNB",
+            "par1": "ENAUSDC",
+            "par2": "ENABNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:59.138738",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ANIME",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender ANIMEBNB",
+            "par1": "ANIMEUSDC",
+            "par2": "ANIMEBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:59.447481",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TLM",
+            "m2": "TRY",
+            "erro": "[PREÇO] Preço muito baixo para TLMUSDC (ask: 0.00462)",
+            "par1": "TLMUSDC",
+            "par2": "TLMTRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:59.453464",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TLM",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para TLMUSDC (ask: 0.00462)",
+            "par1": "TLMUSDC",
+            "par2": "TLMUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:59.466430",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TLM",
+            "m2": "FDUSD",
+            "erro": "[PREÇO] Preço muito baixo para TLMUSDC (ask: 0.00462)",
+            "par1": "TLMUSDC",
+            "par2": "TLMFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:59.472415",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "1000SATS",
+            "m2": "TRY",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar 1000SATSUSDC",
+            "par1": "1000SATSUSDC",
+            "par2": "1000SATSTRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:59.481390",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "1000SATS",
+            "m2": "USDT",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar 1000SATSUSDC",
+            "par1": "1000SATSUSDC",
+            "par2": "1000SATSUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:59.494355",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "1000SATS",
+            "m2": "FDUSD",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar 1000SATSUSDC",
+            "par1": "1000SATSUSDC",
+            "par2": "1000SATSFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:50:59.939694",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ADA",
+            "m2": "ETH",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender ADAETH",
+            "par1": "ADAUSDC",
+            "par2": "ADAETH",
+            "par3": "ETHUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:00.224364",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ADA",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender ADABNB",
+            "par1": "ADAUSDC",
+            "par2": "ADABNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:01.340996",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ARKM",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender ARKMBNB",
+            "par1": "ARKMUSDC",
+            "par2": "ARKMBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:01.572377",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "FLOKI",
+            "erro": "[PREÇO] Preço muito baixo para FLOKIFDUSD (ask: 5.742e-05)",
+            "par1": "FDUSDUSDC",
+            "par2": "FLOKIFDUSD",
+            "par3": "FLOKIUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:02.034245",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "SHELL",
+            "erro": "[SPREAD] Spread alto em SHELLFDUSD: 0.0806",
+            "par1": "FDUSDUSDC",
+            "par2": "SHELLFDUSD",
+            "par3": "SHELLUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:03.718959",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "ACX",
+            "erro": "[SPREAD] Spread alto em ACXFDUSD: 0.0966",
+            "par1": "FDUSDUSDC",
+            "par2": "ACXFDUSD",
+            "par3": "ACXUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:03.723944",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "BOME",
+            "erro": "[PREÇO] Preço muito baixo para BOMEFDUSD (ask: 0.001125)",
+            "par1": "FDUSDUSDC",
+            "par2": "BOMEFDUSD",
+            "par3": "BOMEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:04.125476",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "HMSTR",
+            "erro": "[PREÇO] Preço muito baixo para HMSTRFDUSD (ask: 0.002482)",
+            "par1": "FDUSDUSDC",
+            "par2": "HMSTRFDUSD",
+            "par3": "HMSTRUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:05.350911",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "NEIRO",
+            "erro": "[PREÇO] Preço muito baixo para NEIROFDUSD (ask: 0.00017743)",
+            "par1": "FDUSDUSDC",
+            "par2": "NEIROFDUSD",
+            "par3": "NEIROUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:05.453636",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "BONK",
+            "erro": "[SPREAD] Spread alto em BONKFDUSD: 2.0000",
+            "par1": "FDUSDUSDC",
+            "par2": "BONKFDUSD",
+            "par3": "BONKUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:05.665072",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "1000CAT",
+            "erro": "[PREÇO] Preço muito baixo para 1000CATFDUSD (ask: 0.00545)",
+            "par1": "FDUSDUSDC",
+            "par2": "1000CATFDUSD",
+            "par3": "1000CATUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:05.883597",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "SHIB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar SHIBFDUSD",
+            "par1": "FDUSDUSDC",
+            "par2": "SHIBFDUSD",
+            "par3": "SHIBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:07.356602",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "NOT",
+            "erro": "[PREÇO] Preço muito baixo para NOTFDUSD (ask: 0.00171)",
+            "par1": "FDUSDUSDC",
+            "par2": "NOTFDUSD",
+            "par3": "NOTUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:08.169503",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "1MBABYDOGE",
+            "erro": "[PREÇO] Preço muito baixo para 1MBABYDOGEFDUSD (ask: 0.0011632)",
+            "par1": "FDUSDUSDC",
+            "par2": "1MBABYDOGEFDUSD",
+            "par3": "1MBABYDOGEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:09.167916",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "TLM",
+            "erro": "[PREÇO] Preço muito baixo para TLMFDUSD (ask: 0.00465)",
+            "par1": "FDUSDUSDC",
+            "par2": "TLMFDUSD",
+            "par3": "TLMUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:09.173900",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "1000SATS",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar 1000SATSFDUSD",
+            "par1": "FDUSDUSDC",
+            "par2": "1000SATSFDUSD",
+            "par3": "1000SATSUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:10.045866",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "DOGS",
+            "erro": "[PREÇO] Preço muito baixo para DOGSFDUSD (ask: 0.0001088)",
+            "par1": "FDUSDUSDC",
+            "par2": "DOGSFDUSD",
+            "par3": "DOGSUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:11.096775",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "MEME",
+            "erro": "[PREÇO] Preço muito baixo para MEMEFDUSD (ask: 0.001542)",
+            "par1": "FDUSDUSDC",
+            "par2": "MEMEFDUSD",
+            "par3": "MEMEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:15.924468",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "PENGU",
+            "erro": "[PREÇO] Preço muito baixo para PENGUFDUSD (ask: 0.00488)",
+            "par1": "FDUSDUSDC",
+            "par2": "PENGUFDUSD",
+            "par3": "PENGUUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:15.938429",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FDUSD",
+            "m2": "THE",
+            "erro": "[SPREAD] Spread alto em THEFDUSD: 0.0714",
+            "par1": "FDUSDUSDC",
+            "par2": "THEFDUSD",
+            "par3": "THEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:16.380553",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "DOGS",
+            "m2": "TRY",
+            "erro": "[PREÇO] Preço muito baixo para DOGSUSDC (ask: 0.0001086)",
+            "par1": "DOGSUSDC",
+            "par2": "DOGSTRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:16.389529",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "DOGS",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para DOGSUSDC (ask: 0.0001086)",
+            "par1": "DOGSUSDC",
+            "par2": "DOGSUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:16.396511",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "DOGS",
+            "m2": "FDUSD",
+            "erro": "[PREÇO] Preço muito baixo para DOGSUSDC (ask: 0.0001086)",
+            "par1": "DOGSUSDC",
+            "par2": "DOGSFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:17.273841",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "VANA",
+            "m2": "BNB",
+            "erro": "[PREÇO] Preço muito baixo para VANABNB (bid: 0.00893)",
+            "par1": "VANAUSDC",
+            "par2": "VANABNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:19.804938",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "TST",
+            "m2": "FDUSD",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender TSTFDUSD",
+            "par1": "TSTUSDC",
+            "par2": "TSTFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:19.809963",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "MEME",
+            "m2": "TRY",
+            "erro": "[PREÇO] Preço muito baixo para MEMEUSDC (ask: 0.001539)",
+            "par1": "MEMEUSDC",
+            "par2": "MEMETRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:19.815944",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "MEME",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para MEMEUSDC (ask: 0.001539)",
+            "par1": "MEMEUSDC",
+            "par2": "MEMEUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:19.820935",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "MEME",
+            "m2": "FDUSD",
+            "erro": "[PREÇO] Preço muito baixo para MEMEUSDC (ask: 0.001539)",
+            "par1": "MEMEUSDC",
+            "par2": "MEMEFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:19.958556",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "BIO",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar BIOBNB",
+            "par1": "BNBUSDC",
+            "par2": "BIOBNB",
+            "par3": "BIOUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:20.058287",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "SHELL",
+            "erro": "[PREÇO] Preço muito baixo para SHELLBNB (ask: 0.0001902)",
+            "par1": "BNBUSDC",
+            "par2": "SHELLBNB",
+            "par3": "SHELLUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:20.064314",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "ALT",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar ALTBNB",
+            "par1": "BNBUSDC",
+            "par2": "ALTBNB",
+            "par3": "ALTUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:20.070294",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "SUI",
+            "erro": "[PREÇO] Preço muito baixo para SUIBNB (ask: 0.003814)",
+            "par1": "BNBUSDC",
+            "par2": "SUIBNB",
+            "par3": "SUIUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:20.235977",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "DOT",
+            "erro": "[PREÇO] Preço muito baixo para DOTBNB (ask: 0.00636)",
+            "par1": "BNBUSDC",
+            "par2": "DOTBNB",
+            "par3": "DOTUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:20.241961",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "STX",
+            "erro": "[PREÇO] Preço muito baixo para STXBNB (ask: 0.001031)",
+            "par1": "BNBUSDC",
+            "par2": "STXBNB",
+            "par3": "STXUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:20.250935",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "SEI",
+            "erro": "[PREÇO] Preço muito baixo para SEIBNB (ask: 0.0003028)",
+            "par1": "BNBUSDC",
+            "par2": "SEIBNB",
+            "par3": "SEIUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:20.257917",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "BB",
+            "erro": "[PREÇO] Preço muito baixo para BBBNB (ask: 0.0001677)",
+            "par1": "BNBUSDC",
+            "par2": "BBBNB",
+            "par3": "BBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:20.263901",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "XRP",
+            "erro": "[PREÇO] Preço muito baixo para XRPBNB (ask: 0.0036622)",
+            "par1": "BNBUSDC",
+            "par2": "XRPBNB",
+            "par3": "XRPUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:20.275870",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "POL",
+            "erro": "[PREÇO] Preço muito baixo para POLBNB (ask: 0.0003113)",
+            "par1": "BNBUSDC",
+            "par2": "POLBNB",
+            "par3": "POLUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:20.288836",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "PARTI",
+            "erro": "[PREÇO] Preço muito baixo para PARTIBNB (ask: 0.00027768)",
+            "par1": "BNBUSDC",
+            "par2": "PARTIBNB",
+            "par3": "PARTIUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:20.314766",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "SAGA",
+            "erro": "[PREÇO] Preço muito baixo para SAGABNB (ask: 0.000359)",
+            "par1": "BNBUSDC",
+            "par2": "SAGABNB",
+            "par3": "SAGAUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:20.499273",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "S",
+            "erro": "[PREÇO] Preço muito baixo para SBNB (ask: 0.000855)",
+            "par1": "BNBUSDC",
+            "par2": "SBNB",
+            "par3": "SUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:20.512238",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "HBAR",
+            "erro": "[PREÇO] Preço muito baixo para HBARBNB (ask: 0.00028364)",
+            "par1": "BNBUSDC",
+            "par2": "HBARBNB",
+            "par3": "HBARUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:20.558115",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "CHZ",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar CHZBNB",
+            "par1": "BNBUSDC",
+            "par2": "CHZBNB",
+            "par3": "CHZUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:20.999714",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "1000CAT",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar 1000CATBNB",
+            "par1": "BNBUSDC",
+            "par2": "1000CATBNB",
+            "par3": "1000CATUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:21.124381",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "BMT",
+            "erro": "[PREÇO] Preço muito baixo para BMTBNB (ask: 0.0001357)",
+            "par1": "BNBUSDC",
+            "par2": "BMTBNB",
+            "par3": "BMTUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:21.132358",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "BERA",
+            "erro": "[PREÇO] Preço muito baixo para BERABNB (ask: 0.006779)",
+            "par1": "BNBUSDC",
+            "par2": "BERABNB",
+            "par3": "BERAUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:21.143330",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "TRX",
+            "erro": "[PREÇO] Preço muito baixo para TRXBNB (ask: 0.0004337)",
+            "par1": "BNBUSDC",
+            "par2": "TRXBNB",
+            "par3": "TRXUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:21.250067",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "NEAR",
+            "erro": "[PREÇO] Preço muito baixo para NEARBNB (ask: 0.003646)",
+            "par1": "BNBUSDC",
+            "par2": "NEARBNB",
+            "par3": "NEARUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:21.260023",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "CAKE",
+            "erro": "[PREÇO] Preço muito baixo para CAKEBNB (ask: 0.00319)",
+            "par1": "BNBUSDC",
+            "par2": "CAKEBNB",
+            "par3": "CAKEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:21.273985",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "ENA",
+            "erro": "[PREÇO] Preço muito baixo para ENABNB (ask: 0.0005152)",
+            "par1": "BNBUSDC",
+            "par2": "ENABNB",
+            "par3": "ENAUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:21.285953",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "ANIME",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar ANIMEBNB",
+            "par1": "BNBUSDC",
+            "par2": "ANIMEBNB",
+            "par3": "ANIMEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:21.297922",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "ADA",
+            "erro": "[PREÇO] Preço muito baixo para ADABNB (ask: 0.00109)",
+            "par1": "BNBUSDC",
+            "par2": "ADABNB",
+            "par3": "ADAUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:21.305899",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "ARKM",
+            "erro": "[PREÇO] Preço muito baixo para ARKMBNB (ask: 0.000806)",
+            "par1": "BNBUSDC",
+            "par2": "ARKMBNB",
+            "par3": "ARKMUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:21.425579",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "VANA",
+            "erro": "[PREÇO] Preço muito baixo para VANABNB (ask: 0.00894)",
+            "par1": "BNBUSDC",
+            "par2": "VANABNB",
+            "par3": "VANAUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:21.431563",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "IO",
+            "erro": "[PREÇO] Preço muito baixo para IOBNB (ask: 0.001015)",
+            "par1": "BNBUSDC",
+            "par2": "IOBNB",
+            "par3": "IOUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:21.675824",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "FET",
+            "erro": "[PREÇO] Preço muito baixo para FETBNB (ask: 0.000836)",
+            "par1": "BNBUSDC",
+            "par2": "FETBNB",
+            "par3": "FETUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:21.682806",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "KAITO",
+            "erro": "[PREÇO] Preço muito baixo para KAITOBNB (ask: 0.0012629)",
+            "par1": "BNBUSDC",
+            "par2": "KAITOBNB",
+            "par3": "KAITOUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:21.794508",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "MOVE",
+            "erro": "[PREÇO] Preço muito baixo para MOVEBNB (ask: 0.0005124)",
+            "par1": "BNBUSDC",
+            "par2": "MOVEBNB",
+            "par3": "MOVEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:21.811462",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BNB",
+            "m2": "GPS",
+            "erro": "[PREÇO] Preço muito baixo para GPSBNB (ask: 3e-05)",
+            "par1": "BNBUSDC",
+            "par2": "GPSBNB",
+            "par3": "GPSUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:23.900448",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "EOS",
+            "m2": "ETH",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender EOSETH",
+            "par1": "EOSUSDC",
+            "par2": "EOSETH",
+            "par3": "ETHUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:24.950144",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "IO",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender IOBNB",
+            "par1": "IOUSDC",
+            "par2": "IOBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:28.639084",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "RSR",
+            "m2": "TRY",
+            "erro": "[PREÇO] Preço muito baixo para RSRUSDC (ask: 0.00732)",
+            "par1": "RSRUSDC",
+            "par2": "RSRTRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:28.662166",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "RSR",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para RSRUSDC (ask: 0.00732)",
+            "par1": "RSRUSDC",
+            "par2": "RSRUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:30.360776",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "SOL",
+            "m2": "BTC",
+            "erro": "[PREÇO] Preço muito baixo para SOLBTC (bid: 0.001535)",
+            "par1": "SOLUSDC",
+            "par2": "SOLBTC",
+            "par3": "BTCUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:32.625734",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "PEOPLE",
+            "m2": "FDUSD",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender PEOPLEFDUSD",
+            "par1": "PEOPLEUSDC",
+            "par2": "PEOPLEFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:36.637747",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "FET",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender FETBNB",
+            "par1": "FETUSDC",
+            "par2": "FETBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:38.408841",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "UNI",
+            "m2": "ETH",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender UNIETH",
+            "par1": "UNIUSDC",
+            "par2": "UNIETH",
+            "par3": "ETHUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:40.040709",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "KAITO",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender KAITOBNB",
+            "par1": "KAITOUSDC",
+            "par2": "KAITOBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:44.521365",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "EUR",
+            "m2": "BOME",
+            "erro": "[PREÇO] Preço muito baixo para BOMEEUR (ask: 0.00099)",
+            "par1": "EURUSDC",
+            "par2": "BOMEEUR",
+            "par3": "BOMEUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:47.604880",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "EUR",
+            "m2": "SHIB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar SHIBEUR",
+            "par1": "EURUSDC",
+            "par2": "SHIBEUR",
+            "par3": "SHIBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:51:53.807914",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "DOGE",
+            "m2": "SHIB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para comprar SHIBDOGE",
+            "par1": "DOGEUSDC",
+            "par2": "SHIBDOGE",
+            "par3": "SHIBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:52:04.309301",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "BANANAS31",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para BANANAS31USDC (ask: 0.005315)",
+            "par1": "BANANAS31USDC",
+            "par2": "BANANAS31USDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:52:05.288763",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "MOVE",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender MOVEBNB",
+            "par1": "MOVEUSDC",
+            "par2": "MOVEBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:52:06.689769",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "GPS",
+            "m2": "BNB",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender GPSBNB",
+            "par1": "GPSUSDC",
+            "par2": "GPSBNB",
+            "par3": "BNBUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:52:09.021145",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "PENGU",
+            "m2": "TRY",
+            "erro": "[PREÇO] Preço muito baixo para PENGUUSDC (ask: 0.004867)",
+            "par1": "PENGUUSDC",
+            "par2": "PENGUTRY",
+            "par3": "USDCTRY"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:52:09.031117",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "PENGU",
+            "m2": "USDT",
+            "erro": "[PREÇO] Preço muito baixo para PENGUUSDC (ask: 0.004867)",
+            "par1": "PENGUUSDC",
+            "par2": "PENGUUSDT",
+            "par3": "USDCUSDT"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:52:09.073007",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "PENGU",
+            "m2": "FDUSD",
+            "erro": "[PREÇO] Preço muito baixo para PENGUUSDC (ask: 0.004867)",
+            "par1": "PENGUUSDC",
+            "par2": "PENGUFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:52:10.608230",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "THE",
+            "m2": "FDUSD",
+            "erro": "[SPREAD] Spread alto em THEFDUSD: 0.0714",
+            "par1": "THEUSDC",
+            "par2": "THEFDUSD",
+            "par3": "FDUSDUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:52:11.269619",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "INJ",
+            "m2": "ETH",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender INJETH",
+            "par1": "INJUSDC",
+            "par2": "INJETH",
+            "par3": "ETHUSDC"
+        }
+    },
+    {
+        "timestamp": "2025-04-14 17:52:13.406905",
+        "categoria": "simulador",
+        "mensagem": "Erro na simulação de rota",
+        "dados": {
+            "moeda_base": "USDC",
+            "m1": "ARB",
+            "m2": "ETH",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender ARBETH",
+            "par1": "ARBUSDC",
+            "par2": "ARBETH",
+            "par3": "ETHUSDC"
+        }
+    }
+]
