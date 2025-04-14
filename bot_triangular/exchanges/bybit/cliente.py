@@ -8,6 +8,7 @@ from bot_triangular.exchanges.base_exchange import BaseExchange
 from bot_triangular.utils.logs import log_info, log_erro
 from bot_triangular.config import API_KEY_BYBIT, SECRET_BYBIT, BASE_URL_BYBIT
 
+
 class BybitExchange(BaseExchange):
     def __init__(self):
         self.session = requests.Session()
@@ -36,32 +37,44 @@ class BybitExchange(BaseExchange):
             response.raise_for_status()
             return response.json()
         except Exception as e:
-            log_erro(f"Erro na requisição Bybit: {e}")
+            log_erro(f"❌ Erro na requisição assinada (Bybit): {e}")
             return None
 
-    def get_pares(self):
-        url = f"{self.base_url}/v5/market/instruments-info"
+    def get_symbols(self):
         try:
+            url = f"{self.base_url}/v5/market/instruments-info"
             response = self.session.get(url, params={"category": "spot"})
             response.raise_for_status()
-            pares = response.json().get("result", {}).get("list", [])
-            return [p for p in pares if p["status"] == "Trading"]
+            return [s["symbol"] for s in response.json().get("result", {}).get("list", []) if s["status"] == "Trading"]
         except Exception as e:
-            log_erro(f"Erro ao obter pares Bybit: {e}")
+            log_erro(f"❌ Erro ao obter symbols da Bybit: {e}")
             return []
 
-    def get_precos(self, par):
-        url = f"{self.base_url}/v5/market/tickers"
+    def get_pares(self):
+        return self.get_symbols()
+
+    def get_orderbook(self, symbol, timeout=5):
         try:
-            response = self.session.get(url, params={"category": "spot"})
+            url = f"{self.base_url}/v5/market/orderbook"
+            response = self.session.get(
+                url,
+                params={"symbol": symbol, "category": "spot", "limit": 1},
+                timeout=timeout
+            )
             response.raise_for_status()
-            tickers = response.json()["result"]["list"]
-            for t in tickers:
-                if t["symbol"] == par:
-                    return float(t["askPrice"]), float(t["bidPrice"])
-            return None, None
+            return response.json().get("result", {})
         except Exception as e:
-            log_erro(f"Erro ao obter preços do par {par} na Bybit: {e}")
+            log_erro(f"❌ Erro ao obter orderbook do par {symbol}: {e}")
+            return {}
+
+    def get_precos(self, par):
+        try:
+            orderbook = self.get_orderbook(par)
+            ask = float(orderbook.get("a", [])[0][1])
+            bid = float(orderbook.get("b", [])[0][1])
+            return ask, bid
+        except Exception as e:
+            log_erro(f"❌ Erro ao obter preços do par {par}: {e}")
             return None, None
 
     def consultar_saldo(self, moeda):
@@ -73,7 +86,10 @@ class BybitExchange(BaseExchange):
         balances = data.get("result", {}).get("list", [])[0].get("coin", [])
         for b in balances:
             if b["coin"].upper() == moeda.upper():
-                return float(b["availableToWithdraw"])
+                saldo = float(b["availableToWithdraw"])
+                log_info(f"💰 Bybit | Saldo disponível em {moeda}: {saldo}")
+                return saldo
+        log_info(f"⚠️ Bybit | Moeda {moeda} não encontrada.")
         return 0.0
 
     def executar_ordem(self, par, tipo, qtd, preco=None):
@@ -87,53 +103,30 @@ class BybitExchange(BaseExchange):
         }
         return self._signed_request("POST", "/v5/order/create", params)
 
-    def get_book_tickers_completo(self):
-        url = f"{self.base_url}/v5/market/tickers"
-        try:
-            response = self.session.get(url, params={"category": "spot"})
-            response.raise_for_status()
-            tickers = response.json()["result"]["list"]
-            log_info(f"📦 {len(tickers)} tickers recebidos da Bybit")
-            return tickers
-        except Exception as e:
-            log_erro(f"Erro ao obter book tickers da Bybit: {e}")
-            return []
-
-    def get_volumes_24h(self):
-        return self.get_book_tickers_completo()
-
-    def filtrar_pares_por_volume(self, volume_minimo=0):
-        tickers = self.get_book_tickers_completo()
+    def filtrar_pares_por_volume(self, volume_minimo=10000):
+        symbols = self.get_symbols()
         pares_filtrados = []
 
-        print(f"[DEBUG] Top 10 pares com maior volume (Bybit):")
-
-        validos = []
-        for item in tickers:
+        for symbol in symbols:
             try:
-                if not all(k in item for k in ["symbol", "bid1Price", "ask1Price", "turnover24h"]):
+                book = self.get_orderbook(symbol)
+                bids = book.get("b", [])
+                asks = book.get("a", [])
+                if not bids or not asks:
                     continue
-
-                symbol = item["symbol"]
-                bid = float(item["bid1Price"])
-                ask = float(item["ask1Price"])
-                volume = float(item["turnover24h"])
-
-                validos.append((symbol, volume, bid, ask))
+                best_bid = float(bids[0][1])
+                best_ask = float(asks[0][1])
+                if best_bid > 0 and best_ask > 0:
+                    pares_filtrados.append({
+                        "symbol": symbol,
+                        "bid": best_bid,
+                        "ask": best_ask
+                    })
             except Exception as e:
-                print(f"[ERRO] ao processar {item.get('symbol', '?')}: {e}")
+                log_erro(f"Erro ao filtrar par {symbol}: {e}")
                 continue
 
-        top10 = sorted(validos, key=lambda x: x[1], reverse=True)[:10]
+            time.sleep(0.2)  # Evita excesso de requisições
 
-        for symbol, volume, bid, ask in top10:
-            print(f"{symbol}: Volume = {volume:.2f} | Bid = {bid:.6f} | Ask = {ask:.6f}")
-            pares_filtrados.append({
-                "symbol": symbol,
-                "bid": bid,
-                "ask": ask,
-                "volume": volume
-            })
-
-        log_info(f"✅ {len(pares_filtrados)} pares exibidos com maiores volumes")
+        log_info(f"✅ Bybit | {len(pares_filtrados)} pares válidos encontrados com book ativo.")
         return pares_filtrados
