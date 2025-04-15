@@ -9,7 +9,6 @@ _lock = Lock()
 def salvar_json_lista(caminho, nova_entrada):
     print(f"\n[DEBUG] 📝 Tentando salvar em: {os.path.abspath(caminho)}")
     print(f"[DEBUG] Tipo de entrada: {'lista' if isinstance(nova_entrada, list) else 'item único'}")
-
     os.makedirs(os.path.dirname(caminho), exist_ok=True)
 
     with _lock:

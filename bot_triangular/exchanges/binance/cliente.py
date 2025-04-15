@@ -156,13 +156,22 @@ class BinanceExchange(BaseExchange):
         return books, volumes_dict
 
     def filtrar_pares_por_volume(self, volume_minimo=100000):
+        symbols_validos = set(self.get_symbols())
         books, volumes_dict = self.get_market_data()
         pares_filtrados = []
 
         for item in books:
             symbol = item["symbol"]
-            bid = float(item["bidPrice"])
-            ask = float(item["askPrice"])
+
+            if symbol not in symbols_validos:
+                continue
+
+            try:
+                bid = float(item["bidPrice"])
+                ask = float(item["askPrice"])
+            except (ValueError, KeyError):
+                continue
+
             volume = volumes_dict.get(symbol, 0.0)
 
             if volume >= volume_minimo:
@@ -173,5 +182,5 @@ class BinanceExchange(BaseExchange):
                     "volume": volume
                 })
 
-        log_info(f"🔍 Binance | {len(pares_filtrados)} pares filtrados com volume > {volume_minimo}")
+        log_info(f"🔍 Binance | {len(pares_filtrados)} pares válidos com volume > {volume_minimo}")
         return pares_filtrados
