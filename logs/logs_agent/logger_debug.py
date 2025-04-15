@@ -5,7 +5,7 @@ from datetime import datetime
 import os
 
 # Caminho padronizado para debug
-DEBUG_LOG_PATH = os.path.join("logs", "logs_data", "debug_log.json")
+from bot_triangular.config import DEBUG_LOG_PATH
 
 def log_debug_json(mensagem, categoria="geral", dados=None):
     """

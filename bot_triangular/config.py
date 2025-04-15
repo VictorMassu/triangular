@@ -6,21 +6,24 @@ load_dotenv()
 
 # Configurações gerais
 MOEDA_BASE = "USDC"
-VALOR_INICIAL = 500 #Unidade monetária (float)
-TAXA = 0.01 #Percentual decimal (0.01 = 1%)
-LUCRO_MINIMO = 0.001 #Percentual decimal (0.002 = 0.2%)
+VALOR_INICIAL = 100 #Unidade monetária (float)
+TAXA = 0.00075 #Percentual decimal (0.01 = 1%)
+LUCRO_MINIMO = 0.003 #Percentual decimal (0.002 = 0.2%)
 SPREAD_MAXIMO = 0.05 #Percentual decimal (0.05 = 5%)
 LUCRO_IRREALISTA = 500  # alerta para lucro muito alto
 MOEDAS_BLACKLIST = {"BRL", "ARS", "UAH", "TRY", "VAI", "EUR"}
 VALOR_MINIMO_MOEDA = 0.01  #Unidade monetária (ex: 0.01)
 VOLUME_MINIMO_PARA_ANALISE = 1000  # volume em USDC ou equivalente
+TOP_MOEDAS = 1500  # Número de moedas mais líquidas analisadas
+MAX_WORKERS = 10  # Número de threads para paralelismo
+
 
 blacklist_pares = set()
 
 # Variáveis de ambiente
 AMBIENTE = os.getenv("AMBIENTE", "test")
 USE_BINANCE = os.getenv("USE_BINANCE", "true").lower() == "true"
-USE_BYBIT = os.getenv("USE_BYBIT", "false").lower() == "true"
+USE_BYBIT = os.getenv("USE_BYBIT", "false").lower() == "false"
 
 if AMBIENTE == "test":
     API_KEY_BINANCE = os.getenv("BINANCE_API_KEY_TEST")
@@ -35,8 +38,8 @@ else:
     BASE_URL_BINANCE = "https://api.binance.com/api"
 
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-LOGS_DATA_DIR = os.path.join(BASE_DIR, '..', 'logs', 'logs_data')
-
-LOG_ROTAS = os.path.normpath(os.path.join(LOGS_DATA_DIR, 'log_rotas.json'))
-LOG_OPORTUNIDADES = os.path.normpath(os.path.join(LOGS_DATA_DIR, 'oportunidades.json'))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+LOGS_DATA_DIR = os.path.join(BASE_DIR, 'logs', 'logs_data')
+LOG_ROTAS = os.path.join(LOGS_DATA_DIR, 'log_rotas.json')
+LOG_OPORTUNIDADES = os.path.join(LOGS_DATA_DIR, 'oportunidades.json')
+DEBUG_LOG_PATH = os.path.join(LOGS_DATA_DIR, 'debug_log.json')

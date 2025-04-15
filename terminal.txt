@@ -1,0 +1,912 @@
+[DEBUG] 💵 Valor final: 483.56855434147707
+[DEBUG] 📈 Lucro: -16.431445658522932, Lucro %: -3.286289131704587
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → UTK → USDT → USDC', 'par1': 'UTKUSDC', 'preco1': 0.02849, 'tipo1': 'buy', 'vol1': 1586669.81899, 'm1_recebido': 17374.517375, 'par2': 'UTKUSDT', 'preco2': 0.0284, 'tipo2': 'sell', 'vol2': 9280801.8181, 'm2_recebido': 488.501931, 'par3': 'USDCUSDT', 'preco3': 1.0001, 'tipo3': 'buy', 'vol3': 
+19182072.2064, 'valor_inicial': 500, 'valor_final': 483.568554, 'lucro_real': -16.431446, 'lucro_percentual': -3.286289, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:22.645242', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → VANA → BNB → USDC
+[DEBUG] 🔗 Pares formados: VANAUSDC, VANABNB, BNBUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → VANA → BNB → USDC
+[DEBUG] 🔗 Par1: VANAUSDC
+[DEBUG] 💱 Preço1: 5.321, Volume1: 3246574.77611, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 93.02762638601767
+[DEBUG] ❌ Erro inesperado durante cálculo da rota: [LIQUIDEZ] Liquidez insuficiente para vender VANABNB
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\debug_log.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 📈 Resultado calculado com sucesso:
+None
+[DEBUG] ⚠️ Resultado nulo, será salvo no debug_log.json
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\debug_log.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+
+[DEBUG] 🔄 Testando rota: USDC → VANA → FDUSD → USDC
+[DEBUG] 🔗 Pares formados: VANAUSDC, VANAFDUSD, FDUSDUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → VANA → FDUSD → USDC
+[DEBUG] 🔗 Par1: VANAUSDC
+[DEBUG] 💱 Preço1: 5.321, Volume1: 3246574.77611, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 93.02762638601767
+[DEBUG] 🔗 Par2: VANAFDUSD
+[DEBUG] 💱 Preço2: 5.341, Volume2: 1321321.96659, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 491.8919470024432
+[DEBUG] 🔗 Par3: FDUSDUSDC
+[DEBUG] 💱 Preço3: 0.9975, Volume3: 4632894.5227, Tipo3: sell
+[DEBUG] 💵 Valor final: 485.7555949635877
+[DEBUG] 📈 Lucro: -14.244405036412275, Lucro %: -2.8488810072824546
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → VANA → FDUSD → USDC', 'par1': 'VANAUSDC', 'preco1': 5.321, 'tipo1': 'buy', 'vol1': 3246574.77611, 'm1_recebido': 93.027626, 'par2': 'VANAFDUSD', 'preco2': 5.341, 'tipo2': 'sell', 'vol2': 1321321.96659, 'm2_recebido': 491.891947, 'par3': 'FDUSDUSDC', 'preco3': 0.9975, 'tipo3': 'sell', 'vol3': 4632894.5227, 'valor_inicial': 500, 'valor_final': 485.755595, 'lucro_real': -14.244405, 'lucro_percentual': -2.848881, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:22.839723', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → VANA → TRY → USDC
+[DEBUG] 🔗 Pares formados: VANAUSDC, VANATRY, USDCTRY
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → VANA → TRY → USDC
+[DEBUG] 🔗 Par1: VANAUSDC
+[DEBUG] 💱 Preço1: 5.321, Volume1: 3246574.77611, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 93.02762638601767
+[DEBUG] 🔗 Par2: VANATRY
+[DEBUG] 💱 Preço2: 202.6, Volume2: 49596858.419, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 18658.923134749108
+[DEBUG] 🔗 Par3: USDCTRY
+[DEBUG] 💱 Preço3: 38.06, Volume3: 32516333.34, Tipo3: buy
+[DEBUG] 💵 Valor final: 485.3477115975201
+[DEBUG] 📈 Lucro: -14.652288402479883, Lucro %: -2.9304576804959765
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → VANA → TRY → USDC', 'par1': 'VANAUSDC', 'preco1': 5.321, 'tipo1': 'buy', 'vol1': 3246574.77611, 'm1_recebido': 93.027626, 'par2': 'VANATRY', 'preco2': 202.6, 'tipo2': 'sell', 'vol2': 49596858.419, 'm2_recebido': 18658.923135, 'par3': 'USDCTRY', 'preco3': 38.06, 'tipo3': 'buy', 'vol3': 32516333.34, 'valor_inicial': 500, 'valor_final': 485.347712, 'lucro_real': -14.652288, 'lucro_percentual': -2.930458, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:22.896144', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → VANA → USDT → USDC
+[DEBUG] 🔗 Pares formados: VANAUSDC, VANAUSDT, USDCUSDT
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → VANA → USDT → USDC
+[DEBUG] 🔗 Par1: VANAUSDC
+[DEBUG] 💱 Preço1: 5.321, Volume1: 3246574.77611, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 93.02762638601767
+[DEBUG] 🔗 Par2: VANAUSDT
+[DEBUG] 💱 Preço2: 5.329, Volume2: 52815692.86162, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 490.78677880097723
+[DEBUG] 🔗 Par3: USDCUSDT
+[DEBUG] 💱 Preço3: 1.0001, Volume3: 19182072.2064, Tipo3: buy
+[DEBUG] 💵 Valor final: 485.83032798016944
+[DEBUG] 📈 Lucro: -14.169672019830557, Lucro %: -2.8339344039661114
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → VANA → USDT → USDC', 'par1': 'VANAUSDC', 'preco1': 5.321, 'tipo1': 'buy', 'vol1': 3246574.77611, 'm1_recebido': 93.027626, 'par2': 'VANAUSDT', 'preco2': 5.329, 'tipo2': 'sell', 'vol2': 52815692.86162, 'm2_recebido': 490.786779, 'par3': 'USDCUSDT', 'preco3': 1.0001, 'tipo3': 'buy', 'vol3': 19182072.2064, 'valor_inicial': 500, 'valor_final': 485.830328, 'lucro_real': -14.169672, 'lucro_percentual': -2.833934, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:22.970944', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → VANRY → TRY → USDC
+[DEBUG] 🔗 Pares formados: VANRYUSDC, VANRYTRY, USDCTRY
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → VANRY → TRY → USDC
+[DEBUG] 🔗 Par1: VANRYUSDC
+[DEBUG] 💱 Preço1: 0.0244, Volume1: 456333.2899, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 20286.885245901638
+[DEBUG] 🔗 Par2: VANRYTRY
+[DEBUG] 💱 Preço2: 0.925, Volume2: 17070163.022, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 18577.715163934423
+[DEBUG] 🔗 Par3: USDCTRY
+[DEBUG] 💱 Preço3: 38.06, Volume3: 32516333.34, Tipo3: buy
+[DEBUG] 💵 Valor final: 483.2353655358665
+[DEBUG] 📈 Lucro: -16.764634464133508, Lucro %: -3.352926892826701
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → VANRY → TRY → USDC', 'par1': 'VANRYUSDC', 'preco1': 0.0244, 'tipo1': 'buy', 'vol1': 456333.2899, 'm1_recebido': 20286.885246, 'par2': 'VANRYTRY', 'preco2': 0.925, 'tipo2': 'sell', 'vol2': 17070163.022, 'm2_recebido': 18577.715164, 'par3': 'USDCTRY', 'preco3': 38.06, 'tipo3': 'buy', 'vol3': 
+32516333.34, 'valor_inicial': 500, 'valor_final': 483.235366, 'lucro_real': -16.764634, 'lucro_percentual': -3.352927, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:23.239087', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → VANRY → USDT → USDC
+[DEBUG] 🔗 Pares formados: VANRYUSDC, VANRYUSDT, USDCUSDT
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → VANRY → USDT → USDC
+[DEBUG] 🔗 Par1: VANRYUSDC
+[DEBUG] 💱 Preço1: 0.0244, Volume1: 456333.2899, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 20286.885245901638
+[DEBUG] 🔗 Par2: VANRYUSDT
+[DEBUG] 💱 Preço2: 0.0242, Volume2: 2440845.7627, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 486.0331967213114
+[DEBUG] 🔗 Par3: USDCUSDT
+[DEBUG] 💱 Preço3: 1.0001, Volume3: 19182072.2064, Tipo3: buy
+[DEBUG] 💵 Valor final: 481.1247522788704
+[DEBUG] 📈 Lucro: -18.875247721129597, Lucro %: -3.7750495442259195
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → VANRY → USDT → USDC', 'par1': 'VANRYUSDC', 'preco1': 0.0244, 'tipo1': 'buy', 'vol1': 456333.2899, 'm1_recebido': 20286.885246, 'par2': 'VANRYUSDT', 'preco2': 0.0242, 'tipo2': 'sell', 'vol2': 2440845.7627, 'm2_recebido': 486.033197, 'par3': 'USDCUSDT', 'preco3': 1.0001, 'tipo3': 'buy', 'vol3': 19182072.2064, 'valor_inicial': 500, 'valor_final': 481.124752, 'lucro_real': -18.875248, 'lucro_percentual': -3.77505, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:23.337646', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → VELODROME → USDT → USDC
+[DEBUG] 🔗 Pares formados: VELODROMEUSDC, VELODROMEUSDT, USDCUSDT
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → VELODROME → USDT → USDC
+[DEBUG] 🔗 Par1: VELODROMEUSDC
+[DEBUG] 💱 Preço1: 0.044, Volume1: 1290616.77557, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 11250.0
+[DEBUG] 🔗 Par2: VELODROMEUSDT
+[DEBUG] 💱 Preço2: 0.044, Volume2: 3682990.73794, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 490.04999999999995
+[DEBUG] 🔗 Par3: USDCUSDT
+[DEBUG] 💱 Preço3: 1.0001, Volume3: 19182072.2064, Tipo3: buy
+[DEBUG] 💵 Valor final: 485.1009899010099
+[DEBUG] 📈 Lucro: -14.899010098990118, Lucro %: -2.9798020197980235
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → VELODROME → USDT → USDC', 'par1': 'VELODROMEUSDC', 'preco1': 0.044, 'tipo1': 'buy', 'vol1': 1290616.77557, 'm1_recebido': 11250.0, 'par2': 'VELODROMEUSDT', 'preco2': 0.044, 'tipo2': 'sell', 'vol2': 3682990.73794, 'm2_recebido': 490.05, 'par3': 'USDCUSDT', 'preco3': 1.0001, 'tipo3': 'buy', 'vol3': 19182072.2064, 'valor_inicial': 500, 'valor_final': 485.10099, 'lucro_real': -14.89901, 'lucro_percentual': -2.979802, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:23.412535', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → W → FDUSD → USDC
+[DEBUG] 🔗 Pares formados: WUSDC, WFDUSD, FDUSDUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → W → FDUSD → USDC
+[DEBUG] 🔗 Par1: WUSDC
+[DEBUG] 💱 Preço1: 0.0727, Volume1: 5746894.5738, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 6808.803301237965
+[DEBUG] 🔗 Par2: WFDUSD
+[DEBUG] 💱 Preço2: 0.0727, Volume2: 2614405.85453, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 490.05000000000007
+[DEBUG] 🔗 Par3: FDUSDUSDC
+[DEBUG] 💱 Preço3: 0.9975, Volume3: 4632894.5227, Tipo3: sell
+[DEBUG] 💵 Valor final: 483.9366262500001
+[DEBUG] 📈 Lucro: -16.063373749999926, Lucro %: -3.212674749999985
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → W → FDUSD → USDC', 'par1': 'WUSDC', 'preco1': 0.0727, 'tipo1': 'buy', 'vol1': 5746894.5738, 'm1_recebido': 6808.803301, 'par2': 'WFDUSD', 'preco2': 0.0727, 'tipo2': 'sell', 'vol2': 2614405.85453, 'm2_recebido': 490.05, 'par3': 'FDUSDUSDC', 'preco3': 0.9975, 'tipo3': 'sell', 'vol3': 4632894.5227, 'valor_inicial': 500, 'valor_final': 483.936626, 'lucro_real': -16.063374, 'lucro_percentual': -3.212675, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:23.507283', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → W → TRY → USDC
+[DEBUG] 🔗 Pares formados: WUSDC, WTRY, USDCTRY
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → W → TRY → USDC
+[DEBUG] 🔗 Par1: WUSDC
+[DEBUG] 💱 Preço1: 0.0727, Volume1: 5746894.5738, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 6808.803301237965
+[DEBUG] 🔗 Par2: WTRY
+[DEBUG] 💱 Preço2: 2.761, Volume2: 46234563.6578, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 18611.11485557084
+[DEBUG] 🔗 Par3: USDCTRY
+[DEBUG] 💱 Preço3: 38.06, Volume3: 32516333.34, Tipo3: buy
+[DEBUG] 💵 Valor final: 484.10414364201597
+[DEBUG] 📈 Lucro: -15.89585635798403, Lucro %: -3.179171271596806
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → W → TRY → USDC', 'par1': 'WUSDC', 'preco1': 0.0727, 'tipo1': 'buy', 'vol1': 5746894.5738, 'm1_recebido': 6808.803301, 'par2': 'WTRY', 'preco2': 2.761, 'tipo2': 'sell', 'vol2': 46234563.6578, 'm2_recebido': 18611.114856, 'par3': 'USDCTRY', 'preco3': 38.06, 'tipo3': 'buy', 'vol3': 32516333.34, 'valor_inicial': 500, 'valor_final': 484.104144, 'lucro_real': -15.895856, 'lucro_percentual': -3.179171, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:23.572109', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → W → USDT → USDC
+[DEBUG] 🔗 Pares formados: WUSDC, WUSDT, USDCUSDT
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → W → USDT → USDC
+[DEBUG] 🔗 Par1: WUSDC
+[DEBUG] 💱 Preço1: 0.0727, Volume1: 5746894.5738, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 6808.803301237965
+[DEBUG] 🔗 Par2: WUSDT
+[DEBUG] 💱 Preço2: 0.0726, Volume2: 8818631.46731, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 489.37592847317745
+[DEBUG] 🔗 Par3: USDCUSDT
+[DEBUG] 💱 Preço3: 1.0001, Volume3: 19182072.2064, Tipo3: buy
+[DEBUG] 💵 Valor final: 484.43372581586414
+[DEBUG] 📈 Lucro: -15.566274184135864, Lucro %: -3.113254836827173
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → W → USDT → USDC', 'par1': 'WUSDC', 'preco1': 0.0727, 'tipo1': 'buy', 'vol1': 5746894.5738, 'm1_recebido': 6808.803301, 'par2': 'WUSDT', 'preco2': 0.0726, 'tipo2': 'sell', 'vol2': 8818631.46731, 'm2_recebido': 489.375928, 'par3': 'USDCUSDT', 'preco3': 1.0001, 'tipo3': 'buy', 'vol3': 19182072.2064, 'valor_inicial': 500, 'valor_final': 484.433726, 'lucro_real': -15.566274, 'lucro_percentual': -3.113255, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:23.853357', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → WIF → EUR → USDC
+[DEBUG] 🔗 Pares formados: WIFUSDC, WIFEUR, EURUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → WIF → EUR → USDC
+[DEBUG] 🔗 Par1: WIFUSDC
+[DEBUG] 💱 Preço1: 0.442, Volume1: 1797173.70858, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 1119.9095022624433
+[DEBUG] 🔗 Par2: WIFEUR
+[DEBUG] 💱 Preço2: 0.388, Volume2: 591417.46979, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 430.1796380090497
+[DEBUG] 🔗 Par3: EURUSDC
+[DEBUG] 💱 Preço3: 1.1353, Volume3: 21693045.69285, Tipo3: sell
+[DEBUG] 💵 Valor final: 483.4991136013574
+[DEBUG] 📈 Lucro: -16.500886398642592, Lucro %: -3.3001772797285183
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → WIF → EUR → USDC', 'par1': 'WIFUSDC', 'preco1': 0.442, 'tipo1': 'buy', 'vol1': 1797173.70858, 'm1_recebido': 1119.909502, 'par2': 'WIFEUR', 'preco2': 0.388, 'tipo2': 'sell', 'vol2': 591417.46979, 'm2_recebido': 430.179638, 'par3': 'EURUSDC', 'preco3': 1.1353, 'tipo3': 'sell', 'vol3': 21693045.69285, 'valor_inicial': 500, 'valor_final': 483.499114, 'lucro_real': -16.500886, 'lucro_percentual': -3.300177, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:24.011251', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → WIF → FDUSD → USDC
+[DEBUG] 🔗 Pares formados: WIFUSDC, WIFFDUSD, FDUSDUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → WIF → FDUSD → USDC
+[DEBUG] 🔗 Par1: WIFUSDC
+[DEBUG] 💱 Preço1: 0.442, Volume1: 1797173.70858, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 1119.9095022624433
+[DEBUG] 🔗 Par2: WIFFDUSD
+[DEBUG] 💱 Preço2: 0.442, Volume2: 1415883.34399, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 490.04999999999995
+[DEBUG] 🔗 Par3: FDUSDUSDC
+[DEBUG] 💱 Preço3: 0.9975, Volume3: 4632894.5227, Tipo3: sell
+[DEBUG] 💵 Valor final: 483.93662624999996
+[DEBUG] 📈 Lucro: -16.06337375000004, Lucro %: -3.212674750000008
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → WIF → FDUSD → USDC', 'par1': 'WIFUSDC', 'preco1': 0.442, 'tipo1': 'buy', 'vol1': 1797173.70858, 'm1_recebido': 1119.909502, 'par2': 'WIFFDUSD', 'preco2': 0.442, 'tipo2': 'sell', 'vol2': 1415883.34399, 'm2_recebido': 490.05, 'par3': 'FDUSDUSDC', 'preco3': 0.9975, 'tipo3': 'sell', 'vol3': 4632894.5227, 'valor_inicial': 500, 'valor_final': 483.936626, 'lucro_real': -16.063374, 'lucro_percentual': -3.212675, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:24.151875', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → WIF → TRY → USDC
+[DEBUG] 🔗 Pares formados: WIFUSDC, WIFTRY, USDCTRY
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → WIF → TRY → USDC
+[DEBUG] 🔗 Par1: WIFUSDC
+[DEBUG] 💱 Preço1: 0.442, Volume1: 1797173.70858, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 1119.9095022624433
+[DEBUG] 🔗 Par2: WIFTRY
+[DEBUG] 💱 Preço2: 16.8, Volume2: 59742930.6418, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 18626.33484162896
+[DEBUG] 🔗 Par3: USDCTRY
+[DEBUG] 💱 Preço3: 38.06, Volume3: 32516333.34, Tipo3: buy
+[DEBUG] 💵 Valor final: 484.5000392331232
+[DEBUG] 📈 Lucro: -15.499960766876825, Lucro %: -3.0999921533753647
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → WIF → TRY → USDC', 'par1': 'WIFUSDC', 'preco1': 0.442, 'tipo1': 'buy', 'vol1': 1797173.70858, 'm1_recebido': 1119.909502, 'par2': 'WIFTRY', 'preco2': 16.8, 'tipo2': 'sell', 'vol2': 59742930.6418, 'm2_recebido': 18626.334842, 'par3': 'USDCTRY', 'preco3': 38.06, 'tipo3': 'buy', 'vol3': 32516333.34, 'valor_inicial': 500, 'valor_final': 484.500039, 'lucro_real': -15.499961, 'lucro_percentual': -3.099992, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:24.208723', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → WIF → USDT → USDC
+[DEBUG] 🔗 Pares formados: WIFUSDC, WIFUSDT, USDCUSDT
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → WIF → USDT → USDC
+[DEBUG] 🔗 Par1: WIFUSDC
+[DEBUG] 💱 Preço1: 0.442, Volume1: 1797173.70858, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 1119.9095022624433
+[DEBUG] 🔗 Par2: WIFUSDT
+[DEBUG] 💱 Preço2: 0.441, Volume2: 1706625.65013, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 488.94128959276014
+[DEBUG] 🔗 Par3: USDCUSDT
+[DEBUG] 💱 Preço3: 1.0001, Volume3: 19182072.2064, Tipo3: buy
+[DEBUG] 💵 Valor final: 484.00347634919757
+[DEBUG] 📈 Lucro: -15.99652365080243, Lucro %: -3.1993047301604864
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → WIF → USDT → USDC', 'par1': 'WIFUSDC', 'preco1': 0.442, 'tipo1': 'buy', 'vol1': 1797173.70858, 'm1_recebido': 1119.909502, 'par2': 'WIFUSDT', 'preco2': 0.441, 'tipo2': 'sell', 'vol2': 1706625.65013, 'm2_recebido': 488.94129, 'par3': 'USDCUSDT', 'preco3': 1.0001, 'tipo3': 'buy', 'vol3': 19182072.2064, 'valor_inicial': 500, 'valor_final': 484.003476, 'lucro_real': -15.996524, 'lucro_percentual': -3.199305, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:24.282966', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → WLD → EUR → USDC
+[DEBUG] 🔗 Pares formados: WLDUSDC, WLDEUR, EURUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → WLD → EUR → USDC
+[DEBUG] 🔗 Par1: WLDUSDC
+[DEBUG] 💱 Preço1: 0.755, Volume1: 16219174.8774, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 655.6291390728477
+[DEBUG] 🔗 Par2: WLDEUR
+[DEBUG] 💱 Preço2: 0.664, Volume2: 5667358.1704, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 430.9843708609272
+[DEBUG] 🔗 Par3: EURUSDC
+[DEBUG] 💱 Preço3: 1.1353, Volume3: 21693045.69285, Tipo3: sell
+[DEBUG] 💵 Valor final: 484.4035906760265
+[DEBUG] 📈 Lucro: -15.59640932397349, Lucro %: -3.1192818647946976
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → WLD → EUR → USDC', 'par1': 'WLDUSDC', 'preco1': 0.755, 'tipo1': 'buy', 'vol1': 16219174.8774, 'm1_recebido': 655.629139, 'par2': 'WLDEUR', 'preco2': 0.664, 'tipo2': 'sell', 'vol2': 5667358.1704, 'm2_recebido': 430.984371, 'par3': 'EURUSDC', 'preco3': 1.1353, 'tipo3': 'sell', 'vol3': 21693045.69285, 'valor_inicial': 500, 'valor_final': 484.403591, 'lucro_real': -15.596409, 'lucro_percentual': -3.119282, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:24.335825', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → WLD → FDUSD → USDC
+[DEBUG] 🔗 Pares formados: WLDUSDC, WLDFDUSD, FDUSDUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → WLD → FDUSD → USDC
+[DEBUG] 🔗 Par1: WLDUSDC
+[DEBUG] 💱 Preço1: 0.755, Volume1: 16219174.8774, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 655.6291390728477
+[DEBUG] 🔗 Par2: WLDFDUSD
+[DEBUG] 💱 Preço2: 0.756, Volume2: 9676020.3544, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 490.69907284768215
+[DEBUG] 🔗 Par3: FDUSDUSDC
+[DEBUG] 💱 Preço3: 0.9975, Volume3: 4632894.5227, Tipo3: sell
+[DEBUG] 💵 Valor final: 484.5776019139073
+[DEBUG] 📈 Lucro: -15.422398086092699, Lucro %: -3.08447961721854
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → WLD → FDUSD → USDC', 'par1': 'WLDUSDC', 'preco1': 0.755, 'tipo1': 'buy', 'vol1': 16219174.8774, 'm1_recebido': 655.629139, 'par2': 'WLDFDUSD', 'preco2': 0.756, 'tipo2': 'sell', 'vol2': 9676020.3544, 'm2_recebido': 490.699073, 'par3': 'FDUSDUSDC', 'preco3': 0.9975, 'tipo3': 'sell', 'vol3': 4632894.5227, 'valor_inicial': 500, 'valor_final': 484.577602, 'lucro_real': -15.422398, 'lucro_percentual': -3.08448, 'exchange': 'Binance', 'timestamp': 
+'2025-04-14 20:14:24.395664', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → WLD → TRY → USDC
+[DEBUG] 🔗 Pares formados: WLDUSDC, WLDTRY, USDCTRY
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → WLD → TRY → USDC
+[DEBUG] 🔗 Par1: WLDUSDC
+[DEBUG] 💱 Preço1: 0.755, Volume1: 16219174.8774, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 655.6291390728477
+[DEBUG] 🔗 Par2: WLDTRY
+[DEBUG] 💱 Preço2: 28.7, Volume2: 91651732.984, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 18628.39072847682
+[DEBUG] 🔗 Par3: USDCTRY
+[DEBUG] 💱 Preço3: 38.06, Volume3: 32516333.34, Tipo3: buy
+[DEBUG] 💵 Valor final: 484.5535160586456
+[DEBUG] 📈 Lucro: -15.446483941354415, Lucro %: -3.089296788270883
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → WLD → TRY → USDC', 'par1': 'WLDUSDC', 'preco1': 0.755, 'tipo1': 'buy', 'vol1': 16219174.8774, 'm1_recebido': 655.629139, 'par2': 'WLDTRY', 'preco2': 28.7, 'tipo2': 'sell', 'vol2': 91651732.984, 'm2_recebido': 18628.390728, 'par3': 'USDCTRY', 'preco3': 38.06, 'tipo3': 'buy', 'vol3': 32516333.34, 'valor_inicial': 500, 'valor_final': 484.553516, 'lucro_real': -15.446484, 'lucro_percentual': -3.089297, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:24.452512', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → WLD → USDT → USDC
+[DEBUG] 🔗 Pares formados: WLDUSDC, WLDUSDT, USDCUSDT
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → WLD → USDT → USDC
+[DEBUG] 🔗 Par1: WLDUSDC
+[DEBUG] 💱 Preço1: 0.755, Volume1: 16219174.8774, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 655.6291390728477
+[DEBUG] 🔗 Par2: WLDUSDT
+[DEBUG] 💱 Preço2: 0.754, Volume2: 13950660.02, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 489.4009271523179
+[DEBUG] 🔗 Par3: USDCUSDT
+[DEBUG] 💱 Preço3: 1.0001, Volume3: 19182072.2064, Tipo3: buy
+[DEBUG] 💵 Valor final: 484.45847203359136
+[DEBUG] 📈 Lucro: -15.541527966408637, Lucro %: -3.1083055932817274
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → WLD → USDT → USDC', 'par1': 'WLDUSDC', 'preco1': 0.755, 'tipo1': 'buy', 'vol1': 16219174.8774, 'm1_recebido': 655.629139, 'par2': 'WLDUSDT', 'preco2': 0.754, 'tipo2': 'sell', 'vol2': 13950660.02, 'm2_recebido': 489.400927, 'par3': 'USDCUSDT', 'preco3': 1.0001, 'tipo3': 'buy', 'vol3': 19182072.2064, 'valor_inicial': 500, 'valor_final': 484.458472, 'lucro_real': -15.541528, 'lucro_percentual': -3.108306, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:24.526315', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → XLM → ETH → USDC
+[DEBUG] 🔗 Pares formados: XLMUSDC, XLMETH, ETHUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → XLM → ETH → USDC
+[DEBUG] 🔗 Par1: XLMUSDC
+[DEBUG] 💱 Preço1: 0.2408, Volume1: 27042998.318, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 2055.6478405315615
+[DEBUG] ❌ Erro inesperado durante cálculo da rota: [LIQUIDEZ] Liquidez insuficiente para vender XLMETH
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\debug_log.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 📈 Resultado calculado com sucesso:
+None
+[DEBUG] ⚠️ Resultado nulo, será salvo no debug_log.json
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\debug_log.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+
+[DEBUG] 🔄 Testando rota: USDC → XLM → EUR → USDC
+[DEBUG] 🔗 Pares formados: XLMUSDC, XLMEUR, EURUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → XLM → EUR → USDC
+[DEBUG] 🔗 Par1: XLMUSDC
+[DEBUG] 💱 Preço1: 0.2408, Volume1: 27042998.318, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 2055.6478405315615
+[DEBUG] 🔗 Par2: XLMEUR
+[DEBUG] 💱 Preço2: 0.212, Volume2: 14289753.3311, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 431.43936877076413
+[DEBUG] 🔗 Par3: EURUSDC
+[DEBUG] 💱 Preço3: 1.1353, Volume3: 21693045.69285, Tipo3: sell
+[DEBUG] 💵 Valor final: 484.914984211794
+[DEBUG] 📈 Lucro: -15.085015788206022, Lucro %: -3.0170031576412044
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → XLM → EUR → USDC', 'par1': 'XLMUSDC', 'preco1': 0.2408, 'tipo1': 'buy', 'vol1': 27042998.318, 'm1_recebido': 2055.647841, 'par2': 'XLMEUR', 'preco2': 0.212, 'tipo2': 'sell', 'vol2': 14289753.3311, 'm2_recebido': 431.439369, 'par3': 'EURUSDC', 'preco3': 1.1353, 'tipo3': 'sell', 'vol3': 21693045.69285, 'valor_inicial': 500, 'valor_final': 484.914984, 'lucro_real': -15.085016, 'lucro_percentual': -3.017003, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:24.685889', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → XLM → FDUSD → USDC
+[DEBUG] 🔗 Pares formados: XLMUSDC, XLMFDUSD, FDUSDUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → XLM → FDUSD → USDC
+[DEBUG] 🔗 Par1: XLMUSDC
+[DEBUG] 💱 Preço1: 0.2408, Volume1: 27042998.318, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 2055.6478405315615
+[DEBUG] 🔗 Par2: XLMFDUSD
+[DEBUG] 💱 Preço2: 0.2411, Volume2: 4530953.5961, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 490.6605274086379
+[DEBUG] 🔗 Par3: FDUSDUSDC
+[DEBUG] 💱 Preço3: 0.9975, Volume3: 4632894.5227, Tipo3: sell
+[DEBUG] 💵 Valor final: 484.53953732921514
+[DEBUG] 📈 Lucro: -15.460462670784864, Lucro %: -3.092092534156973
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → XLM → FDUSD → USDC', 'par1': 'XLMUSDC', 'preco1': 0.2408, 'tipo1': 'buy', 'vol1': 27042998.318, 'm1_recebido': 2055.647841, 'par2': 'XLMFDUSD', 'preco2': 0.2411, 'tipo2': 'sell', 'vol2': 4530953.5961, 'm2_recebido': 490.660527, 'par3': 'FDUSDUSDC', 'preco3': 0.9975, 'tipo3': 'sell', 'vol3': 4632894.5227, 'valor_inicial': 500, 'valor_final': 484.539537, 'lucro_real': -15.460463, 'lucro_percentual': -3.092093, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:24.748720', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → XLM → TRY → USDC
+[DEBUG] 🔗 Pares formados: XLMUSDC, XLMTRY, USDCTRY
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → XLM → TRY → USDC
+[DEBUG] 🔗 Par1: XLMUSDC
+[DEBUG] 💱 Preço1: 0.2408, Volume1: 27042998.318, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 2055.6478405315615
+[DEBUG] 🔗 Par2: XLMTRY
+[DEBUG] 💱 Preço2: 9.16, Volume2: 132841825.883, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 18641.436877076412
+[DEBUG] 🔗 Par3: USDCTRY
+[DEBUG] 💱 Preço3: 38.06, Volume3: 32516333.34, Tipo3: buy
+[DEBUG] 💵 Valor final: 484.8928667447621
+[DEBUG] 📈 Lucro: -15.107133255237898, Lucro %: -3.0214266510475793
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → XLM → TRY → USDC', 'par1': 'XLMUSDC', 'preco1': 0.2408, 'tipo1': 'buy', 'vol1': 27042998.318, 'm1_recebido': 2055.647841, 'par2': 'XLMTRY', 'preco2': 9.16, 'tipo2': 'sell', 'vol2': 132841825.883, 'm2_recebido': 18641.436877, 'par3': 'USDCTRY', 'preco3': 38.06, 'tipo3': 'buy', 'vol3': 32516333.34, 'valor_inicial': 500, 'valor_final': 484.892867, 'lucro_real': -15.107133, 'lucro_percentual': -3.021427, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:24.821526', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → XLM → USDT → USDC
+[DEBUG] 🔗 Pares formados: XLMUSDC, XLMUSDT, USDCUSDT
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → XLM → USDT → USDC
+[DEBUG] 🔗 Par1: XLMUSDC
+[DEBUG] 💱 Preço1: 0.2408, Volume1: 27042998.318, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 2055.6478405315615
+[DEBUG] 🔗 Par2: XLMUSDT
+[DEBUG] 💱 Preço2: 0.2407, Volume2: 28793099.7998, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 489.8464908637874
+[DEBUG] 🔗 Par3: USDCUSDT
+[DEBUG] 💱 Preço3: 1.0001, Volume3: 19182072.2064, Tipo3: buy
+[DEBUG] 💵 Valor final: 484.89953600154934
+[DEBUG] 📈 Lucro: -15.100463998450664, Lucro %: -3.020092799690133
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → XLM → USDT → USDC', 'par1': 'XLMUSDC', 'preco1': 0.2408, 'tipo1': 'buy', 'vol1': 27042998.318, 'm1_recebido': 2055.647841, 'par2': 'XLMUSDT', 'preco2': 0.2407, 'tipo2': 'sell', 'vol2': 28793099.7998, 'm2_recebido': 489.846491, 'par3': 'USDCUSDT', 'preco3': 1.0001, 'tipo3': 'buy', 'vol3': 19182072.2064, 'valor_inicial': 500, 'valor_final': 484.899536, 'lucro_real': -15.100464, 'lucro_percentual': -3.020093, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:24.892828', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → XRP → BNB → USDC
+[DEBUG] 🔗 Pares formados: XRPUSDC, XRPBNB, BNBUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → XRP → BNB → USDC
+[DEBUG] 🔗 Par1: XRPUSDC
+[DEBUG] 💱 Preço1: 2.1613, Volume1: 139949090.0986, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 229.02882524406604
+[DEBUG] ❌ Erro inesperado durante cálculo da rota: [LIQUIDEZ] Liquidez insuficiente para vender XRPBNB
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\debug_log.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 📈 Resultado calculado com sucesso:
+None
+[DEBUG] ⚠️ Resultado nulo, será salvo no debug_log.json
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\debug_log.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+
+[DEBUG] 🔄 Testando rota: USDC → XRP → ETH → USDC
+[DEBUG] 🔗 Pares formados: XRPUSDC, XRPETH, ETHUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → XRP → ETH → USDC
+[DEBUG] 🔗 Par1: XRPUSDC
+[DEBUG] 💱 Preço1: 2.1613, Volume1: 139949090.0986, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 229.02882524406604
+[DEBUG] ❌ Erro inesperado durante cálculo da rota: [LIQUIDEZ] Liquidez insuficiente para vender XRPETH
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\debug_log.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 📈 Resultado calculado com sucesso:
+None
+[DEBUG] ⚠️ Resultado nulo, será salvo no debug_log.json
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\debug_log.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+
+[DEBUG] 🔄 Testando rota: USDC → XRP → EUR → USDC
+[DEBUG] 🔗 Pares formados: XRPUSDC, XRPEUR, EURUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → XRP → EUR → USDC
+[DEBUG] 🔗 Par1: XRPUSDC
+[DEBUG] 💱 Preço1: 2.1613, Volume1: 139949090.0986, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 229.02882524406604
+[DEBUG] 🔗 Par2: XRPEUR
+[DEBUG] 💱 Preço2: 1.9028, Volume2: 85532463.2979, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 431.4380881876648
+[DEBUG] 🔗 Par3: EURUSDC
+[DEBUG] 💱 Preço3: 1.1353, Volume3: 21693045.69285, Tipo3: sell
+[DEBUG] 💵 Valor final: 484.91354490426124
+[DEBUG] 📈 Lucro: -15.086455095738756, Lucro %: -3.017291019147751
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → XRP → EUR → USDC', 'par1': 'XRPUSDC', 'preco1': 2.1613, 'tipo1': 'buy', 'vol1': 139949090.0986, 'm1_recebido': 229.028825, 'par2': 'XRPEUR', 'preco2': 1.9028, 'tipo2': 'sell', 'vol2': 85532463.2979, 'm2_recebido': 431.438088, 'par3': 'EURUSDC', 'preco3': 1.1353, 'tipo3': 'sell', 'vol3': 21693045.69285, 'valor_inicial': 500, 'valor_final': 484.913545, 'lucro_real': -15.086455, 'lucro_percentual': -3.017291, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:25.349737', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → XRP → FDUSD → USDC
+[DEBUG] 🔗 Pares formados: XRPUSDC, XRPFDUSD, FDUSDUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → XRP → FDUSD → USDC
+[DEBUG] 🔗 Par1: XRPUSDC
+[DEBUG] 💱 Preço1: 2.1613, Volume1: 139949090.0986, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 229.02882524406604
+[DEBUG] 🔗 Par2: XRPFDUSD
+[DEBUG] 💱 Preço2: 2.1667, Volume2: 102748654.0323, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 491.2743880997547
+[DEBUG] 🔗 Par3: FDUSDUSDC
+[DEBUG] 💱 Preço3: 0.9975, Volume3: 4632894.5227, Tipo3: sell
+[DEBUG] 💵 Valor final: 485.14574010821025
+[DEBUG] 📈 Lucro: -14.854259891789752, Lucro %: -2.9708519783579503
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → XRP → FDUSD → USDC', 'par1': 'XRPUSDC', 'preco1': 2.1613, 'tipo1': 'buy', 'vol1': 139949090.0986, 'm1_recebido': 229.028825, 'par2': 'XRPFDUSD', 'preco2': 2.1667, 'tipo2': 'sell', 'vol2': 102748654.0323, 'm2_recebido': 491.274388, 'par3': 'FDUSDUSDC', 'preco3': 0.9975, 'tipo3': 'sell', 'vol3': 4632894.5227, 'valor_inicial': 500, 'valor_final': 485.14574, 'lucro_real': -14.85426, 'lucro_percentual': -2.970852, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:25.414563', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → XRP → TRX → USDC
+[DEBUG] 🔗 Pares formados: XRPUSDC, TRXXRP, TRXUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → XRP → TRX → USDC
+[DEBUG] 🔗 Par1: XRPUSDC
+[DEBUG] 💱 Preço1: 2.1613, Volume1: 139949090.0986, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 229.02882524406604
+[DEBUG] 🔗 Par2: TRXXRP
+[DEBUG] 💱 Preço2: 0.117, Volume2: 16724882.26481, Tipo2: buy
+[DEBUG] 💰 m2_recebido: 1937.9362136036357
+[DEBUG] 🔗 Par3: TRXUSDC
+[DEBUG] 💱 Preço3: 0.2526, Volume3: 7208426.48581, Tipo3: sell
+[DEBUG] 💵 Valor final: 484.62746068071556
+[DEBUG] 📈 Lucro: -15.372539319284442, Lucro %: -3.0745078638568883
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → XRP → TRX → USDC', 'par1': 'XRPUSDC', 'preco1': 2.1613, 'tipo1': 'buy', 'vol1': 139949090.0986, 'm1_recebido': 229.028825, 'par2': 'TRXXRP', 'preco2': 0.117, 'tipo2': 'buy', 'vol2': 16724882.26481, 'm2_recebido': 1937.936214, 'par3': 'TRXUSDC', 'preco3': 0.2526, 'tipo3': 'sell', 'vol3': 7208426.48581, 'valor_inicial': 500, 'valor_final': 484.627461, 'lucro_real': -15.372539, 'lucro_percentual': -3.074508, 'exchange': 'Binance', 'timestamp': 
+'2025-04-14 20:14:25.473407', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → XRP → TRY → USDC
+[DEBUG] 🔗 Pares formados: XRPUSDC, XRPTRY, USDCTRY
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → XRP → TRY → USDC
+[DEBUG] 🔗 Par1: XRPUSDC
+[DEBUG] 💱 Preço1: 2.1613, Volume1: 139949090.0986, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 229.02882524406604
+[DEBUG] 🔗 Par2: XRPTRY
+[DEBUG] 💱 Preço2: 82.24, Volume2: 176555809.42, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 18646.97728219127
+[DEBUG] 🔗 Par3: USDCTRY
+[DEBUG] 💱 Preço3: 38.06, Volume3: 32516333.34, Tipo3: buy
+[DEBUG] 💵 Valor final: 485.0369813286746
+[DEBUG] 📈 Lucro: -14.963018671325415, Lucro %: -2.992603734265083
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → XRP → TRY → USDC', 'par1': 'XRPUSDC', 'preco1': 2.1613, 'tipo1': 'buy', 'vol1': 139949090.0986, 'm1_recebido': 229.028825, 'par2': 'XRPTRY', 'preco2': 82.24, 'tipo2': 'sell', 'vol2': 176555809.42, 'm2_recebido': 18646.977282, 'par3': 'USDCTRY', 'preco3': 38.06, 'tipo3': 'buy', 'vol3': 32516333.34, 'valor_inicial': 500, 'valor_final': 485.036981, 'lucro_real': -14.963019, 'lucro_percentual': -2.992604, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:25.548399', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → XRP → USDT → USDC
+[DEBUG] 🔗 Pares formados: XRPUSDC, XRPUSDT, USDCUSDT
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → XRP → USDT → USDC
+[DEBUG] 🔗 Par1: XRPUSDC
+[DEBUG] 💱 Preço1: 2.1613, Volume1: 139949090.0986, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 229.02882524406604
+[DEBUG] 🔗 Par2: XRPUSDT
+[DEBUG] 💱 Preço2: 2.1614, Volume2: 143206520.0567, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 490.07267385369914
+[DEBUG] 🔗 Par3: USDCUSDT
+[DEBUG] 💱 Preço3: 1.0001, Volume3: 19182072.2064, Tipo3: buy
+[DEBUG] 💵 Valor final: 485.12343477168497
+[DEBUG] 📈 Lucro: -14.87656522831503, Lucro %: -2.975313045663006
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → XRP → USDT → USDC', 'par1': 'XRPUSDC', 'preco1': 2.1613, 'tipo1': 'buy', 'vol1': 139949090.0986, 'm1_recebido': 229.028825, 'par2': 'XRPUSDT', 'preco2': 2.1614, 'tipo2': 'sell', 'vol2': 143206520.0567, 'm2_recebido': 490.072674, 'par3': 'USDCUSDT', 'preco3': 1.0001, 'tipo3': 'buy', 'vol3': 
+19182072.2064, 'valor_inicial': 500, 'valor_final': 485.123435, 'lucro_real': -14.876565, 'lucro_percentual': -2.975313, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:25.603253', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → XTZ → USDT → USDC
+[DEBUG] 🔗 Pares formados: XTZUSDC, XTZUSDT, USDCUSDT
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → XTZ → USDT → USDC
+[DEBUG] 🔗 Par1: XTZUSDC
+[DEBUG] 💱 Preço1: 0.5, Volume1: 2954548.751, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 990.0
+[DEBUG] 🔗 Par2: XTZUSDT
+[DEBUG] 💱 Preço2: 0.499, Volume2: 3955025.1829, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 489.06989999999996
+[DEBUG] 🔗 Par3: USDCUSDT
+[DEBUG] 💱 Preço3: 1.0001, Volume3: 19182072.2064, Tipo3: buy
+[DEBUG] 💵 Valor final: 484.1307879212078
+[DEBUG] 📈 Lucro: -15.869212078792202, Lucro %: -3.1738424157584406
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → XTZ → USDT → USDC', 'par1': 'XTZUSDC', 'preco1': 0.5, 'tipo1': 'buy', 'vol1': 2954548.751, 'm1_recebido': 990.0, 'par2': 'XTZUSDT', 'preco2': 0.499, 'tipo2': 'sell', 'vol2': 3955025.1829, 'm2_recebido': 489.0699, 'par3': 'USDCUSDT', 'preco3': 1.0001, 'tipo3': 'buy', 'vol3': 19182072.2064, 'valor_inicial': 500, 'valor_final': 484.130788, 'lucro_real': -15.869212, 'lucro_percentual': -3.173842, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:25.669077', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → YGG → TRY → USDC
+[DEBUG] 🔗 Pares formados: YGGUSDC, YGGTRY, USDCTRY
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → YGG → TRY → USDC
+[DEBUG] 🔗 Par1: YGGUSDC
+[DEBUG] 💱 Preço1: 0.1682, Volume1: 3384905.41065, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 2942.925089179548
+[DEBUG] 🔗 Par2: YGGTRY
+[DEBUG] 💱 Preço2: 6.37, Volume2: 660977.032, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 18558.968489892985
+[DEBUG] 🔗 Par3: USDCTRY
+[DEBUG] 💱 Preço3: 38.06, Volume3: 32516333.34, Tipo3: buy
+[DEBUG] 💵 Valor final: 482.7477352862337
+[DEBUG] 📈 Lucro: -17.252264713766294, Lucro %: -3.4504529427532593
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → YGG → TRY → USDC', 'par1': 'YGGUSDC', 'preco1': 0.1682, 'tipo1': 'buy', 'vol1': 3384905.41065, 'm1_recebido': 2942.925089, 'par2': 'YGGTRY', 'preco2': 6.37, 'tipo2': 'sell', 'vol2': 660977.032, 'm2_recebido': 18558.96849, 'par3': 'USDCTRY', 'preco3': 38.06, 'tipo3': 'buy', 'vol3': 32516333.34, 'valor_inicial': 500, 'valor_final': 482.747735, 'lucro_real': -17.252265, 'lucro_percentual': -3.450453, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:25.720938', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → YGG → USDT → USDC
+[DEBUG] 🔗 Pares formados: YGGUSDC, YGGUSDT, USDCUSDT
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → YGG → USDT → USDC
+[DEBUG] 🔗 Par1: YGGUSDC
+[DEBUG] 💱 Preço1: 0.1682, Volume1: 3384905.41065, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 2942.925089179548
+[DEBUG] 🔗 Par2: YGGUSDT
+[DEBUG] 💱 Preço2: 0.1679, Volume2: 16200044.14724, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 489.1759512485137
+[DEBUG] 🔗 Par3: USDCUSDT
+[DEBUG] 💱 Preço3: 1.0001, Volume3: 19182072.2064, Tipo3: buy
+[DEBUG] 💵 Valor final: 484.2357681592126
+[DEBUG] 📈 Lucro: -15.764231840787374, Lucro %: -3.1528463681574745
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → YGG → USDT → USDC', 'par1': 'YGGUSDC', 'preco1': 0.1682, 'tipo1': 'buy', 'vol1': 3384905.41065, 'm1_recebido': 2942.925089, 'par2': 'YGGUSDT', 'preco2': 0.1679, 'tipo2': 'sell', 'vol2': 16200044.14724, 'm2_recebido': 489.175951, 'par3': 'USDCUSDT', 'preco3': 1.0001, 'tipo3': 'buy', 'vol3': 
+19182072.2064, 'valor_inicial': 500, 'valor_final': 484.235768, 'lucro_real': -15.764232, 'lucro_percentual': -3.152846, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:25.785766', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → ZK → FDUSD → USDC
+[DEBUG] 🔗 Pares formados: ZKUSDC, ZKFDUSD, FDUSDUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → ZK → FDUSD → USDC
+[DEBUG] 🔗 Par1: ZKUSDC
+[DEBUG] 💱 Preço1: 0.0503, Volume1: 6369678.00525, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 9840.954274353877
+[DEBUG] 🔗 Par2: ZKFDUSD
+[DEBUG] 💱 Preço2: 0.0503, Volume2: 3443112.17491, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 490.05
+[DEBUG] 🔗 Par3: FDUSDUSDC
+[DEBUG] 💱 Preço3: 0.9975, Volume3: 4632894.5227, Tipo3: sell
+[DEBUG] 💵 Valor final: 483.93662625
+[DEBUG] 📈 Lucro: -16.063373749999982, Lucro %: -3.212674749999996
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → ZK → FDUSD → USDC', 'par1': 'ZKUSDC', 'preco1': 0.0503, 'tipo1': 'buy', 'vol1': 6369678.00525, 'm1_recebido': 9840.954274, 'par2': 'ZKFDUSD', 'preco2': 0.0503, 'tipo2': 'sell', 'vol2': 3443112.17491, 'm2_recebido': 490.05, 'par3': 'FDUSDUSDC', 'preco3': 0.9975, 'tipo3': 'sell', 'vol3': 4632894.5227, 'valor_inicial': 500, 'valor_final': 483.936626, 'lucro_real': -16.063374, 'lucro_percentual': -3.212675, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:25.875525', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → ZK → TRY → USDC
+[DEBUG] 🔗 Pares formados: ZKUSDC, ZKTRY, USDCTRY
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → ZK → TRY → USDC
+[DEBUG] 🔗 Par1: ZKUSDC
+[DEBUG] 💱 Preço1: 0.0503, Volume1: 6369678.00525, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 9840.954274353877
+[DEBUG] 🔗 Par2: ZKTRY
+[DEBUG] 💱 Preço2: 1.911, Volume2: 35827757.9973, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 18618.00298210736
+[DEBUG] 🔗 Par3: USDCTRY
+[DEBUG] 💱 Preço3: 38.06, Volume3: 32516333.34, Tipo3: buy
+[DEBUG] 💵 Valor final: 484.28331456348616
+[DEBUG] 📈 Lucro: -15.716685436513842, Lucro %: -3.143337087302769
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → ZK → TRY → USDC', 'par1': 'ZKUSDC', 'preco1': 0.0503, 'tipo1': 'buy', 'vol1': 6369678.00525, 'm1_recebido': 9840.954274, 'par2': 'ZKTRY', 'preco2': 1.911, 'tipo2': 'sell', 'vol2': 35827757.9973, 'm2_recebido': 18618.002982, 'par3': 'USDCTRY', 'preco3': 38.06, 'tipo3': 'buy', 'vol3': 32516333.34, 'valor_inicial': 500, 'valor_final': 484.283315, 'lucro_real': -15.716685, 'lucro_percentual': -3.143337, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:25.927969', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → ZK → USDT → USDC
+[DEBUG] 🔗 Pares formados: ZKUSDC, ZKUSDT, USDCUSDT
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → ZK → USDT → USDC
+[DEBUG] 🔗 Par1: ZKUSDC
+[DEBUG] 💱 Preço1: 0.0503, Volume1: 6369678.00525, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 9840.954274353877
+[DEBUG] 🔗 Par2: ZKUSDT
+[DEBUG] 💱 Preço2: 0.0502, Volume2: 6574848.81583, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 489.075745526839
+[DEBUG] 🔗 Par3: USDCUSDT
+[DEBUG] 💱 Preço3: 1.0001, Volume3: 19182072.2064, Tipo3: buy
+[DEBUG] 💵 Valor final: 484.1365744141292
+[DEBUG] 📈 Lucro: -15.8634255858708, Lucro %: -3.17268511717416
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → ZK → USDT → USDC', 'par1': 'ZKUSDC', 'preco1': 0.0503, 'tipo1': 'buy', 'vol1': 6369678.00525, 'm1_recebido': 9840.954274, 'par2': 'ZKUSDT', 'preco2': 0.0502, 'tipo2': 'sell', 'vol2': 6574848.81583, 'm2_recebido': 489.075746, 'par3': 'USDCUSDT', 'preco3': 1.0001, 'tipo3': 'buy', 'vol3': 19182072.2064, 'valor_inicial': 500, 'valor_final': 484.136574, 'lucro_real': -15.863426, 'lucro_percentual': -3.172685, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:25.992795', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → ZRO → FDUSD → USDC
+[DEBUG] 🔗 Pares formados: ZROUSDC, ZROFDUSD, FDUSDUSDC
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → ZRO → FDUSD → USDC
+[DEBUG] 🔗 Par1: ZROUSDC
+[DEBUG] 💱 Preço1: 2.534, Volume1: 41105212.36959, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 195.34333070244674
+[DEBUG] 🔗 Par2: ZROFDUSD
+[DEBUG] 💱 Preço2: 2.539, Volume2: 5279340.18141, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 491.0169494869772
+[DEBUG] 🔗 Par3: FDUSDUSDC
+[DEBUG] 💱 Preço3: 0.9975, Volume3: 4632894.5227, Tipo3: sell
+[DEBUG] 💵 Valor final: 484.89151304212714
+[DEBUG] 📈 Lucro: -15.108486957872856, Lucro %: -3.0216973915745715
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → ZRO → FDUSD → USDC', 'par1': 'ZROUSDC', 'preco1': 2.534, 'tipo1': 'buy', 'vol1': 41105212.36959, 'm1_recebido': 195.343331, 'par2': 'ZROFDUSD', 'preco2': 2.539, 'tipo2': 'sell', 'vol2': 5279340.18141, 'm2_recebido': 491.016949, 'par3': 'FDUSDUSDC', 'preco3': 0.9975, 'tipo3': 'sell', 'vol3': 4632894.5227, 'valor_inicial': 500, 'valor_final': 484.891513, 'lucro_real': -15.108487, 'lucro_percentual': -3.021697, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:26.073580', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → ZRO → TRY → USDC
+[DEBUG] 🔗 Pares formados: ZROUSDC, ZROTRY, USDCTRY
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → ZRO → TRY → USDC
+[DEBUG] 🔗 Par1: ZROUSDC
+[DEBUG] 💱 Preço1: 2.534, Volume1: 41105212.36959, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 195.34333070244674
+[DEBUG] 🔗 Par2: ZROTRY
+[DEBUG] 💱 Preço2: 96.4, Volume2: 29541895.983, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 18642.786108918706
+[DEBUG] 🔗 Par3: USDCTRY
+[DEBUG] 💱 Preço3: 38.06, Volume3: 32516333.34, Tipo3: buy
+[DEBUG] 💵 Valor final: 484.92796237071775
+[DEBUG] 📈 Lucro: -15.07203762928225, Lucro %: -3.0144075258564498
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → ZRO → TRY → USDC', 'par1': 'ZROUSDC', 'preco1': 2.534, 'tipo1': 'buy', 'vol1': 41105212.36959, 'm1_recebido': 195.343331, 'par2': 'ZROTRY', 'preco2': 96.4, 'tipo2': 'sell', 'vol2': 29541895.983, 'm2_recebido': 18642.786109, 'par3': 'USDCTRY', 'preco3': 38.06, 'tipo3': 'buy', 'vol3': 32516333.34, 'valor_inicial': 500, 'valor_final': 484.927962, 'lucro_real': -15.072038, 'lucro_percentual': -3.014408, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:26.126437', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+
+[DEBUG] 🔄 Testando rota: USDC → ZRO → USDT → USDC
+[DEBUG] 🔗 Pares formados: ZROUSDC, ZROUSDT, USDCUSDT
+
+[DEBUG] 🧠 Iniciando cálculo da rota: USDC → ZRO → USDT → USDC
+[DEBUG] 🔗 Par1: ZROUSDC
+[DEBUG] 💱 Preço1: 2.534, Volume1: 41105212.36959, Tipo1: buy
+[DEBUG] 💰 m1_recebido: 195.34333070244674
+[DEBUG] 🔗 Par2: ZROUSDT
+[DEBUG] 💱 Preço2: 2.534, Volume2: 37772634.13259, Tipo2: sell
+[DEBUG] 💰 m2_recebido: 490.05
+[DEBUG] 🔗 Par3: USDCUSDT
+[DEBUG] 💱 Preço3: 1.0001, Volume3: 19182072.2064, Tipo3: buy
+[DEBUG] 💵 Valor final: 485.10098990100994
+[DEBUG] 📈 Lucro: -14.899010098990061, Lucro %: -2.9798020197980124
+[DEBUG] 📈 Resultado calculado com sucesso:
+{'rota': 'USDC → ZRO → USDT → USDC', 'par1': 'ZROUSDC', 'preco1': 2.534, 'tipo1': 'buy', 'vol1': 41105212.36959, 'm1_recebido': 195.343331, 'par2': 'ZROUSDT', 'preco2': 2.534, 'tipo2': 'sell', 'vol2': 37772634.13259, 'm2_recebido': 490.05, 'par3': 'USDCUSDT', 'preco3': 1.0001, 'tipo3': 'buy', 'vol3': 19182072.2064, 'valor_inicial': 500, 'valor_final': 485.10099, 'lucro_real': -14.89901, 'lucro_percentual': -2.979802, 'exchange': 'Binance', 'timestamp': '2025-04-14 20:14:26.203232', 'status': 'OK'}
+
+[DEBUG] 📝 Tentando salvar em: C:\Users\user\Desktop\Git_Crypto\triangular\logs\logs_data\log_rotas.json
+[DEBUG] Tipo de entrada: item único
+[DEBUG] 📄 Log existente carregado.
+[DEBUG] ✅ Log salvo com sucesso!
+[DEBUG] 💾 Resultado salvo no log de rotas!
+[INFO] 2025-04-14 20:14:26.263910 — ✅ Execução finalizada
+[INFO] 2025-04-14 20:14:26.263910 — ✅ Execução finalizada em 91.60 segundos
+PS C:\Users\user\Desktop\Git_Crypto\triangular> 
