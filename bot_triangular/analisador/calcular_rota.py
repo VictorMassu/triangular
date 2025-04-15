@@ -3,52 +3,26 @@ from logs.logs_core.logger_json import salvar_json_lista
 from logs.logs_agent.logger_debug import log_debug_json
 from bot_triangular.config import LOG_ROTAS, LOG_OPORTUNIDADES, LUCRO_IRREALISTA
 
+
 def calcular_rota(moeda_base, m1, m2, ticker_dict, todos_pares, capital_inicial, aplicar_taxa_fn, buscar_preco_fn, exchange_nome="Binance"):
     try:
-        def construir_par(m1, m2):
-            if f"{m1}{m2}" in todos_pares:
-                return f"{m1}{m2}"
-            elif f"{m2}{m1}" in todos_pares:
-                return f"{m2}{m1}"
-            return None
-
-        def inferir_tipo_operacao(par, moeda_origem):
-            return "sell" if par.startswith(moeda_origem) else "buy"
-
         timestamp = str(datetime.now())
         rota_id = f"{moeda_base}_{m1}_{m2}_{moeda_base}"
         modo_execucao = "simulacao"
 
         print(f"\n[DEBUG] 🧠 Iniciando cálculo da rota: {moeda_base} → {m1} → {m2} → {moeda_base}")
 
-        # Etapa 1
-        par1 = construir_par(moeda_base, m1)
-        tipo1 = inferir_tipo_operacao(par1, moeda_base)
-        preco1, vol1 = buscar_preco_fn(ticker_dict, par1, tipo1, capital=capital_inicial)
-        if not preco1 or not vol1:
-            raise ValueError(f"[LIQUIDEZ] Preço ou volume ausente para {par1}")
-        bruto1 = capital_inicial * preco1 if tipo1 == "sell" else capital_inicial / preco1
-        m1_recebido = aplicar_taxa_fn(bruto1)
+        # Etapas do ciclo
+        par1, tipo1, preco1, vol1, bruto1, m1_recebido = calcular_etapa(
+            moeda_base, m1, capital_inicial, ticker_dict, todos_pares, aplicar_taxa_fn, buscar_preco_fn
+        )
+        par2, tipo2, preco2, vol2, bruto2, m2_recebido = calcular_etapa(
+            m1, m2, m1_recebido, ticker_dict, todos_pares, aplicar_taxa_fn, buscar_preco_fn
+        )
+        par3, tipo3, preco3, vol3, bruto3, valor_final = calcular_etapa(
+            m2, moeda_base, m2_recebido, ticker_dict, todos_pares, aplicar_taxa_fn, buscar_preco_fn
+        )
 
-        # Etapa 2
-        par2 = construir_par(m1, m2)
-        tipo2 = inferir_tipo_operacao(par2, m1)
-        preco2, vol2 = buscar_preco_fn(ticker_dict, par2, tipo2, capital=m1_recebido)
-        if not preco2 or not vol2:
-            raise ValueError(f"[LIQUIDEZ] Preço ou volume ausente para {par2}")
-        bruto2 = m1_recebido * preco2 if tipo2 == "sell" else m1_recebido / preco2
-        m2_recebido = aplicar_taxa_fn(bruto2)
-
-        # Etapa 3
-        par3 = construir_par(m2, moeda_base)
-        tipo3 = inferir_tipo_operacao(par3, m2)
-        preco3, vol3 = buscar_preco_fn(ticker_dict, par3, tipo3, capital=m2_recebido)
-        if not preco3 or not vol3:
-            raise ValueError(f"[LIQUIDEZ] Preço ou volume ausente para {par3}")
-        bruto3 = m2_recebido * preco3 if tipo3 == "sell" else m2_recebido / preco3
-        valor_final = aplicar_taxa_fn(bruto3)
-
-        # Cálculo de lucro
         lucro_real = valor_final - capital_inicial
         lucro_pct = (lucro_real / capital_inicial) * 100
         lucro_pct_sem_taxa = ((bruto3 - capital_inicial) / capital_inicial) * 100
@@ -106,3 +80,27 @@ def calcular_rota(moeda_base, m1, m2, ticker_dict, todos_pares, capital_inicial,
             }
         )
         return None
+
+
+def construir_par(m1, m2, todos_pares):
+    if f"{m1}{m2}" in todos_pares:
+        return f"{m1}{m2}"
+    elif f"{m2}{m1}" in todos_pares:
+        return f"{m2}{m1}"
+    return None
+
+
+def inferir_tipo_operacao(par, moeda_origem):
+    return "sell" if par.startswith(moeda_origem) else "buy"
+
+
+def calcular_etapa(origem, destino, capital, ticker_dict, todos_pares, aplicar_taxa_fn, buscar_preco_fn):
+    par = construir_par(origem, destino, todos_pares)
+    tipo = inferir_tipo_operacao(par, origem)
+    preco, volume = buscar_preco_fn(ticker_dict, par, tipo, capital=capital)
+    if not preco or not volume:
+        raise ValueError(f"[LIQUIDEZ] Preço ou volume ausente para {par}")
+
+    bruto = capital * preco if tipo == "sell" else capital / preco
+    recebido = aplicar_taxa_fn(bruto)
+    return par, tipo, preco, volume, bruto, recebido
