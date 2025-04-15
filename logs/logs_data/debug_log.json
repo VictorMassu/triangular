@@ -1508,5 +1508,1245 @@
             "par3": "ETHUSDE",
             "timestamp": "2025-04-15T12:55:12.890876"
         }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:22.866082",
+        "categoria": "teste_manual",
+        "origem": "<module>",
+        "mensagem": "⚠️ Teste de debug manual",
+        "id": null,
+        "dados": {
+            "exemplo": 123
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:25.374457",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "BRL",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:37:25.365482"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:25.498153",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_BRL_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "BRL",
+            "m2": "XRP",
+            "par1": "ETHBRL",
+            "par2": "XRPBRL",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:37:25.491170"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:25.938516",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "EUR",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:37:25.914580"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:25.971430",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_EUR_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "EUR",
+            "m2": "XRP",
+            "par1": "ETHEUR",
+            "par2": "XRPEUR",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:37:25.966442"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:26.189844",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "JPY",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:37:26.185855"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:26.217770",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_JPY_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "JPY",
+            "m2": "XRP",
+            "par1": "ETHJPY",
+            "par2": "XRPJPY",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:37:26.208793"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:26.285217",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "MXN",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:37:26.281229"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:26.301175",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_MXN_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "MXN",
+            "m2": "XRP",
+            "par1": "ETHMXN",
+            "par2": "XRPMXN",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:37:26.296189"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:27.522909",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TRY",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:37:27.517922"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:27.546847",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_TRY_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TRY",
+            "m2": "XRP",
+            "par1": "ETHTRY",
+            "par2": "XRPTRY",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:37:27.538867"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:27.687470",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TUSD",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:37:27.681486"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:27.707415",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_TUSD_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TUSD",
+            "m2": "XRP",
+            "par1": "ETHTUSD",
+            "par2": "XRPTUSD",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:37:27.702430"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:27.990279",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDC",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:37:27.985294"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:28.008229",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_USDC_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDC",
+            "m2": "XRP",
+            "par1": "ETHUSDC",
+            "par2": "XRPUSDC",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:37:28.004240"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:28.550308",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDT",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:37:28.542329"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:37:28.566264",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_USDT_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDT",
+            "m2": "XRP",
+            "par1": "ETHUSDT",
+            "par2": "XRPUSDT",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:37:28.562276"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:21.957105",
+        "categoria": "teste_manual",
+        "origem": "<module>",
+        "mensagem": "⚠️ Teste de debug manual",
+        "id": null,
+        "dados": {
+            "exemplo": 123
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:23.988361",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "BRL",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:39:23.980383"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:23.998335",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_BRL_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "BRL",
+            "m2": "XRP",
+            "par1": "ETHBRL",
+            "par2": "XRPBRL",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:39:23.994345"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:24.177856",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "EUR",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:39:24.170875"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:24.195807",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_EUR_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "EUR",
+            "m2": "XRP",
+            "par1": "ETHEUR",
+            "par2": "XRPEUR",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:39:24.191818"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:24.338138",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "JPY",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:39:24.335106"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:24.349071",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_JPY_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "JPY",
+            "m2": "XRP",
+            "par1": "ETHJPY",
+            "par2": "XRPJPY",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:39:24.345079"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:24.425863",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "MXN",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:39:24.421875"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:24.445809",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_MXN_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "MXN",
+            "m2": "XRP",
+            "par1": "ETHMXN",
+            "par2": "XRPMXN",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:39:24.441822"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:24.976377",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TRY",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:39:24.971390"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:24.994746",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_TRY_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TRY",
+            "m2": "XRP",
+            "par1": "ETHTRY",
+            "par2": "XRPTRY",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:39:24.987765"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:25.121131",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TUSD",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:39:25.118100"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:25.134072",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_TUSD_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TUSD",
+            "m2": "XRP",
+            "par1": "ETHTUSD",
+            "par2": "XRPTUSD",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:39:25.128071"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:25.386808",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDC",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:39:25.383818"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:25.397780",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_USDC_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDC",
+            "m2": "XRP",
+            "par1": "ETHUSDC",
+            "par2": "XRPUSDC",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:39:25.393828"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:25.972696",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDT",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:39:25.965715"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:25.984609",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_USDT_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDT",
+            "m2": "XRP",
+            "par1": "ETHUSDT",
+            "par2": "XRPUSDT",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:39:25.979620"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:31.855412",
+        "categoria": "teste_manual",
+        "origem": "<module>",
+        "mensagem": "⚠️ Teste de debug manual",
+        "id": null,
+        "dados": {
+            "exemplo": 123
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:34.764242",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "BRL",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:39:34.757262"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:34.786279",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_BRL_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "BRL",
+            "m2": "XRP",
+            "par1": "ETHBRL",
+            "par2": "XRPBRL",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:39:34.779242"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:35.111455",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "EUR",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:39:35.105470"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:35.125416",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_EUR_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "EUR",
+            "m2": "XRP",
+            "par1": "ETHEUR",
+            "par2": "XRPEUR",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:39:35.121426"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:35.345148",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "JPY",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:39:35.342117"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:35.372037",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_JPY_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "JPY",
+            "m2": "XRP",
+            "par1": "ETHJPY",
+            "par2": "XRPJPY",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:39:35.368048"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:35.502687",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "MXN",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:39:35.476757"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:35.547397",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_MXN_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "MXN",
+            "m2": "XRP",
+            "par1": "ETHMXN",
+            "par2": "XRPMXN",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:39:35.543087"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:36.244171",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TRY",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:39:36.240184"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:36.262016",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_TRY_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TRY",
+            "m2": "XRP",
+            "par1": "ETHTRY",
+            "par2": "XRPTRY",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:39:36.257033"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:36.646986",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TUSD",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:39:36.642998"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:36.658955",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_TUSD_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TUSD",
+            "m2": "XRP",
+            "par1": "ETHTUSD",
+            "par2": "XRPTUSD",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:39:36.655962"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:36.960415",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDC",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:39:36.957425"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:36.972522",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_USDC_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDC",
+            "m2": "XRP",
+            "par1": "ETHUSDC",
+            "par2": "XRPUSDC",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:39:36.969569"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:37.766276",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDT",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:39:37.761291"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:39:37.788217",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_USDT_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDT",
+            "m2": "XRP",
+            "par1": "ETHUSDT",
+            "par2": "XRPUSDT",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:39:37.780239"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:06.861481",
+        "categoria": "teste_manual",
+        "origem": "<module>",
+        "mensagem": "⚠️ Teste de debug manual",
+        "id": null,
+        "dados": {
+            "exemplo": 123
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:09.461566",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "BRL",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:51:09.457576"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:09.474531",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_BRL_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "BRL",
+            "m2": "XRP",
+            "par1": "ETHBRL",
+            "par2": "XRPBRL",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:51:09.471539"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:10.188405",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "EUR",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:51:10.182422"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:10.208863",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_EUR_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "EUR",
+            "m2": "XRP",
+            "par1": "ETHEUR",
+            "par2": "XRPEUR",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:51:10.203366"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:10.911759",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "JPY",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:51:10.903783"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:11.085297",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_JPY_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "JPY",
+            "m2": "XRP",
+            "par1": "ETHJPY",
+            "par2": "XRPJPY",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:51:11.079312"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:11.320614",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "MXN",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:51:11.314631"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:11.354523",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_MXN_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "MXN",
+            "m2": "XRP",
+            "par1": "ETHMXN",
+            "par2": "XRPMXN",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:51:11.347543"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:12.638459",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TRY",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:51:12.632475"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:12.672372",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_TRY_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TRY",
+            "m2": "XRP",
+            "par1": "ETHTRY",
+            "par2": "XRPTRY",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:51:12.664390"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:12.971581",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TUSD",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:51:12.928697"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:13.020453",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_TUSD_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TUSD",
+            "m2": "XRP",
+            "par1": "ETHTUSD",
+            "par2": "XRPTUSD",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:51:13.012473"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:13.896971",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDC",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:51:13.888993"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:13.923898",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_USDC_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDC",
+            "m2": "XRP",
+            "par1": "ETHUSDC",
+            "par2": "XRPUSDC",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:51:13.919910"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:15.368393",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDT",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:51:15.358421"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:15.394324",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_USDT_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDT",
+            "m2": "XRP",
+            "par1": "ETHUSDT",
+            "par2": "XRPUSDT",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:51:15.389337"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:30.608068",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "BRL",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:51:30.604080"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:30.881338",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_BRL_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "BRL",
+            "m2": "XRP",
+            "par1": "ETHBRL",
+            "par2": "XRPBRL",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:51:30.875356"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:32.282978",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "EUR",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:51:32.263304"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:32.327643",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_EUR_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "EUR",
+            "m2": "XRP",
+            "par1": "ETHEUR",
+            "par2": "XRPEUR",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:51:32.305703"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:33.060241",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "JPY",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:51:33.055254"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:33.075201",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_JPY_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "JPY",
+            "m2": "XRP",
+            "par1": "ETHJPY",
+            "par2": "XRPJPY",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:51:33.070213"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:33.257181",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "MXN",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:51:33.253191"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:33.290094",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_MXN_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "MXN",
+            "m2": "XRP",
+            "par1": "ETHMXN",
+            "par2": "XRPMXN",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:51:33.284108"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:37.390423",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TRY",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:51:37.378455"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:37.428322",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_TRY_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TRY",
+            "m2": "XRP",
+            "par1": "ETHTRY",
+            "par2": "XRPTRY",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:51:37.423336"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:38.269771",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TUSD",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:51:38.242843"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:38.296699",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_TUSD_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "TUSD",
+            "m2": "XRP",
+            "par1": "ETHTUSD",
+            "par2": "XRPTUSD",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:51:38.291711"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:39.440639",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDC",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:51:39.436651"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:39.458593",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_USDC_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDC",
+            "m2": "XRP",
+            "par1": "ETHUSDC",
+            "par2": "XRPUSDC",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:51:39.453605"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:42.139072",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "id": null,
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDT",
+            "m2": "XRP",
+            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+            "timestamp": "2025-04-15 13:51:42.134085"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 13:51:42.161012",
+        "categoria": "rota_nula",
+        "origem": "simular_rotas",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "ETH_USDT_XRP_ETH",
+        "dados": {
+            "moeda_base": "ETH",
+            "m1": "USDT",
+            "m2": "XRP",
+            "par1": "ETHUSDT",
+            "par2": "XRPUSDT",
+            "par3": "XRPETH",
+            "timestamp": "2025-04-15T13:51:42.156027"
+        }
     }
 ]

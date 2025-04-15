@@ -16,7 +16,8 @@ VALOR_MINIMO_MOEDA = 0.001  #Unidade monetária (ex: 0.01) isso evita moedas com
 VOLUME_MINIMO_PARA_ANALISE = 1000  # volume em USDC ou equivalente
 TOP_MOEDAS = 15000  # Número de moedas mais líquidas analisadas
 MAX_WORKERS = 10  # Número de threads para paralelismo
-
+MODO_LOOP = os.getenv("MODO_LOOP", "false").lower() == "true" # Modo de loop infinito no scanner
+INTERVALO_LOOP = 10  # Tempo entre ciclos, em segundos
 
 blacklist_pares = set()
 
