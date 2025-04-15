@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configurações gerais
-MOEDA_BASE = "ETH"
+MOEDA_BASE = "BRL"
 VALOR_INICIAL = 0.0613 #Unidade monetária (float)
-TAXA = 0.00075 #Percentual decimal (0.01 = 1%)
+TAXA = 0.00075 #Percentual decimal (0.S01 = 1%)
 LUCRO_MINIMO = 0.003 #Percentual decimal (0.002 = 0.2%)
 SPREAD_MAXIMO = 0.05 #Percentual decimal (0.05 = 5%)
 LUCRO_IRREALISTA = 500  # alerta para lucro muito alto
@@ -18,6 +18,7 @@ TOP_MOEDAS = 15000  # Número de moedas mais líquidas analisadas
 MAX_WORKERS = 10  # Número de threads para paralelismo
 MODO_LOOP = os.getenv("MODO_LOOP", "false").lower() == "true" # Modo de loop infinito no scanner
 INTERVALO_LOOP = 10  # Tempo entre ciclos, em segundos
+USAR_PROFUNDIDADE_BOOK = True  # ou False para usar o método atual
 
 blacklist_pares = set()
 

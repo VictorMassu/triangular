@@ -1,482 +1,1742 @@
 [
     {
-        "timestamp": "2025-04-15 14:10:34.612742",
+        "timestamp": "2025-04-15 14:53:55.005008",
         "categoria": "calcular_rota",
         "origem": "calcular_rota",
-        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
         "id": null,
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "BRL",
-            "m2": "XRP",
-            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-            "timestamp": "2025-04-15 14:10:34.409797"
+            "moeda_base": "BRL",
+            "m1": "ADA",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:54.860763"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:34.618725",
+        "timestamp": "2025-04-15 14:53:55.012026",
         "categoria": "rota_nula",
         "origem": "analisar_rota",
         "mensagem": "Resultado None ao simular rota",
-        "id": "ETH_BRL_XRP_ETH",
+        "id": "BRL_ADA_USDT_BRL",
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "BRL",
+            "moeda_base": "BRL",
+            "m1": "ADA",
+            "m2": "USDT",
+            "par1": "ADABRL",
+            "par2": "ADAUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.008000"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.021002",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "AVAX",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.015977"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.027983",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_AVAX_USDT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "AVAX",
+            "m2": "USDT",
+            "par1": "AVAXBRL",
+            "par2": "AVAXUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.023956"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.036919",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "BNB",
+            "m2": "ETH",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.030896"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.042813",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_BNB_ETH_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "BNB",
+            "m2": "ETH",
+            "par1": "BNBBRL",
+            "par2": "BNBETH",
+            "par3": "ETHBRL",
+            "timestamp": "2025-04-15T14:53:55.039818"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.053103",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "BNB",
+            "m2": "SOL",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.046117"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.060122",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_BNB_SOL_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "BNB",
+            "m2": "SOL",
+            "par1": "BNBBRL",
+            "par2": "SOLBNB",
+            "par3": "SOLBRL",
+            "timestamp": "2025-04-15T14:53:55.057091"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.069059",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "BNB",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.064072"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.075120",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_BNB_USDT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "BNB",
+            "m2": "USDT",
+            "par1": "BNBBRL",
+            "par2": "BNBUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.072088"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.084055",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "BONK",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.079068"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.091109",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_BONK_USDT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "BONK",
+            "m2": "USDT",
+            "par1": "BONKBRL",
+            "par2": "BONKUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.087116"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.103076",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "BTC",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.094100"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.112052",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_BTC_USDT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "BTC",
+            "m2": "USDT",
+            "par1": "BTCBRL",
+            "par2": "BTCUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.108063"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.121741",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "DOGE",
+            "m2": "SHIB",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.117754"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.129521",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_DOGE_SHIB_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "DOGE",
+            "m2": "SHIB",
+            "par1": "DOGEBRL",
+            "par2": "SHIBDOGE",
+            "par3": "SHIBBRL",
+            "timestamp": "2025-04-15T14:53:55.124533"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.138499",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "DOGE",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.133512"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.146368",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_DOGE_USDT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "DOGE",
+            "m2": "USDT",
+            "par1": "DOGEBRL",
+            "par2": "DOGEUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.141336"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.156335",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "DOT",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.151310"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.162320",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_DOT_USDT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "DOT",
+            "m2": "USDT",
+            "par1": "DOTBRL",
+            "par2": "DOTUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.159297"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.173252",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "ENA",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.168265"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.182227",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_ENA_USDT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "ENA",
+            "m2": "USDT",
+            "par1": "ENABRL",
+            "par2": "ENAUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.177279"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.192200",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "ETH",
+            "m2": "BNB",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.186217"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.203171",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_ETH_BNB_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "ETH",
+            "m2": "BNB",
+            "par1": "ETHBRL",
+            "par2": "BNBETH",
+            "par3": "BNBBRL",
+            "timestamp": "2025-04-15T14:53:55.196190"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.242722",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "ETH",
+            "m2": "SOL",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.236486"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.255397",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_ETH_SOL_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "ETH",
+            "m2": "SOL",
+            "par1": "ETHBRL",
+            "par2": "SOLETH",
+            "par3": "SOLBRL",
+            "timestamp": "2025-04-15T14:53:55.247336"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.266348",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "ETH",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.260248"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.278226",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_ETH_USDT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "ETH",
+            "m2": "USDT",
+            "par1": "ETHBRL",
+            "par2": "ETHUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.273068"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.292218",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "ETH",
+            "m2": "XRP",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.285714"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.303187",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_ETH_XRP_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "ETH",
             "m2": "XRP",
             "par1": "ETHBRL",
-            "par2": "XRPBRL",
-            "par3": "XRPETH",
-            "timestamp": "2025-04-15T14:10:34.615733"
+            "par2": "XRPETH",
+            "par3": "XRPBRL",
+            "timestamp": "2025-04-15T14:53:55.296206"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:34.661108",
+        "timestamp": "2025-04-15 14:53:55.314158",
         "categoria": "calcular_rota",
         "origem": "calcular_rota",
-        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
         "id": null,
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "EUR",
-            "m2": "XRP",
-            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-            "timestamp": "2025-04-15 14:10:34.656081"
+            "moeda_base": "BRL",
+            "m1": "GALA",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.308174"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:34.669086",
+        "timestamp": "2025-04-15 14:53:55.327123",
         "categoria": "rota_nula",
         "origem": "analisar_rota",
         "mensagem": "Resultado None ao simular rota",
-        "id": "ETH_EUR_XRP_ETH",
+        "id": "BRL_GALA_USDT_BRL",
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "EUR",
-            "m2": "XRP",
-            "par1": "ETHEUR",
-            "par2": "XRPEUR",
-            "par3": "XRPETH",
-            "timestamp": "2025-04-15T14:10:34.663090"
+            "moeda_base": "BRL",
+            "m1": "GALA",
+            "m2": "USDT",
+            "par1": "GALABRL",
+            "par2": "GALAUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.322137"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:34.722904",
+        "timestamp": "2025-04-15 14:53:55.339092",
         "categoria": "calcular_rota",
         "origem": "calcular_rota",
-        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
         "id": null,
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "JPY",
-            "m2": "XRP",
-            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-            "timestamp": "2025-04-15 14:10:34.717917"
+            "moeda_base": "BRL",
+            "m1": "KAITO",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.335105"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:34.732877",
+        "timestamp": "2025-04-15 14:53:55.346075",
         "categoria": "rota_nula",
         "origem": "analisar_rota",
         "mensagem": "Resultado None ao simular rota",
-        "id": "ETH_JPY_XRP_ETH",
+        "id": "BRL_KAITO_USDT_BRL",
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "JPY",
-            "m2": "XRP",
-            "par1": "ETHJPY",
-            "par2": "XRPJPY",
-            "par3": "XRPETH",
-            "timestamp": "2025-04-15T14:10:34.727890"
+            "moeda_base": "BRL",
+            "m1": "KAITO",
+            "m2": "USDT",
+            "par1": "KAITOBRL",
+            "par2": "KAITOUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.342084"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:34.757810",
+        "timestamp": "2025-04-15 14:53:55.357047",
         "categoria": "calcular_rota",
         "origem": "calcular_rota",
-        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
         "id": null,
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "MXN",
-            "m2": "XRP",
-            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-            "timestamp": "2025-04-15 14:10:34.753821"
+            "moeda_base": "BRL",
+            "m1": "LINK",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.352062"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:34.763792",
+        "timestamp": "2025-04-15 14:53:55.367022",
         "categoria": "rota_nula",
         "origem": "analisar_rota",
         "mensagem": "Resultado None ao simular rota",
-        "id": "ETH_MXN_XRP_ETH",
+        "id": "BRL_LINK_USDT_BRL",
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "MXN",
-            "m2": "XRP",
-            "par1": "ETHMXN",
-            "par2": "XRPMXN",
-            "par3": "XRPETH",
-            "timestamp": "2025-04-15T14:10:34.759804"
+            "moeda_base": "BRL",
+            "m1": "LINK",
+            "m2": "USDT",
+            "par1": "LINKBRL",
+            "par2": "LINKUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.362036"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:34.914955",
+        "timestamp": "2025-04-15 14:53:55.375999",
         "categoria": "calcular_rota",
         "origem": "calcular_rota",
-        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
         "id": null,
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "TRY",
-            "m2": "XRP",
-            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-            "timestamp": "2025-04-15 14:10:34.910966"
+            "moeda_base": "BRL",
+            "m1": "LTC",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.371010"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:34.922972",
+        "timestamp": "2025-04-15 14:53:55.383977",
         "categoria": "rota_nula",
         "origem": "analisar_rota",
         "mensagem": "Resultado None ao simular rota",
-        "id": "ETH_TRY_XRP_ETH",
+        "id": "BRL_LTC_USDT_BRL",
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "TRY",
-            "m2": "XRP",
-            "par1": "ETHTRY",
-            "par2": "XRPTRY",
-            "par3": "XRPETH",
-            "timestamp": "2025-04-15T14:10:34.919942"
+            "moeda_base": "BRL",
+            "m1": "LTC",
+            "m2": "USDT",
+            "par1": "LTCBRL",
+            "par2": "LTCUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.378990"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:34.957688",
+        "timestamp": "2025-04-15 14:53:55.393949",
         "categoria": "calcular_rota",
         "origem": "calcular_rota",
-        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
         "id": null,
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "TUSD",
-            "m2": "XRP",
-            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-            "timestamp": "2025-04-15 14:10:34.953698"
+            "moeda_base": "BRL",
+            "m1": "NEAR",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.387965"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:34.967660",
+        "timestamp": "2025-04-15 14:53:55.402926",
         "categoria": "rota_nula",
         "origem": "analisar_rota",
         "mensagem": "Resultado None ao simular rota",
-        "id": "ETH_TUSD_XRP_ETH",
+        "id": "BRL_NEAR_USDT_BRL",
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "TUSD",
-            "m2": "XRP",
-            "par1": "ETHTUSD",
-            "par2": "XRPTUSD",
-            "par3": "XRPETH",
-            "timestamp": "2025-04-15T14:10:34.961676"
+            "moeda_base": "BRL",
+            "m1": "NEAR",
+            "m2": "USDT",
+            "par1": "NEARBRL",
+            "par2": "NEARUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.396942"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:35.066260",
+        "timestamp": "2025-04-15 14:53:55.412899",
         "categoria": "calcular_rota",
         "origem": "calcular_rota",
-        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
         "id": null,
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "USDC",
-            "m2": "XRP",
-            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-            "timestamp": "2025-04-15 14:10:35.060274"
+            "moeda_base": "BRL",
+            "m1": "PEPE",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.408910"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:35.080225",
+        "timestamp": "2025-04-15 14:53:55.425863",
         "categoria": "rota_nula",
         "origem": "analisar_rota",
         "mensagem": "Resultado None ao simular rota",
-        "id": "ETH_USDC_XRP_ETH",
+        "id": "BRL_PEPE_USDT_BRL",
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "USDC",
-            "m2": "XRP",
-            "par1": "ETHUSDC",
-            "par2": "XRPUSDC",
-            "par3": "XRPETH",
-            "timestamp": "2025-04-15T14:10:35.076233"
+            "moeda_base": "BRL",
+            "m1": "PEPE",
+            "m2": "USDT",
+            "par1": "PEPEBRL",
+            "par2": "PEPEUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.418883"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:35.322432",
+        "timestamp": "2025-04-15 14:53:55.438829",
         "categoria": "calcular_rota",
         "origem": "calcular_rota",
-        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
         "id": null,
         "dados": {
-            "moeda_base": "ETH",
+            "moeda_base": "BRL",
+            "m1": "PNUT",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.429854"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.445810",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_PNUT_USDT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "PNUT",
+            "m2": "USDT",
+            "par1": "PNUTBRL",
+            "par2": "PNUTUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.441822"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.461772",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "POL",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.455785"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.474735",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_POL_USDT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "POL",
+            "m2": "USDT",
+            "par1": "POLBRL",
+            "par2": "POLUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.469748"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.497673",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "RENDER",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.490692"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.513630",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_RENDER_USDT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "RENDER",
+            "m2": "USDT",
+            "par1": "RENDERBRL",
+            "par2": "RENDERUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.508644"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.525598",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "SHIB",
+            "m2": "DOGE",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.520611"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.535572",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_SHIB_DOGE_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "SHIB",
+            "m2": "DOGE",
+            "par1": "SHIBBRL",
+            "par2": "SHIBDOGE",
+            "par3": "DOGEBRL",
+            "timestamp": "2025-04-15T14:53:55.528590"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.544546",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "SHIB",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.539560"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.555517",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_SHIB_USDT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "SHIB",
+            "m2": "USDT",
+            "par1": "SHIBBRL",
+            "par2": "SHIBUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.551529"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.564493",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "SOL",
+            "m2": "BNB",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.559507"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.575464",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_SOL_BNB_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "SOL",
+            "m2": "BNB",
+            "par1": "SOLBRL",
+            "par2": "SOLBNB",
+            "par3": "BNBBRL",
+            "timestamp": "2025-04-15T14:53:55.571475"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.590424",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "SOL",
+            "m2": "ETH",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.586436"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.608377",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_SOL_ETH_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "SOL",
+            "m2": "ETH",
+            "par1": "SOLBRL",
+            "par2": "SOLETH",
+            "par3": "ETHBRL",
+            "timestamp": "2025-04-15T14:53:55.597407"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.619348",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "SOL",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.613363"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.630318",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_SOL_USDT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "SOL",
+            "m2": "USDT",
+            "par1": "SOLBRL",
+            "par2": "SOLUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.625332"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.641288",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "SUI",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.636302"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.650265",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_SUI_USDT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "SUI",
+            "m2": "USDT",
+            "par1": "SUIBRL",
+            "par2": "SUIUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.645277"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.663231",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "TRUMP",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.658244"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.676196",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_TRUMP_USDT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "TRUMP",
+            "m2": "USDT",
+            "par1": "TRUMPBRL",
+            "par2": "TRUMPUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:55.670211"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.687166",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "ADA",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.681182"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.695144",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_ADA_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "ADA",
+            "par1": "USDTBRL",
+            "par2": "ADAUSDT",
+            "par3": "ADABRL",
+            "timestamp": "2025-04-15T14:53:55.692152"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.706115",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "AVAX",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.702127"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.714095",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_AVAX_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "AVAX",
+            "par1": "USDTBRL",
+            "par2": "AVAXUSDT",
+            "par3": "AVAXBRL",
+            "timestamp": "2025-04-15T14:53:55.710105"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.741023",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "BNB",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.729055"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.775928",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_BNB_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "BNB",
+            "par1": "USDTBRL",
+            "par2": "BNBUSDT",
+            "par3": "BNBBRL",
+            "timestamp": "2025-04-15T14:53:55.771940"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.787897",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "BONK",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.780915"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.796873",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_BONK_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "BONK",
+            "par1": "USDTBRL",
+            "par2": "BONKUSDT",
+            "par3": "BONKBRL",
+            "timestamp": "2025-04-15T14:53:55.791885"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.807843",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "BTC",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.803854"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.817817",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_BTC_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "BTC",
+            "par1": "USDTBRL",
+            "par2": "BTCUSDT",
+            "par3": "BTCBRL",
+            "timestamp": "2025-04-15T14:53:55.811832"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.827789",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "DOGE",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.822803"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.838760",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_DOGE_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "DOGE",
+            "par1": "USDTBRL",
+            "par2": "DOGEUSDT",
+            "par3": "DOGEBRL",
+            "timestamp": "2025-04-15T14:53:55.833775"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.851726",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "DOT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.846740"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.865690",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_DOT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "DOT",
+            "par1": "USDTBRL",
+            "par2": "DOTUSDT",
+            "par3": "DOTBRL",
+            "timestamp": "2025-04-15T14:53:55.860703"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.878654",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "ENA",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.873668"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.890857",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_ENA_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "ENA",
+            "par1": "USDTBRL",
+            "par2": "ENAUSDT",
+            "par3": "ENABRL",
+            "timestamp": "2025-04-15T14:53:55.886872"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.902827",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "ETH",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.894846"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.912799",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_ETH_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "ETH",
+            "par1": "USDTBRL",
+            "par2": "ETHUSDT",
+            "par3": "ETHBRL",
+            "timestamp": "2025-04-15T14:53:55.907812"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.924766",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "GALA",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.919780"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.935740",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_GALA_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "GALA",
+            "par1": "USDTBRL",
+            "par2": "GALAUSDT",
+            "par3": "GALABRL",
+            "timestamp": "2025-04-15T14:53:55.928756"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.947705",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "KAITO",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.943716"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.969647",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_KAITO_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "KAITO",
+            "par1": "USDTBRL",
+            "par2": "KAITOUSDT",
+            "par3": "KAITOBRL",
+            "timestamp": "2025-04-15T14:53:55.961669"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:55.987599",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "LINK",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:55.978624"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.004554",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_LINK_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "LINK",
+            "par1": "USDTBRL",
+            "par2": "LINKUSDT",
+            "par3": "LINKBRL",
+            "timestamp": "2025-04-15T14:53:55.995578"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.058410",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "LTC",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:56.047440"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.072372",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_LTC_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "LTC",
+            "par1": "USDTBRL",
+            "par2": "LTCUSDT",
+            "par3": "LTCBRL",
+            "timestamp": "2025-04-15T14:53:56.064393"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.085343",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "NEAR",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:56.078357"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.103291",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_NEAR_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "NEAR",
+            "par1": "USDTBRL",
+            "par2": "NEARUSDT",
+            "par3": "NEARBRL",
+            "timestamp": "2025-04-15T14:53:56.094314"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.121244",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "PEPE",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:56.112266"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.131215",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_PEPE_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "PEPE",
+            "par1": "USDTBRL",
+            "par2": "PEPEUSDT",
+            "par3": "PEPEBRL",
+            "timestamp": "2025-04-15T14:53:56.127226"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.144180",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "PNUT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:56.139193"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.159865",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_PNUT_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "PNUT",
+            "par1": "USDTBRL",
+            "par2": "PNUTUSDT",
+            "par3": "PNUTBRL",
+            "timestamp": "2025-04-15T14:53:56.154155"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.174231",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "POL",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:56.170237"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.188193",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_POL_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "POL",
+            "par1": "USDTBRL",
+            "par2": "POLUSDT",
+            "par3": "POLBRL",
+            "timestamp": "2025-04-15T14:53:56.180215"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.200162",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "RENDER",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:56.194178"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.210834",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_RENDER_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "RENDER",
+            "par1": "USDTBRL",
+            "par2": "RENDERUSDT",
+            "par3": "RENDERBRL",
+            "timestamp": "2025-04-15T14:53:56.206144"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.226340",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "SHIB",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:56.222351"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.239305",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_SHIB_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "SHIB",
+            "par1": "USDTBRL",
+            "par2": "SHIBUSDT",
+            "par3": "SHIBBRL",
+            "timestamp": "2025-04-15T14:53:56.234319"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.257258",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "SOL",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:56.251275"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.272218",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_SOL_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "SOL",
+            "par1": "USDTBRL",
+            "par2": "SOLUSDT",
+            "par3": "SOLBRL",
+            "timestamp": "2025-04-15T14:53:56.264239"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.286182",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "SUI",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:56.278201"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.314105",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_SUI_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "SUI",
+            "par1": "USDTBRL",
+            "par2": "SUIUSDT",
+            "par3": "SUIBRL",
+            "timestamp": "2025-04-15T14:53:56.309120"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.340036",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "TRUMP",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:56.335057"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.354001",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_TRUMP_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "TRUMP",
+            "par1": "USDTBRL",
+            "par2": "TRUMPUSDT",
+            "par3": "TRUMPBRL",
+            "timestamp": "2025-04-15T14:53:56.345022"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.369957",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "WIF",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:56.359983"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.385914",
+        "categoria": "rota_nula",
+        "origem": "analisar_rota",
+        "mensagem": "Resultado None ao simular rota",
+        "id": "BRL_USDT_WIF_BRL",
+        "dados": {
+            "moeda_base": "BRL",
+            "m1": "USDT",
+            "m2": "WIF",
+            "par1": "USDTBRL",
+            "par2": "WIFUSDT",
+            "par3": "WIFBRL",
+            "timestamp": "2025-04-15T14:53:56.376937"
+        }
+    },
+    {
+        "timestamp": "2025-04-15 14:53:56.400875",
+        "categoria": "calcular_rota",
+        "origem": "calcular_rota",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+        "id": null,
+        "dados": {
+            "moeda_base": "BRL",
             "m1": "USDT",
             "m2": "XRP",
-            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-            "timestamp": "2025-04-15 14:10:35.314453"
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:56.392895"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:35.338161",
+        "timestamp": "2025-04-15 14:53:56.411845",
         "categoria": "rota_nula",
         "origem": "analisar_rota",
         "mensagem": "Resultado None ao simular rota",
-        "id": "ETH_USDT_XRP_ETH",
+        "id": "BRL_USDT_XRP_BRL",
         "dados": {
-            "moeda_base": "ETH",
+            "moeda_base": "BRL",
             "m1": "USDT",
             "m2": "XRP",
-            "par1": "ETHUSDT",
+            "par1": "USDTBRL",
             "par2": "XRPUSDT",
-            "par3": "XRPETH",
-            "timestamp": "2025-04-15T14:10:35.327190"
+            "par3": "XRPBRL",
+            "timestamp": "2025-04-15T14:53:56.406857"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:47.406053",
+        "timestamp": "2025-04-15 14:53:56.426805",
         "categoria": "calcular_rota",
         "origem": "calcular_rota",
-        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
         "id": null,
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "BRL",
-            "m2": "XRP",
-            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-            "timestamp": "2025-04-15 14:10:47.396080"
+            "moeda_base": "BRL",
+            "m1": "WIF",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:56.421819"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:47.423007",
+        "timestamp": "2025-04-15 14:53:56.444757",
         "categoria": "rota_nula",
         "origem": "analisar_rota",
         "mensagem": "Resultado None ao simular rota",
-        "id": "ETH_BRL_XRP_ETH",
+        "id": "BRL_WIF_USDT_BRL",
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "BRL",
-            "m2": "XRP",
-            "par1": "ETHBRL",
-            "par2": "XRPBRL",
-            "par3": "XRPETH",
-            "timestamp": "2025-04-15T14:10:47.414032"
+            "moeda_base": "BRL",
+            "m1": "WIF",
+            "m2": "USDT",
+            "par1": "WIFBRL",
+            "par2": "WIFUSDT",
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:56.438773"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:47.664363",
+        "timestamp": "2025-04-15 14:53:56.463705",
         "categoria": "calcular_rota",
         "origem": "calcular_rota",
-        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
         "id": null,
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "EUR",
-            "m2": "XRP",
-            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-            "timestamp": "2025-04-15 14:10:47.659376"
+            "moeda_base": "BRL",
+            "m1": "XRP",
+            "m2": "ETH",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:56.458721"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:47.727196",
+        "timestamp": "2025-04-15 14:53:56.480661",
         "categoria": "rota_nula",
         "origem": "analisar_rota",
         "mensagem": "Resultado None ao simular rota",
-        "id": "ETH_EUR_XRP_ETH",
+        "id": "BRL_XRP_ETH_BRL",
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "EUR",
-            "m2": "XRP",
-            "par1": "ETHEUR",
-            "par2": "XRPEUR",
-            "par3": "XRPETH",
-            "timestamp": "2025-04-15T14:10:47.676330"
+            "moeda_base": "BRL",
+            "m1": "XRP",
+            "m2": "ETH",
+            "par1": "XRPBRL",
+            "par2": "XRPETH",
+            "par3": "ETHBRL",
+            "timestamp": "2025-04-15T14:53:56.475674"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:48.205359",
+        "timestamp": "2025-04-15 14:53:56.501613",
         "categoria": "calcular_rota",
         "origem": "calcular_rota",
-        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
+        "mensagem": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
         "id": null,
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "JPY",
-            "m2": "XRP",
-            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-            "timestamp": "2025-04-15 14:10:48.197380"
+            "moeda_base": "BRL",
+            "m1": "XRP",
+            "m2": "USDT",
+            "erro": "buscar_preco_com_profundidade() got multiple values for argument 'capital'",
+            "timestamp": "2025-04-15 14:53:56.494623"
         }
     },
     {
-        "timestamp": "2025-04-15 14:10:48.252233",
+        "timestamp": "2025-04-15 14:53:56.512575",
         "categoria": "rota_nula",
         "origem": "analisar_rota",
         "mensagem": "Resultado None ao simular rota",
-        "id": "ETH_JPY_XRP_ETH",
+        "id": "BRL_XRP_USDT_BRL",
         "dados": {
-            "moeda_base": "ETH",
-            "m1": "JPY",
-            "m2": "XRP",
-            "par1": "ETHJPY",
-            "par2": "XRPJPY",
-            "par3": "XRPETH",
-            "timestamp": "2025-04-15T14:10:48.244254"
-        }
-    },
-    {
-        "timestamp": "2025-04-15 14:10:48.342503",
-        "categoria": "calcular_rota",
-        "origem": "calcular_rota",
-        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-        "id": null,
-        "dados": {
-            "moeda_base": "ETH",
-            "m1": "MXN",
-            "m2": "XRP",
-            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-            "timestamp": "2025-04-15 14:10:48.337517"
-        }
-    },
-    {
-        "timestamp": "2025-04-15 14:10:48.354473",
-        "categoria": "rota_nula",
-        "origem": "analisar_rota",
-        "mensagem": "Resultado None ao simular rota",
-        "id": "ETH_MXN_XRP_ETH",
-        "dados": {
-            "moeda_base": "ETH",
-            "m1": "MXN",
-            "m2": "XRP",
-            "par1": "ETHMXN",
-            "par2": "XRPMXN",
-            "par3": "XRPETH",
-            "timestamp": "2025-04-15T14:10:48.346495"
-        }
-    },
-    {
-        "timestamp": "2025-04-15 14:10:49.335711",
-        "categoria": "calcular_rota",
-        "origem": "calcular_rota",
-        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-        "id": null,
-        "dados": {
-            "moeda_base": "ETH",
-            "m1": "TRY",
-            "m2": "XRP",
-            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-            "timestamp": "2025-04-15 14:10:49.326730"
-        }
-    },
-    {
-        "timestamp": "2025-04-15 14:10:49.392556",
-        "categoria": "rota_nula",
-        "origem": "analisar_rota",
-        "mensagem": "Resultado None ao simular rota",
-        "id": "ETH_TRY_XRP_ETH",
-        "dados": {
-            "moeda_base": "ETH",
-            "m1": "TRY",
-            "m2": "XRP",
-            "par1": "ETHTRY",
-            "par2": "XRPTRY",
-            "par3": "XRPETH",
-            "timestamp": "2025-04-15T14:10:49.386572"
-        }
-    },
-    {
-        "timestamp": "2025-04-15 14:10:49.754455",
-        "categoria": "calcular_rota",
-        "origem": "calcular_rota",
-        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-        "id": null,
-        "dados": {
-            "moeda_base": "ETH",
-            "m1": "TUSD",
-            "m2": "XRP",
-            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-            "timestamp": "2025-04-15 14:10:49.748468"
-        }
-    },
-    {
-        "timestamp": "2025-04-15 14:10:49.766440",
-        "categoria": "rota_nula",
-        "origem": "analisar_rota",
-        "mensagem": "Resultado None ao simular rota",
-        "id": "ETH_TUSD_XRP_ETH",
-        "dados": {
-            "moeda_base": "ETH",
-            "m1": "TUSD",
-            "m2": "XRP",
-            "par1": "ETHTUSD",
-            "par2": "XRPTUSD",
-            "par3": "XRPETH",
-            "timestamp": "2025-04-15T14:10:49.760437"
-        }
-    },
-    {
-        "timestamp": "2025-04-15 14:10:49.992686",
-        "categoria": "calcular_rota",
-        "origem": "calcular_rota",
-        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-        "id": null,
-        "dados": {
-            "moeda_base": "ETH",
-            "m1": "USDC",
-            "m2": "XRP",
-            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-            "timestamp": "2025-04-15 14:10:49.988696"
-        }
-    },
-    {
-        "timestamp": "2025-04-15 14:10:50.002660",
-        "categoria": "rota_nula",
-        "origem": "analisar_rota",
-        "mensagem": "Resultado None ao simular rota",
-        "id": "ETH_USDC_XRP_ETH",
-        "dados": {
-            "moeda_base": "ETH",
-            "m1": "USDC",
-            "m2": "XRP",
-            "par1": "ETHUSDC",
-            "par2": "XRPUSDC",
-            "par3": "XRPETH",
-            "timestamp": "2025-04-15T14:10:49.996675"
-        }
-    },
-    {
-        "timestamp": "2025-04-15 14:10:50.686068",
-        "categoria": "calcular_rota",
-        "origem": "calcular_rota",
-        "mensagem": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-        "id": null,
-        "dados": {
-            "moeda_base": "ETH",
-            "m1": "USDT",
-            "m2": "XRP",
-            "erro": "[LIQUIDEZ] Liquidez insuficiente para vender XRPETH",
-            "timestamp": "2025-04-15 14:10:50.680084"
-        }
-    },
-    {
-        "timestamp": "2025-04-15 14:10:50.693048",
-        "categoria": "rota_nula",
-        "origem": "analisar_rota",
-        "mensagem": "Resultado None ao simular rota",
-        "id": "ETH_USDT_XRP_ETH",
-        "dados": {
-            "moeda_base": "ETH",
-            "m1": "USDT",
-            "m2": "XRP",
-            "par1": "ETHUSDT",
+            "moeda_base": "BRL",
+            "m1": "XRP",
+            "m2": "USDT",
+            "par1": "XRPBRL",
             "par2": "XRPUSDT",
-            "par3": "XRPETH",
-            "timestamp": "2025-04-15T14:10:50.689060"
+            "par3": "USDTBRL",
+            "timestamp": "2025-04-15T14:53:56.508585"
         }
     }
 ]

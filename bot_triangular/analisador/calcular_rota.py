@@ -5,6 +5,9 @@ from bot_triangular.config import LOG_ROTAS, LOG_OPORTUNIDADES, LUCRO_IRREALISTA
 
 
 def calcular_rota(moeda_base, m1, m2, ticker_dict, todos_pares, capital_inicial, aplicar_taxa_fn, buscar_preco_fn, exchange_nome="Binance"):
+    """
+    Calcula uma rota triangular de arbitragem e retorna o resultado completo da simulação.
+    """
     try:
         timestamp = str(datetime.now())
         rota_id = f"{moeda_base}_{m1}_{m2}_{moeda_base}"
@@ -12,7 +15,7 @@ def calcular_rota(moeda_base, m1, m2, ticker_dict, todos_pares, capital_inicial,
 
         print(f"\n[DEBUG] 🧠 Iniciando cálculo da rota: {moeda_base} → {m1} → {m2} → {moeda_base}")
 
-        # Etapas do ciclo
+        # Etapas do ciclo triangular
         par1, tipo1, preco1, vol1, bruto1, m1_recebido = calcular_etapa(
             moeda_base, m1, capital_inicial, ticker_dict, todos_pares, aplicar_taxa_fn, buscar_preco_fn
         )
@@ -23,6 +26,7 @@ def calcular_rota(moeda_base, m1, m2, ticker_dict, todos_pares, capital_inicial,
             m2, moeda_base, m2_recebido, ticker_dict, todos_pares, aplicar_taxa_fn, buscar_preco_fn
         )
 
+        # Cálculo de lucro
         lucro_real = valor_final - capital_inicial
         lucro_pct = (lucro_real / capital_inicial) * 100
         lucro_pct_sem_taxa = ((bruto3 - capital_inicial) / capital_inicial) * 100
@@ -83,6 +87,7 @@ def calcular_rota(moeda_base, m1, m2, ticker_dict, todos_pares, capital_inicial,
 
 
 def construir_par(m1, m2, todos_pares):
+    """Constrói e retorna o nome do par entre duas moedas se ele existir nos pares disponíveis."""
     if f"{m1}{m2}" in todos_pares:
         return f"{m1}{m2}"
     elif f"{m2}{m1}" in todos_pares:
@@ -91,16 +96,23 @@ def construir_par(m1, m2, todos_pares):
 
 
 def inferir_tipo_operacao(par, moeda_origem):
+    """Determina o tipo de operação ('buy' ou 'sell') com base na moeda de origem e no par."""
     return "sell" if par.startswith(moeda_origem) else "buy"
 
 
 def calcular_etapa(origem, destino, capital, ticker_dict, todos_pares, aplicar_taxa_fn, buscar_preco_fn):
     par = construir_par(origem, destino, todos_pares)
     tipo = inferir_tipo_operacao(par, origem)
-    preco, volume = buscar_preco_fn(ticker_dict, par, tipo, capital=capital)
+
+    if buscar_preco_fn.__name__ == "buscar_preco_com_profundidade":
+        preco, volume = buscar_preco_fn(symbol=par, tipo=tipo, capital=capital)
+    else:
+        preco, volume = buscar_preco_fn(ticker_dict, par, tipo, capital)
+
     if not preco or not volume:
         raise ValueError(f"[LIQUIDEZ] Preço ou volume ausente para {par}")
 
     bruto = capital * preco if tipo == "sell" else capital / preco
     recebido = aplicar_taxa_fn(bruto)
     return par, tipo, preco, volume, bruto, recebido
+

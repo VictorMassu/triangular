@@ -1,15 +1,21 @@
 import itertools
 from datetime import datetime
 from bot_triangular.analisador.calcular_rota import calcular_rota
-from bot_triangular.analisador.avaliador import aplicar_taxa, buscar_preco_ticker
+from bot_triangular.analisador.avaliador import (
+    aplicar_taxa,
+    buscar_preco_com_profundidade
+)
+
 from bot_triangular.config import (
     VALOR_INICIAL, MOEDA_BASE, LUCRO_MINIMO, LOG_ROTAS, LOG_OPORTUNIDADES,
-    VOLUME_MINIMO_PARA_ANALISE, TOP_MOEDAS, MOEDAS_BLACKLIST
+    VOLUME_MINIMO_PARA_ANALISE, TOP_MOEDAS, MOEDAS_BLACKLIST, USAR_PROFUNDIDADE_BOOK
 )
 from logs.logs_agent.logger_console import log_info
 from logs.logs_agent.logger_debug import log_debug_json
 from logs.logs_core.logger_json import salvar_json_lista
 
+# Define dinamicamente a função de preço com ou sem profundidade de book
+buscar_fn = buscar_preco_com_profundidade  # Apenas essa função está implementada atualmente
 
 def construir_par(m1, m2, todos_pares):
     """Retorna o nome do par se ele existir nos pares disponíveis."""
@@ -75,7 +81,7 @@ def analisar_rota(exchange, m1, m2, ticker_dict, todos_pares):
         todos_pares=todos_pares,
         capital_inicial=VALOR_INICIAL,
         aplicar_taxa_fn=aplicar_taxa,
-        buscar_preco_fn=buscar_preco_ticker,
+        buscar_preco_fn=buscar_fn,
     )
 
     rota_id = resultado.get("rota_id") if resultado else f"{MOEDA_BASE}_{m1}_{m2}_{MOEDA_BASE}"
