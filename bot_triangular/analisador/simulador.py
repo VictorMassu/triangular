@@ -1,24 +1,23 @@
 import itertools
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from bot_triangular.analisador.calcular_rota import calcular_rota
 from bot_triangular.analisador.avaliador import (
     aplicar_taxa,
     buscar_preco_com_profundidade
 )
-
 from bot_triangular.config import (
     VALOR_INICIAL, MOEDA_BASE, LUCRO_MINIMO, LOG_ROTAS, LOG_OPORTUNIDADES,
-    VOLUME_MINIMO_PARA_ANALISE, TOP_MOEDAS, MOEDAS_BLACKLIST, USAR_PROFUNDIDADE_BOOK
+    VOLUME_MINIMO_PARA_ANALISE, TOP_MOEDAS, MOEDAS_BLACKLIST,
+    USAR_PROFUNDIDADE_BOOK, MAX_WORKERS
 )
 from logs.logs_agent.logger_console import log_info
 from logs.logs_agent.logger_debug import log_debug_json
 from logs.logs_core.logger_json import salvar_json_lista
 
-# Define dinamicamente a função de preço com ou sem profundidade de book
-buscar_fn = buscar_preco_com_profundidade  # Apenas essa função está implementada atualmente
+buscar_fn = buscar_preco_com_profundidade  # por enquanto fixo
 
 def construir_par(m1, m2, todos_pares):
-    """Retorna o nome do par se ele existir nos pares disponíveis."""
     if f"{m1}{m2}" in todos_pares:
         return f"{m1}{m2}"
     elif f"{m2}{m1}" in todos_pares:
@@ -26,7 +25,6 @@ def construir_par(m1, m2, todos_pares):
     return None
 
 def gerar_ticker_dict(pares_raw):
-    """Gera um dicionário de tickers válidos filtrando por preços válidos."""
     ticker_dict = {}
     for p in pares_raw:
         try:
@@ -43,7 +41,6 @@ def gerar_ticker_dict(pares_raw):
     return ticker_dict
 
 def filtrar_moedas_com_base(todos_pares):
-    """Filtra moedas que fazem par com a moeda base."""
     moedas = set()
     for par in todos_pares:
         if par.startswith(MOEDA_BASE):
@@ -56,7 +53,6 @@ def filtrar_moedas_com_base(todos_pares):
     ])[:TOP_MOEDAS]
 
 def gerar_rotas(moedas_filtradas, todos_pares):
-    """Gera combinações válidas de rotas triangulares."""
     rotas = []
     for m1 in moedas_filtradas:
         for m2 in moedas_filtradas:
@@ -65,7 +61,6 @@ def gerar_rotas(moedas_filtradas, todos_pares):
     return rotas
 
 def analisar_rota(exchange, m1, m2, ticker_dict, todos_pares):
-    """Executa o cálculo da rota e registra os logs e oportunidades."""
     par1 = construir_par(MOEDA_BASE, m1, todos_pares)
     par2 = construir_par(m1, m2, todos_pares)
     par3 = construir_par(m2, MOEDA_BASE, todos_pares)
@@ -124,10 +119,7 @@ def analisar_rota(exchange, m1, m2, ticker_dict, todos_pares):
                        id=rota_id)
 
 def simular_rotas(exchange, volume_minimo=VOLUME_MINIMO_PARA_ANALISE):
-    """
-    Executa a simulação de rotas triangulares de arbitragem para uma exchange.
-    Filtra pares com volume mínimo, gera rotas, calcula oportunidades e registra logs.
-    """
+    log_info(f"🚀 Iniciando simulação paralela de rotas para exchange")
     pares_raw = exchange.filtrar_pares_por_volume(volume_minimo)
     log_info(f"🔍 {len(pares_raw)} pares com volume > {volume_minimo}")
 
@@ -140,18 +132,16 @@ def simular_rotas(exchange, volume_minimo=VOLUME_MINIMO_PARA_ANALISE):
     rotas_validas = gerar_rotas(moedas_filtradas, todos_pares)
     log_info(f"🔁 {len(rotas_validas)} rotas triangulares válidas encontradas")
 
-    for m1, m2 in rotas_validas:
-        try:
-            analisar_rota(exchange, m1, m2, ticker_dict, todos_pares)
-        except Exception as e:
-            log_debug_json(
-                mensagem=f"Erro ao simular rota {m1}-{m2}: {str(e)}",
-                categoria="simulador",
-                dados={
-                    "moeda_base": MOEDA_BASE,
-                    "m1": m1,
-                    "m2": m2,
-                    "timestamp": datetime.now().isoformat()
-                },
-                id=f"{MOEDA_BASE}_{m1}_{m2}_{MOEDA_BASE}"
-            )
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        futures = []
+        for m1, m2 in rotas_validas:
+            futures.append(executor.submit(analisar_rota, exchange, m1, m2, ticker_dict, todos_pares))
+
+        for future in as_completed(futures):
+            try:
+                future.result()
+            except Exception as e:
+                log_debug_json("Erro inesperado no processamento paralelo",
+                               categoria="threading",
+                               dados={"erro": str(e)},
+                               id="thread-exception")

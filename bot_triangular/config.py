@@ -5,8 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configurações gerais
-MOEDA_BASE = "BRL"
-VALOR_INICIAL = 0.0613 #Unidade monetária (float)
+MOEDA_BASE = "USDC"
+VALOR_INICIAL = 500 #Unidade monetária (float)
 TAXA = 0.00075 #Percentual decimal (0.S01 = 1%)
 LUCRO_MINIMO = 0.003 #Percentual decimal (0.002 = 0.2%)
 SPREAD_MAXIMO = 0.05 #Percentual decimal (0.05 = 5%)
@@ -15,7 +15,7 @@ MOEDAS_BLACKLIST = {"FDUSD"} # {"BRL", "ARS", "UAH", "TRY", "VAI", "EUR", "FDUSD
 VALOR_MINIMO_MOEDA = 0.001  #Unidade monetária (ex: 0.01) isso evita moedas com valor muoto baixo
 VOLUME_MINIMO_PARA_ANALISE = 1000  # volume em USDC ou equivalente
 TOP_MOEDAS = 15000  # Número de moedas mais líquidas analisadas
-MAX_WORKERS = 10  # Número de threads para paralelismo
+MAX_WORKERS = 20  # Número de threads para paralelismo
 MODO_LOOP = os.getenv("MODO_LOOP", "false").lower() == "true" # Modo de loop infinito no scanner
 INTERVALO_LOOP = 10  # Tempo entre ciclos, em segundos
 USAR_PROFUNDIDADE_BOOK = True  # ou False para usar o método atual
