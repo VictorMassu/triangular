@@ -2,7 +2,7 @@
 import json
 import os
 from threading import Lock
-from bot_triangular.config import LOG_ROTAS
+from bot.config import LOG_ROTAS
 
 _lock = Lock()
 
